@@ -48,3 +48,43 @@
 - **OR |** is true if either input is true
 - **Not ~** is simple to flip the input bit
 - **XOR ^** is true when two inputs are different
+
+**These Operations can be used to manipulate Set**
+- **&** become intersection
+- **|** Union
+- **^** Symmetric difference
+- **~** Complement
+
+These **Bit-level Operations** are available in C
+
+#### Programmers are usually mixed up & with &&, | with ||, ~ with !
+**&&, ||, !** are Logical Operators
+- View 0 as `false`
+- View anything nonzero as `true`
+- Always return `0` or `1`
+- Early termination
+
+```
+//Remember we are not doing any bit-level operations, we focus on Logic
+!0x41 = 0x00 
+!0x00 = 0x01
+!!0x41 = 0x01 
+
+0x69 && 0x55 = 0x01
+0x69 || 0x55 = 0x01
+if (ptr) (avoids null pointer access)
+```
+
+#### Shift Operations
+**Left Shift:  `x << y`**
+- Shift bit-vector **x** left **y** positions
+
+**Right Shift: `x >> y`**
+- Shift bit-vector **x** right **y** positions
+
+**Undefined Behavior**
+- Shift amount < 0 or >= word size
+
+
+#### Number Representations
+ 

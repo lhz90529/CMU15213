@@ -134,3 +134,26 @@ col-by-col: 58.4ms
 #### Textbook
 - _Computer Systems: A Programmer’s Perspective, Third Edition (CS:APP3e), Pearson, 2016_
 - _The C Programming Language, Second Edition, Prentice Hall, 1988_
+
+#### Labs
+##### Programms and Datas
+- L0(C programming Lab): Test/refresh your C programming abilities
+- L1 (datalab): Manipulating bits
+- L2 (bomblab): Defusing a binary bomb
+- L3 (attacklab): The basics of code injection attacks
+
+##### The Memory Hierarchy
+- L4 (cachelab): Building a cache simulator and optimizing for locality. 
+    - Learn how to exploit locality in your programs.
+
+##### Exceptional Control Flow
+- L5 (tshlab): Writing your own Unix shell
+    - A first introduction to concurrency
+
+##### Virtual Memory
+- L6 (malloclab): Writing your own malloc package
+    - Get a real feel for systems-level programming
+
+##### Networking, and Concurrency
+- L7 (proxylab): Writing your own Web proxy
+    - Learn network programming and more about concurrency and synchronization. 

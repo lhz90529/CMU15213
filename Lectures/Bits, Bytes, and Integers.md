@@ -65,7 +65,7 @@ These **Bit-level Operations** are available in C
     ```
 
 #### Programmers are usually mixed up & with &&, | with ||, ~ with !
-**&&, ||, !** are Logical Operators
+**&&, ||, !** are _Logical Operators_
 - View 0 as `false`
 - View anything nonzero as `true`
 - Always return `0` or `1`

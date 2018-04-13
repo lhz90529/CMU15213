@@ -27,7 +27,6 @@
     |    15   |  1111  |  F  |
 
 
--
 **Data Representations**
 > Unit: Byte
 

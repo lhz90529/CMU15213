@@ -137,3 +137,29 @@ Example
     > The first bit is 0, the rest are all 1s, ----> 011...1
     Conversely, we want to minimize the negative contribution and maximize the positive contributions
 - `Special value -1`: All bits are 1, ---> 111...1
+
+##### Observations
+- |TMin| = TMax + 1
+- UMax = 2 * TMax + 1
+
+
+|                  |   X  | B2U(X) | B2T(X) |
+|:----------------:|:----:|:------:|:------:|
+|       UMin       | 0000 |    0   |    0   |
+|                  | 0001 |    1   |    1   |
+|                  | 0010 |    2   |    2   |
+|                  | 0011 |    3   |    3   |
+|                  | 0100 |    4   |    4   |
+|                  | 0101 |    5   |    5   |
+|                  | 0110 |    6   |    6   |
+|       TMax       | 0111 |    7   |    7   |
+|       TMin       | 1000 |    8   |   -8   |
+|                  | 1001 |    9   |   -7   |
+|                  | 1010 |   10   |   -6   |
+|                  | 1011 |   11   |   -5   |
+|                  | 1100 |   12   |   -4   |
+|                  | 1101 |   13   |   -3   |
+|                  | 1110 |   14   |   -2   |
+| UMax, Special -1 | 1111 |   15   |   -1   |
+
+> The Maximum number in unsigned representation will become -1 in Two's Complement

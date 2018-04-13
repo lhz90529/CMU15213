@@ -1,8 +1,9 @@
 ##[Bits, Bytes and Integers](https://www.cs.cmu.edu/~213/lectures/02-bits-ints-part1.pdf)
 
 #### Representing information as bits
-- Byte = 8 bits
-- Binary: ``000000000 to 1111111111``
+- Each bit is **0** or **1**
+- **Byte** = 8 bits
+- Binary: ``00000000 to 11111111``
 - Decimal: ``0 to 255``
 - Hex: `00 to FF`
 
@@ -41,21 +42,28 @@
 | **long double** |        -       |        -       |  10/16 |
 |    _pointer_    |        4       |        8       |    8   |
 
-- 64-bit ---> the address is 64-bit
+- When we says that the computer is 64-bit ---> what we really mean is that the address is 64-bit
 
 #### Boolean Algebra
+> Developed by George Boole in 19th century
+Encode "True" as 1 and "Flase" as 0
 - **AND &** is true if both inputs are true
 - **OR |** is true if either input is true
-- **Not ~** is simple to flip the input bit
+- **Not ~** will flip the input bit
 - **XOR ^** is true when two inputs are different
 
 **These Operations can be used to manipulate Set**
-- **&** become intersection
-- **|** Union
-- **^** Symmetric difference
-- **~** Complement
+> When it comes to `Set`,
+- **&** ---> intersection
+- **|** ---> Union
+- **^** ---> Symmetric difference
+- **~** ---> Complement
 
 These **Bit-level Operations** are available in C
+- Apply to any **integral** data type:
+    ```c
+    long, int, short, char, unsigned
+    ```
 
 #### Programmers are usually mixed up & with &&, | with ||, ~ with !
 **&&, ||, !** are Logical Operators
@@ -78,13 +86,24 @@ if (ptr) (avoids null pointer access)
 #### Shift Operations
 **Left Shift:  `x << y`**
 - Shift bit-vector **x** left **y** positions
-
+    - get rid os `y` bits on the left
+    - fill with 0's on right
 **Right Shift: `x >> y`**
 - Shift bit-vector **x** right **y** positions
-
+    - **Logic right-shift**
+        - get rid of `y` bits on right
+        - fill with 0's on left
+    - **Arthmetic right-shift**
+        - get rid of `y` bits on right
+        - fill with **most significant** bits on left
 **Undefined Behavior**
 - Shift amount < 0 or >= word size
 
 
 #### Number Representations
- 
+- **Unsigned**
+<center>
+
+![B2U](https://latex.codecogs.com/gif.latex?$$B2U(X)&space;=&space;\sum_{i=0}^{w&space;-&space;1}&space;x_i&space;\cdot&space;2^i&space;$$)
+
+</center>

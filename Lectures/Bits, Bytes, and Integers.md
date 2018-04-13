@@ -101,14 +101,14 @@ if (ptr) (avoids null pointer access)
 
 
 #### Number Representations
-#####Unsigned
+##### Unsigned
 
 ![B2U](https://latex.codecogs.com/gif.latex?$$B2U(X)&space;=&space;\sum_{i=0}^{w&space;-&space;1}&space;x_i&space;\cdot&space;2^i&space;$$)
 
 What the equation above saying is that add up all 
 - digits * its corresponding weight
 
-#####Two's Complement
+##### Two's Complement
 
 ![B2T](https://latex.codecogs.com/gif.latex?B2T(X)&space;=&space;-x_{w-1}&space;\cdot&space;2^{w-1}&space;&plus;&space;\sum&space;_{i&space;=&space;0}^{w-2}x_i&space;\cdot&space;2^i,&space;\text{&space;where&space;}&space;-x_{w-1}&space;\text{&space;the&space;\textbf{sign&space;bit}})
 

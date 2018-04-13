@@ -163,3 +163,26 @@ Example
 | UMax, Special -1 | 1111 |   15   |   -1   |
 
 > The Maximum number in unsigned representation will become -1 in Two's Complement
+
+unsigned = Two's complement + 2^(w), where w is # of bits
+
+
+#### Signed vs. Unsigned in C
+##### Casting
+- Explicit casting
+    ```C
+    int tx, ty;
+    unsigned int ux, uy;
+    tx = (int) ux;
+    uy = (unsigned) ty;
+    ```
+- Implicit casting
+    ```c
+    tx = xy;
+    uy = ty;
+    ```
+
+##### Casting Surprises
+- If there is a mix of unsigned and signed in single expression, 
+    - **signed value implicitly cast to unsigned value**
+        - if either of sthe arguments is unsigned, then convert the other one into unsigned

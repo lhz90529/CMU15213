@@ -185,4 +185,63 @@ unsigned = Two's complement + 2^(w), where w is # of bits
 ##### Casting Surprises
 - If there is a mix of unsigned and signed in single expression, 
     - **signed value implicitly cast to unsigned value**
-        - if either of sthe arguments is unsigned, then convert the other one into unsigned
+        - if either of the arguments is unsigned, then convert the other one into unsigned
+
+```c
+//This is actually a infinit loop, 
+//since when i is 0, i.e. 000....0
+//You try to minus 1 on it
+//You get Umax, i.e. 111...1
+//Thus goes forever
+unsigned int i;
+for (i = n - 1; i >= 0; i--) {
+    //do something
+}
+
+//another infinite loop
+//i - sizeof(char) is a expression of mix of signed integer with unsigned integer 
+//Thus i will be implicitly convert to unsigned integer
+int i;
+for (i = n - 1; i - sizeof(char) >= 0; i--) {
+    //do somthing
+}
+```
+
+#### Sign Extension
+> Given a w-bit signed integer, try to convert it into a larger size of w + k bits signed integer without changing its value
+example: 8-bits signed integer ---> 16-bits signed integer
+
+- Make k copies of sign bit
+- append the rest at the right
+```
+Example:
+Given a 4-bits signed integer 0110 ---> 2 + 4 = 6
+Convert it to 5-bits signed integer
+        0   1   1   0
+    0   0   1   1   0   = 2 + 4 = 6 
+    ^
+    copy of sign bit 0
+---------------------------------------------------------------------------------------
+What if the given 4-bits signed integer is a negative number: 1110 ---> 2 + 4 + -8 = -2
+
+        1   1   1   0
+    1   1   1   1   0   = 2 + 4 + 8 + -16 = -2;
+    ^
+    copy of sign bit 1
+```
+
+#### Truncate unsigned integer
+
+
+
+#### Summary
+- **Expanding**
+    - Unsigned: zeros added
+    - Signed: copy of most sigificant bit
+    - Both yield expected result
+- **Truncating**
+    - Unsinge / signed: bits are truncated
+    - Result will be reinterpreted
+    - Unsigned: behaves like the original number is mod by some number
+    - Signed: similar to mod
+    - will cause unexpected result

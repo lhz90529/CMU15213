@@ -72,7 +72,7 @@ These **Bit-level Operations** are available in C
 - Early termination
 
 ```
-//Remember we are not doing any bit-level operations, we focus on Logic
+//Remember we are not doing any bit-level operations, the focus right now is Logic
 !0x41 = 0x00 
 !0x00 = 0x01
 !!0x41 = 0x01 

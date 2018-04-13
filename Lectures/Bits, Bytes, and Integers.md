@@ -101,6 +101,39 @@ if (ptr) (avoids null pointer access)
 
 
 #### Number Representations
-- **Unsigned**
+#####Unsigned
 
 ![B2U](https://latex.codecogs.com/gif.latex?$$B2U(X)&space;=&space;\sum_{i=0}^{w&space;-&space;1}&space;x_i&space;\cdot&space;2^i&space;$$)
+
+What the equation above saying is that add up all 
+- digits * its corresponding weight
+
+#####Two's Complement
+
+![B2T](https://latex.codecogs.com/gif.latex?B2T(X)&space;=&space;-x_{w-1}&space;\cdot&space;2^{w-1}&space;&plus;&space;\sum&space;_{i&space;=&space;0}^{w-2}x_i&space;\cdot&space;2^i,&space;\text{&space;where&space;}&space;-x_{w-1}&space;\text{&space;the&space;\textbf{sign&space;bit}})
+
+```
+Example
+      -16  8   4   2   1
+10  =   0  1   0   1   0       8 + 2 = 10
+
+      -16   8   4   2   1
+-10 =   1   0   1   1   0      -16 + 4 + 2 = -10
+```
+
+#### Numeric Ranges
+##### Unsigned Values
+- UMin = 0
+    > all bits are 0, ---> 000...0
+- Umax = 2^w - 1
+    > all bits are 1, ---> 111...1
+
+##### Two's Complement Values
+- TMin = -2^(w-1)
+    > The first bit is 1, the rest are 0s, ----> 100...0
+    Only the weight of the first bit (most significatn bit) has negative value, the rest are positive;
+    Thus we want to maximize the negative contribtuion as well as minimize the positive contributions
+- TMax = 2^(w-1) - 1
+    > The first bit is 0, the rest are all 1s, ----> 011...1
+    Conversely, we want to minimize the negative contribution and maximize the positive contributions
+- `Special value -1`: All bits are 1, ---> 111...1

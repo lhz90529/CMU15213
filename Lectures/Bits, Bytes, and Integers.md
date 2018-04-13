@@ -1,4 +1,4 @@
-##[Bits, Bytes and Integers](https://www.cs.cmu.edu/~213/lectures/02-bits-ints-part1.pdf)
+## [Bits, Bytes and Integers](https://www.cs.cmu.edu/~213/lectures/02-bits-ints-part1.pdf)
 
 #### Representing information as bits
 - Each bit is **0** or **1**

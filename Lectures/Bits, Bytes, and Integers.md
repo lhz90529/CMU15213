@@ -103,3 +103,5 @@ if (ptr) (avoids null pointer access)
 #### Number Representations
 - **Unsigned**
 ![B2U](https://latex.codecogs.com/gif.latex?$$B2U(X)&space;=&space;\sum_{i=0}^{w&space;-&space;1}&space;x_i&space;\cdot&space;2^i&space;$$)
+
+sjdiod

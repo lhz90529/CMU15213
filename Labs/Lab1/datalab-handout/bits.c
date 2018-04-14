@@ -138,7 +138,7 @@ NOTES:
  *   Max ops: 8
  *   Rating: 1
  */
-int bitAnd(int x, int y) {//Operators:3
+int bitAnd(int x, int y) {//Operators:4
     return ~((~x) | (~y));
 }
 /* 
@@ -149,7 +149,7 @@ int bitAnd(int x, int y) {//Operators:3
  *   Max ops: 6
  *   Rating: 2
  */
-int getByte(int x, int n) {//Operators: 3
+int getByte(int x, int n) {//Operators:3
     n = n << 3;
     x = x >> n;
     return x & 255;

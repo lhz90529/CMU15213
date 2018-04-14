@@ -153,10 +153,6 @@ int getByte(int x, int n) {//Operators: 3
     n = n << 3;
     x = x >> n;
     return x & 255;
-    //int temp = x;
-    //int shift = n << 3;
-    //temp = temp >> shift;
-    //return (temp & 255);
 }
 /* 
  * logicalShift - shift x to the right by n, using a logical shift

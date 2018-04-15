@@ -163,7 +163,9 @@ int getByte(int x, int n) {//Operators:3
  *   Rating: 3 
  */
 int logicalShift(int x, int n) {
-  return 2;
+    x = x >> n;
+    int temp = (~0) << (31 + (~n + 1)) << 1;
+    return x & ~temp;
 }
 /*
  * bitCount - returns count of number of 1's in word

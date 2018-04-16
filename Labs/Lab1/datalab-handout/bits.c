@@ -162,7 +162,7 @@ int getByte(int x, int n) {//Operators:3
  *   Max ops: 20
  *   Rating: 3 
  */
-int logicalShift(int x, int n) {
+int logicalShift(int x, int n) {//Operators:9
     x = x >> n;
     int temp = (~0) << (31 + (~n + 1)) << 1;
     return x & ~temp;
@@ -185,7 +185,7 @@ int bitCount(int x) {
  *   Rating: 4 
  */
 int bang(int x) {
-  return 2;
+  return (x >> 31 | (~x + 1) >> 31) + 1; 
 }
 /* 
  * tmin - return minimum two's complement integer 
@@ -193,8 +193,8 @@ int bang(int x) {
  *   Max ops: 4
  *   Rating: 1
  */
-int tmin(void) {
-  return 2;
+int tmin(void) {//Operators:1
+  return 1 << 31;
 }
 /* 
  * fitsBits - return 1 if x can be represented as an 
@@ -206,8 +206,9 @@ int tmin(void) {
  *   Rating: 2
  */
 int fitsBits(int x, int n) {
-  return 2;
+    return 2;
 }
+
 /* 
  * divpwr2 - Compute x/(2^n), for 0 <= n <= 30
  *  Round toward zero
@@ -226,8 +227,8 @@ int divpwr2(int x, int n) {
  *   Max ops: 5
  *   Rating: 2
  */
-int negate(int x) {
-  return 2;
+int negate(int x) {//Operators:2
+  return ~x + 1;
 }
 /* 
  * isPositive - return 1 if x > 0, return 0 otherwise 
@@ -237,7 +238,10 @@ int negate(int x) {
  *   Rating: 3
  */
 int isPositive(int x) {
-  return 2;
+    int temp1 = (x >> 31) + 1;
+    int temp2 = ((~x + 1) >> 31) + 1;
+    return (temp1 ^ temp2) & temp1;
+
 }
 /* 
  * isLessOrEqual - if x <= y  then return 1, else return 0 

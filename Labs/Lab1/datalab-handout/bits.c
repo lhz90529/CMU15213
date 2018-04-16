@@ -218,7 +218,11 @@ int fitsBits(int x, int n) {
  *   Rating: 2
  */
 int divpwr2(int x, int n) {
-    return 2;
+    int temp = x + (1 << n) - 1;
+    int bias = temp & 1;
+    printf("size of pointer: %d\n", sizeof(void*));
+    printf("bias: %d\n", bias);
+    return (temp >> n) + bias;
 }
 /* 
  * negate - return -x 

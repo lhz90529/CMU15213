@@ -164,8 +164,8 @@ int getByte(int x, int n) {//Operators:3
  */
 int logicalShift(int x, int n) {//Operators:9
     x = x >> n;
-    int temp = (~0) << (31 + (~n + 1)) << 1;
-    return x & ~temp;
+    int temp1 = (~0) << (31 + (~n + 1)) << 1;
+    return x & ~temp1; 
 }
 /*
  * bitCount - returns count of number of 1's in word
@@ -251,7 +251,8 @@ int isPositive(int x) {
  *   Rating: 3
  */
 int isLessOrEqual(int x, int y) {
-  return 2;
+    //x <= y if x - y <= 0  ---> y - x >= 0
+    return ((y + (~x + 1)) >> 31) + 1;
 }
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0

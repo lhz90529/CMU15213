@@ -151,13 +151,8 @@ int bitAnd(int x, int y) {//Operators:4
  *   Rating: 2
  */
 int getByte(int x, int n) {//Operators:3
-    //n is unit of byte
-    //we need to convert n as a variable of bit since we are performing bit-level operation
-    //1 byte = 8 bits ---> shift to left by 3 ---> multiply by 8 = 2^3
     n = n << 3;
-    //shift x to right such that the desired byte pattern will be shif to the most right
     x = x >> n;
-    //"AND" with 255 ---> 0x00000001 such that it behaves as extracting the last byte
     return x & 255;
 }
 /* 
@@ -169,13 +164,8 @@ int getByte(int x, int n) {//Operators:3
  *   Rating: 3 
  */
 int logicalShift(int x, int n) {//Operators:9
-    //ANSI-C Style:Within 2 braces, all declaritions must go before any expressions
     int temp;
-    //shift x n-bit to right, this is ok for non-negative integer
     x = x >> n;
-    //shift 11111111 left (32 - n) bits 
-    //The reason that we cannot do (~0) << (32 + (~n + 1)) is that 
-    //The compiler will first mod "i" by 32 if you shift "i" bits
     temp = (~0) << (31 + (~n + 1)) << 1;
     return x & ~temp; 
 }
@@ -197,16 +187,7 @@ int bitCount(int x) {
  *   Rating: 4 
  */
 int bang(int x) {
-    //x >> 31 = 0000 if x is non-negative number
-    //x >> 31 = 1111 if x is negative number
-    //negate(x) >> 31 = 0000 if x is non-positive number
-    //negate(x) >> 31 = 1111 if x is posive number
-    //x >> 31 | negate(x) >> 31 = 0000 if x = 0
-    //                          = 1111 otherwise
-    //if we add 1 to the reuslt of previous expression, we get
-    //(x >> 31 | negate(x) >> 31) + 1 = 1 if x = 0
-    //                                = 0 otherwise
-  return (x >> 31 | (~x + 1) >> 31) + 1;
+  return (x >> 31 | (~x + 1) >> 31) + 1; 
 }
 /* 
  * tmin - return minimum two's complement integer 

@@ -262,11 +262,9 @@ int negate(int x) {//Operators:2
  *   Max ops: 8
  *   Rating: 3
  */
-int isPositive(int x) {
-    int temp1 = (x >> 31) + 1;
-    int temp2 = ((~x + 1) >> 31) + 1;
-    return (temp1 ^ temp2) & temp1;
-
+int isPositive(int x) {//Operators: 5
+    int temp = (x >> 31) + 1;
+    return (!!x) & temp;
 }
 /* 
  * isLessOrEqual - if x <= y  then return 1, else return 0 
@@ -276,8 +274,7 @@ int isPositive(int x) {
  *   Rating: 3
  */
 int isLessOrEqual(int x, int y) {
-    //x <= y if x - y <= 0  ---> y - x >= 0
-    return ((y + (~x + 1)) >> 31) + 1;
+    return 2;
 }
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0

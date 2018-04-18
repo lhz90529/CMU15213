@@ -1,0 +1,7097 @@
+Score	Rating	Errors	Function
+ 1	1	0	bitAnd
+ 2	2	0	getByte
+ 3	3	0	logicalShift
+ERROR: Test bitCount(-2147483648[0x80000000]) failed...
+...Gives 2[0x2]. Should be 1[0x1]
+ 4	4	0	bang
+ 1	1	0	tmin
+ERROR: Test fitsBits(-2147483648[0x80000000],1[0x1]) failed...
+...Gives 2[0x2]. Should be 0[0x0]
+ERROR: Test divpwr2(-2147483648[0x80000000],1[0x1]) failed...
+...Gives -1073741823[0xc0000001]. Should be -1073741824[0xc0000000]
+ 2	2	0	negate
+ 3	3	0	isPositive
+x: 80000000, y: -2147483648
+direction: 1
+x: 80000000, y: 2147483647
+direction: 0
+x: 80000000, y: 0
+direction: 0
+x: 80000000, y: 0
+direction: 0
+x: 80000000, y: -1772343311
+direction: 1
+x: 80000000, y: -2147483647
+direction: 1
+x: 80000000, y: 2147483646
+direction: 0
+x: 80000000, y: 1
+direction: 0
+x: 80000000, y: -1
+direction: 1
+x: 80000000, y: 968025694
+direction: 0
+x: 80000000, y: -2147483646
+direction: 1
+x: 80000000, y: 2147483645
+direction: 0
+x: 80000000, y: 2
+direction: 0
+x: 80000000, y: -2
+direction: 1
+x: 80000000, y: -251219065
+direction: 1
+x: 80000000, y: -2147483645
+direction: 1
+x: 80000000, y: 2147483644
+direction: 0
+x: 80000000, y: 3
+direction: 0
+x: 80000000, y: -3
+direction: 1
+x: 80000000, y: -1514834013
+direction: 1
+x: 80000000, y: -2147483644
+direction: 1
+x: 80000000, y: 2147483643
+direction: 0
+x: 80000000, y: 4
+direction: 0
+x: 80000000, y: -4
+direction: 1
+x: 80000000, y: 1284022494
+direction: 0
+x: 80000000, y: -2147483643
+direction: 1
+x: 80000000, y: 2147483642
+direction: 0
+x: 80000000, y: 5
+direction: 0
+x: 80000000, y: -5
+direction: 1
+x: 80000000, y: 97399290
+direction: 0
+x: 80000000, y: -2147483642
+direction: 1
+x: 80000000, y: 2147483641
+direction: 0
+x: 80000000, y: 6
+direction: 0
+x: 80000000, y: -6
+direction: 1
+x: 80000000, y: -723521049
+direction: 1
+x: 80000000, y: -2147483641
+direction: 1
+x: 80000000, y: 2147483640
+direction: 0
+x: 80000000, y: 7
+direction: 0
+x: 80000000, y: -7
+direction: 1
+x: 80000000, y: 1187094076
+direction: 0
+x: 80000000, y: -2147483640
+direction: 1
+x: 80000000, y: 2147483639
+direction: 0
+x: 80000000, y: 8
+direction: 0
+x: 80000000, y: -8
+direction: 1
+x: 80000000, y: 1690545876
+direction: 0
+x: 80000000, y: -2147483639
+direction: 1
+x: 80000000, y: 2147483638
+direction: 0
+x: 80000000, y: 9
+direction: 0
+x: 80000000, y: -9
+direction: 1
+x: 80000000, y: -1416645635
+direction: 1
+x: 80000000, y: -2147483638
+direction: 1
+x: 80000000, y: 2147483637
+direction: 0
+x: 80000000, y: 10
+direction: 0
+x: 80000000, y: -10
+direction: 1
+x: 80000000, y: 1077034964
+direction: 0
+x: 80000000, y: -2147483637
+direction: 1
+x: 80000000, y: 2147483636
+direction: 0
+x: 80000000, y: 11
+direction: 0
+x: 80000000, y: -11
+direction: 1
+x: 80000000, y: 268947282
+direction: 0
+x: 80000000, y: -2147483636
+direction: 1
+x: 80000000, y: 2147483635
+direction: 0
+x: 80000000, y: 12
+direction: 0
+x: 80000000, y: -12
+direction: 1
+x: 80000000, y: -1069259831
+direction: 1
+x: 80000000, y: -2147483635
+direction: 1
+x: 80000000, y: 2147483634
+direction: 0
+x: 80000000, y: 13
+direction: 0
+x: 80000000, y: -13
+direction: 1
+x: 80000000, y: -1666069501
+direction: 1
+x: 80000000, y: -2147483634
+direction: 1
+x: 80000000, y: 2147483633
+direction: 0
+x: 80000000, y: 14
+direction: 0
+x: 80000000, y: -14
+direction: 1
+x: 80000000, y: 1790713852
+direction: 0
+x: 80000000, y: -2147483633
+direction: 1
+x: 80000000, y: 2147483632
+direction: 0
+x: 80000000, y: 15
+direction: 0
+x: 80000000, y: -15
+direction: 1
+x: 80000000, y: -1275403941
+direction: 1
+x: 80000000, y: -2147483632
+direction: 1
+x: 80000000, y: 2147483631
+direction: 0
+x: 80000000, y: 16
+direction: 0
+x: 80000000, y: -16
+direction: 1
+x: 80000000, y: 227394776
+direction: 0
+x: 80000000, y: -2147483631
+direction: 1
+x: 80000000, y: 2147483630
+direction: 0
+x: 80000000, y: 17
+direction: 0
+x: 80000000, y: -17
+direction: 1
+x: 80000000, y: 45565474
+direction: 0
+x: 80000000, y: -2147483630
+direction: 1
+x: 80000000, y: 2147483629
+direction: 0
+x: 80000000, y: 18
+direction: 0
+x: 80000000, y: -18
+direction: 1
+x: 80000000, y: 131008024
+direction: 0
+x: 80000000, y: -2147483629
+direction: 1
+x: 80000000, y: 2147483628
+direction: 0
+x: 80000000, y: 19
+direction: 0
+x: 80000000, y: -19
+direction: 1
+x: 80000000, y: -1388864243
+direction: 1
+x: 80000000, y: -2147483628
+direction: 1
+x: 80000000, y: 2147483627
+direction: 0
+x: 80000000, y: 20
+direction: 0
+x: 80000000, y: -20
+direction: 1
+x: 80000000, y: 998828112
+direction: 0
+x: 80000000, y: -2147483627
+direction: 1
+x: 80000000, y: 2147483626
+direction: 0
+x: 80000000, y: 21
+direction: 0
+x: 80000000, y: -21
+direction: 1
+x: 80000000, y: 1802699910
+direction: 0
+x: 80000000, y: -2147483626
+direction: 1
+x: 80000000, y: 2147483625
+direction: 0
+x: 80000000, y: 22
+direction: 0
+x: 80000000, y: -22
+direction: 1
+x: 80000000, y: 168668142
+direction: 0
+x: 80000000, y: -2147483625
+direction: 1
+x: 80000000, y: 2147483624
+direction: 0
+x: 80000000, y: 23
+direction: 0
+x: 80000000, y: -23
+direction: 1
+x: 80000000, y: 539957552
+direction: 0
+x: 80000000, y: -2147483624
+direction: 1
+x: 80000000, y: 2147483623
+direction: 0
+x: 80000000, y: 24
+direction: 0
+x: 80000000, y: -24
+direction: 1
+x: 80000000, y: 1634724094
+direction: 0
+x: 80000000, y: -2147483623
+direction: 1
+x: 80000000, y: 2147483622
+direction: 0
+x: 80000000, y: 25
+direction: 0
+x: 80000000, y: -25
+direction: 1
+x: 80000000, y: -881516791
+direction: 1
+x: 80000000, y: -2147483622
+direction: 1
+x: 80000000, y: 2147483621
+direction: 0
+x: 80000000, y: 26
+direction: 0
+x: 80000000, y: -26
+direction: 1
+x: 80000000, y: 1497633038
+direction: 0
+x: 80000000, y: -2147483621
+direction: 1
+x: 80000000, y: 2147483620
+direction: 0
+x: 80000000, y: 27
+direction: 0
+x: 80000000, y: -27
+direction: 1
+x: 80000000, y: 922431108
+direction: 0
+x: 80000000, y: -2147483620
+direction: 1
+x: 80000000, y: 2147483619
+direction: 0
+x: 80000000, y: 28
+direction: 0
+x: 80000000, y: -28
+direction: 1
+x: 80000000, y: 1324492390
+direction: 0
+x: 80000000, y: -2147483619
+direction: 1
+x: 80000000, y: 2147483618
+direction: 0
+x: 80000000, y: 29
+direction: 0
+x: 80000000, y: -29
+direction: 1
+x: 80000000, y: 809235424
+direction: 0
+x: 80000000, y: -2147483618
+direction: 1
+x: 80000000, y: 2147483617
+direction: 0
+x: 80000000, y: 30
+direction: 0
+x: 80000000, y: -30
+direction: 1
+x: 80000000, y: 1549816436
+direction: 0
+x: 80000000, y: -2147483617
+direction: 1
+x: 80000000, y: 2147483616
+direction: 0
+x: 80000000, y: 31
+direction: 0
+x: 80000000, y: -31
+direction: 1
+x: 80000000, y: 1699632726
+direction: 0
+x: 80000000, y: -2147483616
+direction: 1
+x: 80000000, y: 2147483615
+direction: 0
+x: 80000000, y: 32
+direction: 0
+x: 80000000, y: -32
+direction: 1
+x: 80000000, y: -370222527
+direction: 1
+x: 80000000, y: -2147483615
+direction: 1
+x: 80000000, y: 2147483614
+direction: 0
+x: 80000000, y: 33
+direction: 0
+x: 80000000, y: -33
+direction: 1
+x: 80000000, y: -848886275
+direction: 1
+x: 80000000, y: -2147483614
+direction: 1
+x: 80000000, y: 2147483613
+direction: 0
+x: 80000000, y: 34
+direction: 0
+x: 80000000, y: -34
+direction: 1
+x: 80000000, y: -1962684933
+direction: 1
+x: 80000000, y: -2147483613
+direction: 1
+x: 80000000, y: 2147483612
+direction: 0
+x: 80000000, y: 35
+direction: 0
+x: 80000000, y: -35
+direction: 1
+x: 80000000, y: -1233683681
+direction: 1
+x: 80000000, y: -2147483612
+direction: 1
+x: 80000000, y: 2147483611
+direction: 0
+x: 80000000, y: 36
+direction: 0
+x: 80000000, y: -36
+direction: 1
+x: 80000000, y: 1395996662
+direction: 0
+x: 80000000, y: -2147483611
+direction: 1
+x: 80000000, y: 2147483610
+direction: 0
+x: 80000000, y: 37
+direction: 0
+x: 80000000, y: -37
+direction: 1
+x: 80000000, y: -538722335
+direction: 1
+x: 80000000, y: -2147483610
+direction: 1
+x: 80000000, y: 2147483609
+direction: 0
+x: 80000000, y: 38
+direction: 0
+x: 80000000, y: -38
+direction: 1
+x: 80000000, y: 2100894042
+direction: 0
+x: 80000000, y: -2147483609
+direction: 1
+x: 80000000, y: 2147483608
+direction: 0
+x: 80000000, y: 39
+direction: 0
+x: 80000000, y: -39
+direction: 1
+x: 80000000, y: 939058890
+direction: 0
+x: 80000000, y: -2147483608
+direction: 1
+x: 80000000, y: 2147483607
+direction: 0
+x: 80000000, y: 40
+direction: 0
+x: 80000000, y: -40
+direction: 1
+x: 80000000, y: 192115676
+direction: 0
+x: 80000000, y: -2147483607
+direction: 1
+x: 80000000, y: 2147483606
+direction: 0
+x: 80000000, y: 41
+direction: 0
+x: 80000000, y: -41
+direction: 1
+x: 80000000, y: 1030445358
+direction: 0
+x: 80000000, y: -2147483606
+direction: 1
+x: 80000000, y: 2147483605
+direction: 0
+x: 80000000, y: 42
+direction: 0
+x: 80000000, y: -42
+direction: 1
+x: 80000000, y: -939477475
+direction: 1
+x: 80000000, y: -2147483605
+direction: 1
+x: 80000000, y: 2147483604
+direction: 0
+x: 80000000, y: 43
+direction: 0
+x: 80000000, y: -43
+direction: 1
+x: 80000000, y: 1270339494
+direction: 0
+x: 80000000, y: -2147483604
+direction: 1
+x: 80000000, y: 2147483603
+direction: 0
+x: 80000000, y: 44
+direction: 0
+x: 80000000, y: -44
+direction: 1
+x: 80000000, y: 1511859506
+direction: 0
+x: 80000000, y: -2147483603
+direction: 1
+x: 80000000, y: 2147483602
+direction: 0
+x: 80000000, y: 45
+direction: 0
+x: 80000000, y: -45
+direction: 1
+x: 80000000, y: -1296247271
+direction: 1
+x: 80000000, y: -2147483602
+direction: 1
+x: 80000000, y: 2147483601
+direction: 0
+x: 80000000, y: 46
+direction: 0
+x: 80000000, y: -46
+direction: 1
+x: 80000000, y: 2142419200
+direction: 0
+x: 80000000, y: -2147483601
+direction: 1
+x: 80000000, y: 2147483600
+direction: 0
+x: 80000000, y: 47
+direction: 0
+x: 80000000, y: -47
+direction: 1
+x: 80000000, y: -408229365
+direction: 1
+x: 80000000, y: -2147483600
+direction: 1
+x: 80000000, y: 2147483599
+direction: 0
+x: 80000000, y: 48
+direction: 0
+x: 80000000, y: -48
+direction: 1
+x: 80000000, y: 896801850
+direction: 0
+x: 80000000, y: -2147483599
+direction: 1
+x: 80000000, y: 2147483598
+direction: 0
+x: 80000000, y: 49
+direction: 0
+x: 80000000, y: -49
+direction: 1
+x: 80000000, y: 125943578
+direction: 0
+x: 80000000, y: -2147483598
+direction: 1
+x: 80000000, y: 2147483597
+direction: 0
+x: 80000000, y: 50
+direction: 0
+x: 80000000, y: -50
+direction: 1
+x: 80000000, y: 350390040
+direction: 0
+x: 80000000, y: -2147483597
+direction: 1
+x: 80000000, y: 2147483596
+direction: 0
+x: 80000000, y: 51
+direction: 0
+x: 80000000, y: -51
+direction: 1
+x: 80000000, y: -251853683
+direction: 1
+x: 80000000, y: -2147483596
+direction: 1
+x: 80000000, y: 2147483595
+direction: 0
+x: 80000000, y: 52
+direction: 0
+x: 80000000, y: -52
+direction: 1
+x: 80000000, y: -218840159
+direction: 1
+x: 80000000, y: -2147483595
+direction: 1
+x: 80000000, y: 2147483594
+direction: 0
+x: 80000000, y: 53
+direction: 0
+x: 80000000, y: -53
+direction: 1
+x: 80000000, y: -1628425465
+direction: 1
+x: 80000000, y: -2147483594
+direction: 1
+x: 80000000, y: 2147483593
+direction: 0
+x: 80000000, y: 54
+direction: 0
+x: 80000000, y: -54
+direction: 1
+x: 80000000, y: -1859379779
+direction: 1
+x: 80000000, y: -2147483593
+direction: 1
+x: 80000000, y: 2147483592
+direction: 0
+x: 80000000, y: 55
+direction: 0
+x: 80000000, y: -55
+direction: 1
+x: 80000000, y: -731599713
+direction: 1
+x: 80000000, y: -2147483592
+direction: 1
+x: 80000000, y: 2147483591
+direction: 0
+x: 80000000, y: 56
+direction: 0
+x: 80000000, y: -56
+direction: 1
+x: 80000000, y: -362458609
+direction: 1
+x: 80000000, y: -2147483591
+direction: 1
+x: 80000000, y: 2147483590
+direction: 0
+x: 80000000, y: 57
+direction: 0
+x: 80000000, y: -57
+direction: 1
+x: 80000000, y: 1785736906
+direction: 0
+x: 80000000, y: -2147483590
+direction: 1
+x: 80000000, y: 2147483589
+direction: 0
+x: 80000000, y: 58
+direction: 0
+x: 80000000, y: -58
+direction: 1
+x: 80000000, y: -1956652253
+direction: 1
+x: 80000000, y: -2147483589
+direction: 1
+x: 80000000, y: 2147483588
+direction: 0
+x: 80000000, y: 59
+direction: 0
+x: 80000000, y: -59
+direction: 1
+x: 80000000, y: -1185449865
+direction: 1
+x: 80000000, y: -2147483588
+direction: 1
+x: 80000000, y: 2147483587
+direction: 0
+x: 80000000, y: 60
+direction: 0
+x: 80000000, y: -60
+direction: 1
+x: 80000000, y: 447488684
+direction: 0
+x: 80000000, y: -2147483587
+direction: 1
+x: 80000000, y: 2147483586
+direction: 0
+x: 80000000, y: 61
+direction: 0
+x: 80000000, y: -61
+direction: 1
+x: 80000000, y: 1740647832
+direction: 0
+x: 80000000, y: -2147483586
+direction: 1
+x: 80000000, y: 2147483585
+direction: 0
+x: 80000000, y: 62
+direction: 0
+x: 80000000, y: -62
+direction: 1
+x: 80000000, y: -1633300787
+direction: 1
+x: 80000000, y: -2147483585
+direction: 1
+x: 80000000, y: 2147483584
+direction: 0
+x: 80000000, y: 63
+direction: 0
+x: 80000000, y: -63
+direction: 1
+x: 80000000, y: -2070217491
+direction: 1
+x: 80000000, y: -2147483584
+direction: 1
+x: 80000000, y: 2147483583
+direction: 0
+x: 80000000, y: 64
+direction: 0
+x: 80000000, y: -64
+direction: 1
+x: 80000000, y: -1255722091
+direction: 1
+x: 80000000, y: -2147483583
+direction: 1
+x: 80000000, y: 2147483582
+direction: 0
+x: 80000000, y: 65
+direction: 0
+x: 80000000, y: -65
+direction: 1
+x: 80000000, y: -1448502073
+direction: 1
+x: 80000000, y: -2147483582
+direction: 1
+x: 80000000, y: 2147483581
+direction: 0
+x: 80000000, y: 66
+direction: 0
+x: 80000000, y: -66
+direction: 1
+x: 80000000, y: -1156417525
+direction: 1
+x: 80000000, y: -2147483581
+direction: 1
+x: 80000000, y: 2147483580
+direction: 0
+x: 80000000, y: 67
+direction: 0
+x: 80000000, y: -67
+direction: 1
+x: 80000000, y: -2007209077
+direction: 1
+x: 80000000, y: -2147483580
+direction: 1
+x: 80000000, y: 2147483579
+direction: 0
+x: 80000000, y: 68
+direction: 0
+x: 80000000, y: -68
+direction: 1
+x: 80000000, y: 160259238
+direction: 0
+x: 80000000, y: -2147483579
+direction: 1
+x: 80000000, y: 2147483578
+direction: 0
+x: 80000000, y: 69
+direction: 0
+x: 80000000, y: -69
+direction: 1
+x: 80000000, y: -1203007131
+direction: 1
+x: 80000000, y: -2147483578
+direction: 1
+x: 80000000, y: 2147483577
+direction: 0
+x: 80000000, y: 70
+direction: 0
+x: 80000000, y: -70
+direction: 1
+x: 80000000, y: 1079333460
+direction: 0
+x: 80000000, y: -2147483577
+direction: 1
+x: 80000000, y: 2147483576
+direction: 0
+x: 80000000, y: 71
+direction: 0
+x: 80000000, y: -71
+direction: 1
+x: 80000000, y: -1795108731
+direction: 1
+x: 80000000, y: -2147483576
+direction: 1
+x: 80000000, y: 2147483575
+direction: 0
+x: 80000000, y: 72
+direction: 0
+x: 80000000, y: -72
+direction: 1
+x: 80000000, y: 1974921876
+direction: 0
+x: 80000000, y: -2147483575
+direction: 1
+x: 80000000, y: 2147483574
+direction: 0
+x: 80000000, y: 73
+direction: 0
+x: 80000000, y: -73
+direction: 1
+x: 80000000, y: -2007627663
+direction: 1
+x: 80000000, y: -2147483574
+direction: 1
+x: 80000000, y: 2147483573
+direction: 0
+x: 80000000, y: 74
+direction: 0
+x: 80000000, y: -74
+direction: 1
+x: 80000000, y: 1622714410
+direction: 0
+x: 80000000, y: -2147483573
+direction: 1
+x: 80000000, y: 2147483572
+direction: 0
+x: 80000000, y: 75
+direction: 0
+x: 80000000, y: -75
+direction: 1
+x: 80000000, y: 1339297734
+direction: 0
+x: 80000000, y: -2147483572
+direction: 1
+x: 80000000, y: 2147483571
+direction: 0
+x: 80000000, y: 76
+direction: 0
+x: 80000000, y: -76
+direction: 1
+x: 80000000, y: -1156391287
+direction: 1
+x: 80000000, y: -2147483571
+direction: 1
+x: 80000000, y: 2147483570
+direction: 0
+x: 80000000, y: 77
+direction: 0
+x: 80000000, y: -77
+direction: 1
+x: 80000000, y: 1617649962
+direction: 0
+x: 80000000, y: -2147483570
+direction: 1
+x: 80000000, y: 2147483569
+direction: 0
+x: 80000000, y: 78
+direction: 0
+x: 80000000, y: -78
+direction: 1
+x: 80000000, y: -1216415279
+direction: 1
+x: 80000000, y: -2147483569
+direction: 1
+x: 80000000, y: 2147483568
+direction: 0
+x: 80000000, y: 79
+direction: 0
+x: 80000000, y: -79
+direction: 1
+x: 80000000, y: 1887894210
+direction: 0
+x: 80000000, y: -2147483568
+direction: 1
+x: 80000000, y: 2147483567
+direction: 0
+x: 80000000, y: 80
+direction: 0
+x: 80000000, y: -80
+direction: 1
+x: 80000000, y: -403890107
+direction: 1
+x: 80000000, y: -2147483567
+direction: 1
+x: 80000000, y: 2147483566
+direction: 0
+x: 80000000, y: 81
+direction: 0
+x: 80000000, y: -81
+direction: 1
+x: 80000000, y: 1281458408
+direction: 0
+x: 80000000, y: -2147483566
+direction: 1
+x: 80000000, y: 2147483565
+direction: 0
+x: 80000000, y: 82
+direction: 0
+x: 80000000, y: -82
+direction: 1
+x: 80000000, y: -511443121
+direction: 1
+x: 80000000, y: -2147483565
+direction: 1
+x: 80000000, y: 2147483564
+direction: 0
+x: 80000000, y: 83
+direction: 0
+x: 80000000, y: -83
+direction: 1
+x: 80000000, y: 1524753380
+direction: 0
+x: 80000000, y: -2147483564
+direction: 1
+x: 80000000, y: 2147483563
+direction: 0
+x: 80000000, y: 84
+direction: 0
+x: 80000000, y: -84
+direction: 1
+x: 80000000, y: 1800516592
+direction: 0
+x: 80000000, y: -2147483563
+direction: 1
+x: 80000000, y: 2147483562
+direction: 0
+x: 80000000, y: 85
+direction: 0
+x: 80000000, y: -85
+direction: 1
+x: 80000000, y: -223339251
+direction: 1
+x: 80000000, y: -2147483562
+direction: 1
+x: 80000000, y: 2147483561
+direction: 0
+x: 80000000, y: 86
+direction: 0
+x: 80000000, y: -86
+direction: 1
+x: 80000000, y: -1354329981
+direction: 1
+x: 80000000, y: -2147483561
+direction: 1
+x: 80000000, y: 2147483560
+direction: 0
+x: 80000000, y: 87
+direction: 0
+x: 80000000, y: -87
+direction: 1
+x: 80000000, y: -709425665
+direction: 1
+x: 80000000, y: -2147483560
+direction: 1
+x: 80000000, y: 2147483559
+direction: 0
+x: 80000000, y: 88
+direction: 0
+x: 80000000, y: -88
+direction: 1
+x: 80000000, y: -585085993
+direction: 1
+x: 80000000, y: -2147483559
+direction: 1
+x: 80000000, y: 2147483558
+direction: 0
+x: 80000000, y: 89
+direction: 0
+x: 80000000, y: -89
+direction: 1
+x: 80000000, y: -1163498585
+direction: 1
+x: 80000000, y: -2147483558
+direction: 1
+x: 80000000, y: 2147483557
+direction: 0
+x: 80000000, y: 90
+direction: 0
+x: 80000000, y: -90
+direction: 1
+x: 80000000, y: 252608116
+direction: 0
+x: 80000000, y: -2147483557
+direction: 1
+x: 80000000, y: 2147483556
+direction: 0
+x: 80000000, y: 91
+direction: 0
+x: 80000000, y: -91
+direction: 1
+x: 80000000, y: 2009886338
+direction: 0
+x: 80000000, y: -2147483556
+direction: 1
+x: 80000000, y: 2147483555
+direction: 0
+x: 80000000, y: 92
+direction: 0
+x: 80000000, y: -92
+direction: 1
+x: 80000000, y: -1570334401
+direction: 1
+x: 80000000, y: -2147483555
+direction: 1
+x: 80000000, y: 2147483554
+direction: 0
+x: 80000000, y: 93
+direction: 0
+x: 80000000, y: -93
+direction: 1
+x: 80000000, y: 766790978
+direction: 0
+x: 80000000, y: -2147483554
+direction: 1
+x: 80000000, y: 2147483553
+direction: 0
+x: 80000000, y: 94
+direction: 0
+x: 80000000, y: -94
+direction: 1
+x: 80000000, y: 2087152494
+direction: 0
+x: 80000000, y: -2147483553
+direction: 1
+x: 80000000, y: 2147483552
+direction: 0
+x: 80000000, y: 95
+direction: 0
+x: 80000000, y: -95
+direction: 1
+x: 80000000, y: -678572845
+direction: 1
+x: 80000000, y: -2147483552
+direction: 1
+x: 80000000, y: 2147483551
+direction: 0
+x: 80000000, y: 96
+direction: 0
+x: 80000000, y: -96
+direction: 1
+x: 80000000, y: 1465772552
+direction: 0
+x: 80000000, y: -2147483551
+direction: 1
+x: 80000000, y: 2147483550
+direction: 0
+x: 80000000, y: 97
+direction: 0
+x: 80000000, y: -97
+direction: 1
+x: 80000000, y: -1216748679
+direction: 1
+x: 80000000, y: -2147483550
+direction: 1
+x: 80000000, y: 2147483549
+direction: 0
+x: 80000000, y: 98
+direction: 0
+x: 80000000, y: -98
+direction: 1
+x: 80000000, y: -538298275
+direction: 1
+x: 80000000, y: -2147483549
+direction: 1
+x: 80000000, y: 2147483548
+direction: 0
+x: 80000000, y: 99
+direction: 0
+x: 80000000, y: -99
+direction: 1
+x: 80000000, y: -521451855
+direction: 1
+x: 80000000, y: -2147483548
+direction: 1
+x: 80000000, y: 2147483547
+direction: 0
+x: 80000000, y: 100
+direction: 0
+x: 80000000, y: -100
+direction: 1
+x: 80000000, y: -272272161
+direction: 1
+x: 80000000, y: -2147483547
+direction: 1
+x: 80000000, y: 2147483546
+direction: 0
+x: 80000000, y: 101
+direction: 0
+x: 80000000, y: -101
+direction: 1
+x: 80000000, y: -1606448463
+direction: 1
+x: 80000000, y: -2147483546
+direction: 1
+x: 80000000, y: 2147483545
+direction: 0
+x: 80000000, y: 102
+direction: 0
+x: 80000000, y: -102
+direction: 1
+x: 80000000, y: -169076939
+direction: 1
+x: 80000000, y: -2147483545
+direction: 1
+x: 80000000, y: 2147483544
+direction: 0
+x: 80000000, y: 103
+direction: 0
+x: 80000000, y: -103
+direction: 1
+x: 80000000, y: -444833933
+direction: 1
+x: 80000000, y: -2147483544
+direction: 1
+x: 80000000, y: 2147483543
+direction: 0
+x: 80000000, y: 104
+direction: 0
+x: 80000000, y: -104
+direction: 1
+x: 80000000, y: -1466592479
+direction: 1
+x: 80000000, y: -2147483543
+direction: 1
+x: 80000000, y: 2147483542
+direction: 0
+x: 80000000, y: 105
+direction: 0
+x: 80000000, y: -105
+direction: 1
+x: 80000000, y: -693846177
+direction: 1
+x: 80000000, y: -2147483542
+direction: 1
+x: 80000000, y: 2147483541
+direction: 0
+x: 80000000, y: 106
+direction: 0
+x: 80000000, y: -106
+direction: 1
+x: 80000000, y: -1253019847
+direction: 1
+x: 80000000, y: -2147483541
+direction: 1
+x: 80000000, y: 2147483540
+direction: 0
+x: 80000000, y: 107
+direction: 0
+x: 80000000, y: -107
+direction: 1
+x: 80000000, y: -475500119
+direction: 1
+x: 80000000, y: -2147483540
+direction: 1
+x: 80000000, y: 2147483539
+direction: 0
+x: 80000000, y: 108
+direction: 0
+x: 80000000, y: -108
+direction: 1
+x: 80000000, y: -1223679863
+direction: 1
+x: 80000000, y: -2147483539
+direction: 1
+x: 80000000, y: 2147483538
+direction: 0
+x: 80000000, y: 109
+direction: 0
+x: 80000000, y: -109
+direction: 1
+x: 80000000, y: -321951479
+direction: 1
+x: 80000000, y: -2147483538
+direction: 1
+x: 80000000, y: 2147483537
+direction: 0
+x: 80000000, y: 110
+direction: 0
+x: 80000000, y: -110
+direction: 1
+x: 80000000, y: -735089557
+direction: 1
+x: 80000000, y: -2147483537
+direction: 1
+x: 80000000, y: 2147483536
+direction: 0
+x: 80000000, y: 111
+direction: 0
+x: 80000000, y: -111
+direction: 1
+x: 80000000, y: 519913678
+direction: 0
+x: 80000000, y: -2147483536
+direction: 1
+x: 80000000, y: 2147483535
+direction: 0
+x: 80000000, y: 112
+direction: 0
+x: 80000000, y: -112
+direction: 1
+x: 80000000, y: -1187976717
+direction: 1
+x: 80000000, y: -2147483535
+direction: 1
+x: 80000000, y: 2147483534
+direction: 0
+x: 80000000, y: 113
+direction: 0
+x: 80000000, y: -113
+direction: 1
+x: 80000000, y: 900950970
+direction: 0
+x: 80000000, y: -2147483534
+direction: 1
+x: 80000000, y: 2147483533
+direction: 0
+x: 80000000, y: 114
+direction: 0
+x: 80000000, y: -114
+direction: 1
+x: 80000000, y: -102816589
+direction: 1
+x: 80000000, y: -2147483533
+direction: 1
+x: 80000000, y: 2147483532
+direction: 0
+x: 80000000, y: 115
+direction: 0
+x: 80000000, y: -115
+direction: 1
+x: 80000000, y: -1534943773
+direction: 1
+x: 80000000, y: -2147483532
+direction: 1
+x: 80000000, y: 2147483531
+direction: 0
+x: 80000000, y: 116
+direction: 0
+x: 80000000, y: -116
+direction: 1
+x: 80000000, y: -1469871929
+direction: 1
+x: 80000000, y: -2147483531
+direction: 1
+x: 80000000, y: 2147483530
+direction: 0
+x: 80000000, y: 117
+direction: 0
+x: 80000000, y: -117
+direction: 1
+x: 80000000, y: 690337078
+direction: 0
+x: 80000000, y: -2147483530
+direction: 1
+x: 80000000, y: 2147483529
+direction: 0
+x: 80000000, y: 118
+direction: 0
+x: 80000000, y: -118
+direction: 1
+x: 80000000, y: -96885791
+direction: 1
+x: 80000000, y: -2147483529
+direction: 1
+x: 80000000, y: 2147483528
+direction: 0
+x: 80000000, y: 119
+direction: 0
+x: 80000000, y: -119
+direction: 1
+x: 80000000, y: 92525724
+direction: 0
+x: 80000000, y: -2147483528
+direction: 1
+x: 80000000, y: 2147483527
+direction: 0
+x: 80000000, y: 120
+direction: 0
+x: 80000000, y: -120
+direction: 1
+x: 80000000, y: 1674322140
+direction: 0
+x: 80000000, y: -2147483527
+direction: 1
+x: 80000000, y: 2147483526
+direction: 0
+x: 80000000, y: 121
+direction: 0
+x: 80000000, y: -121
+direction: 1
+x: 80000000, y: -1991761321
+direction: 1
+x: 80000000, y: -2147483526
+direction: 1
+x: 80000000, y: 2147483525
+direction: 0
+x: 80000000, y: 122
+direction: 0
+x: 80000000, y: -122
+direction: 1
+x: 80000000, y: -45071583
+direction: 1
+x: 80000000, y: -2147483525
+direction: 1
+x: 80000000, y: 2147483524
+direction: 0
+x: 80000000, y: 123
+direction: 0
+x: 80000000, y: -123
+direction: 1
+x: 80000000, y: -2043495909
+direction: 1
+x: 80000000, y: -2147483524
+direction: 1
+x: 80000000, y: 2147483523
+direction: 0
+x: 80000000, y: 124
+direction: 0
+x: 80000000, y: -124
+direction: 1
+x: 80000000, y: 922513304
+direction: 0
+x: 80000000, y: -2147483523
+direction: 1
+x: 80000000, y: 2147483522
+direction: 0
+x: 80000000, y: 125
+direction: 0
+x: 80000000, y: -125
+direction: 1
+x: 80000000, y: -105402737
+direction: 1
+x: 80000000, y: -2147483522
+direction: 1
+x: 80000000, y: 2147483521
+direction: 0
+x: 80000000, y: 126
+direction: 0
+x: 80000000, y: -126
+direction: 1
+x: 80000000, y: -574585107
+direction: 1
+x: 80000000, y: -2147483521
+direction: 1
+x: 80000000, y: 2147483520
+direction: 0
+x: 80000000, y: 127
+direction: 0
+x: 80000000, y: -127
+direction: 1
+x: 80000000, y: 240802208
+direction: 0
+x: 80000000, y: -2147483520
+direction: 1
+x: 80000000, y: 2147483519
+direction: 0
+x: 80000000, y: 128
+direction: 0
+x: 80000000, y: -128
+direction: 1
+x: 80000000, y: 825332232
+direction: 0
+x: 80000000, y: -2147483519
+direction: 1
+x: 80000000, y: 2147483518
+direction: 0
+x: 80000000, y: 129
+direction: 0
+x: 80000000, y: -129
+direction: 1
+x: 80000000, y: 1034600264
+direction: 0
+x: 80000000, y: -2147483518
+direction: 1
+x: 80000000, y: 2147483517
+direction: 0
+x: 80000000, y: 130
+direction: 0
+x: 80000000, y: -130
+direction: 1
+x: 80000000, y: 1866834000
+direction: 0
+x: 80000000, y: -2147483517
+direction: 1
+x: 80000000, y: 2147483516
+direction: 0
+x: 80000000, y: 131
+direction: 0
+x: 80000000, y: -131
+direction: 1
+x: 80000000, y: -1594423577
+direction: 1
+x: 80000000, y: -2147483516
+direction: 1
+x: 80000000, y: 2147483515
+direction: 0
+x: 80000000, y: 132
+direction: 0
+x: 80000000, y: -132
+direction: 1
+x: 80000000, y: 1575635448
+direction: 0
+x: 80000000, y: -2147483515
+direction: 1
+x: 80000000, y: 2147483514
+direction: 0
+x: 80000000, y: 133
+direction: 0
+x: 80000000, y: -133
+direction: 1
+x: 80000000, y: -449726587
+direction: 1
+x: 80000000, y: -2147483514
+direction: 1
+x: 80000000, y: 2147483513
+direction: 0
+x: 80000000, y: 134
+direction: 0
+x: 80000000, y: -134
+direction: 1
+x: 80000000, y: 108226136
+direction: 0
+x: 80000000, y: -2147483513
+direction: 1
+x: 80000000, y: 2147483512
+direction: 0
+x: 80000000, y: 135
+direction: 0
+x: 80000000, y: -135
+direction: 1
+x: 80000000, y: -2038440679
+direction: 1
+x: 80000000, y: -2147483512
+direction: 1
+x: 80000000, y: 2147483511
+direction: 0
+x: 80000000, y: 136
+direction: 0
+x: 80000000, y: -136
+direction: 1
+x: 80000000, y: 1003910882
+direction: 0
+x: 80000000, y: -2147483511
+direction: 1
+x: 80000000, y: 2147483510
+direction: 0
+x: 80000000, y: 137
+direction: 0
+x: 80000000, y: -137
+direction: 1
+x: 80000000, y: 1002689936
+direction: 0
+x: 80000000, y: -2147483510
+direction: 1
+x: 80000000, y: 2147483509
+direction: 0
+x: 80000000, y: 138
+direction: 0
+x: 80000000, y: -138
+direction: 1
+x: 80000000, y: -366457151
+direction: 1
+x: 80000000, y: -2147483509
+direction: 1
+x: 80000000, y: 2147483508
+direction: 0
+x: 80000000, y: 139
+direction: 0
+x: 80000000, y: -139
+direction: 1
+x: 80000000, y: 1927714668
+direction: 0
+x: 80000000, y: -2147483508
+direction: 1
+x: 80000000, y: 2147483507
+direction: 0
+x: 80000000, y: 140
+direction: 0
+x: 80000000, y: -140
+direction: 1
+x: 80000000, y: -1466745191
+direction: 1
+x: 80000000, y: -2147483507
+direction: 1
+x: 80000000, y: 2147483506
+direction: 0
+x: 80000000, y: 141
+direction: 0
+x: 80000000, y: -141
+direction: 1
+x: 80000000, y: 1045936938
+direction: 0
+x: 80000000, y: -2147483506
+direction: 1
+x: 80000000, y: 2147483505
+direction: 0
+x: 80000000, y: 142
+direction: 0
+x: 80000000, y: -142
+direction: 1
+x: 80000000, y: 300144698
+direction: 0
+x: 80000000, y: -2147483505
+direction: 1
+x: 80000000, y: 2147483504
+direction: 0
+x: 80000000, y: 143
+direction: 0
+x: 80000000, y: -143
+direction: 1
+x: 80000000, y: -507238261
+direction: 1
+x: 80000000, y: -2147483504
+direction: 1
+x: 80000000, y: 2147483503
+direction: 0
+x: 80000000, y: 144
+direction: 0
+x: 80000000, y: -144
+direction: 1
+x: 80000000, y: -200595739
+direction: 1
+x: 80000000, y: -2147483503
+direction: 1
+x: 80000000, y: 2147483502
+direction: 0
+x: 80000000, y: 145
+direction: 0
+x: 80000000, y: -145
+direction: 1
+x: 80000000, y: -1950155539
+direction: 1
+x: 80000000, y: -2147483502
+direction: 1
+x: 80000000, y: 2147483501
+direction: 0
+x: 80000000, y: 146
+direction: 0
+x: 80000000, y: -146
+direction: 1
+x: 80000000, y: 105301612
+direction: 0
+x: 80000000, y: -2147483501
+direction: 1
+x: 80000000, y: 2147483500
+direction: 0
+x: 80000000, y: 147
+direction: 0
+x: 80000000, y: -147
+direction: 1
+x: 80000000, y: 477015978
+direction: 0
+x: 80000000, y: -2147483500
+direction: 1
+x: 80000000, y: 2147483499
+direction: 0
+x: 80000000, y: 148
+direction: 0
+x: 80000000, y: -148
+direction: 1
+x: 80000000, y: 887665186
+direction: 0
+x: 80000000, y: -2147483499
+direction: 1
+x: 80000000, y: 2147483498
+direction: 0
+x: 80000000, y: 149
+direction: 0
+x: 80000000, y: -149
+direction: 1
+x: 80000000, y: -2139067825
+direction: 1
+x: 80000000, y: -2147483498
+direction: 1
+x: 80000000, y: 2147483497
+direction: 0
+x: 80000000, y: 150
+direction: 0
+x: 80000000, y: -150
+direction: 1
+x: 80000000, y: -1577941943
+direction: 1
+x: 80000000, y: -2147483497
+direction: 1
+x: 80000000, y: 2147483496
+direction: 0
+x: 80000000, y: 151
+direction: 0
+x: 80000000, y: -151
+direction: 1
+x: 80000000, y: 414503678
+direction: 0
+x: 80000000, y: -2147483496
+direction: 1
+x: 80000000, y: 2147483495
+direction: 0
+x: 80000000, y: 152
+direction: 0
+x: 80000000, y: -152
+direction: 1
+x: 80000000, y: -1983345499
+direction: 1
+x: 80000000, y: -2147483495
+direction: 1
+x: 80000000, y: 2147483494
+direction: 0
+x: 80000000, y: 153
+direction: 0
+x: 80000000, y: -153
+direction: 1
+x: 80000000, y: 524470120
+direction: 0
+x: 80000000, y: -2147483494
+direction: 1
+x: 80000000, y: 2147483493
+direction: 0
+x: 80000000, y: 154
+direction: 0
+x: 80000000, y: -154
+direction: 1
+x: 80000000, y: 518491416
+direction: 0
+x: 80000000, y: -2147483493
+direction: 1
+x: 80000000, y: 2147483492
+direction: 0
+x: 80000000, y: 155
+direction: 0
+x: 80000000, y: -155
+direction: 1
+x: 80000000, y: 1086651452
+direction: 0
+x: 80000000, y: -2147483492
+direction: 1
+x: 80000000, y: 2147483491
+direction: 0
+x: 80000000, y: 156
+direction: 0
+x: 80000000, y: -156
+direction: 1
+x: 80000000, y: -1728416265
+direction: 1
+x: 80000000, y: -2147483491
+direction: 1
+x: 80000000, y: 2147483490
+direction: 0
+x: 80000000, y: 157
+direction: 0
+x: 80000000, y: -157
+direction: 1
+x: 80000000, y: 2091389956
+direction: 0
+x: 80000000, y: -2147483490
+direction: 1
+x: 80000000, y: 2147483489
+direction: 0
+x: 80000000, y: 158
+direction: 0
+x: 80000000, y: -158
+direction: 1
+x: 80000000, y: -820029987
+direction: 1
+x: 80000000, y: -2147483489
+direction: 1
+x: 80000000, y: 2147483488
+direction: 0
+x: 80000000, y: 159
+direction: 0
+x: 80000000, y: -159
+direction: 1
+x: 80000000, y: 1244399614
+direction: 0
+x: 80000000, y: -2147483488
+direction: 1
+x: 80000000, y: 2147483487
+direction: 0
+x: 80000000, y: 160
+direction: 0
+x: 80000000, y: -160
+direction: 1
+x: 80000000, y: 978506572
+direction: 0
+x: 80000000, y: -2147483487
+direction: 1
+x: 80000000, y: 2147483486
+direction: 0
+x: 80000000, y: 161
+direction: 0
+x: 80000000, y: -161
+direction: 1
+x: 80000000, y: -1100679633
+direction: 1
+x: 80000000, y: -2147483486
+direction: 1
+x: 80000000, y: 2147483485
+direction: 0
+x: 80000000, y: 162
+direction: 0
+x: 80000000, y: -162
+direction: 1
+x: 80000000, y: 1797459684
+direction: 0
+x: 80000000, y: -2147483485
+direction: 1
+x: 80000000, y: 2147483484
+direction: 0
+x: 80000000, y: 163
+direction: 0
+x: 80000000, y: -163
+direction: 1
+x: 80000000, y: 406658372
+direction: 0
+x: 80000000, y: -2147483484
+direction: 1
+x: 80000000, y: 2147483483
+direction: 0
+x: 80000000, y: 164
+direction: 0
+x: 80000000, y: -164
+direction: 1
+x: 80000000, y: 597077426
+direction: 0
+x: 80000000, y: -2147483483
+direction: 1
+x: 80000000, y: 2147483482
+direction: 0
+x: 80000000, y: 165
+direction: 0
+x: 80000000, y: -165
+direction: 1
+x: 80000000, y: -241797827
+direction: 1
+x: 80000000, y: -2147483482
+direction: 1
+x: 80000000, y: 2147483481
+direction: 0
+x: 80000000, y: 166
+direction: 0
+x: 80000000, y: -166
+direction: 1
+x: 80000000, y: 515701340
+direction: 0
+x: 80000000, y: -2147483481
+direction: 1
+x: 80000000, y: 2147483480
+direction: 0
+x: 80000000, y: 167
+direction: 0
+x: 80000000, y: -167
+direction: 1
+x: 80000000, y: -546495337
+direction: 1
+x: 80000000, y: -2147483480
+direction: 1
+x: 80000000, y: 2147483479
+direction: 0
+x: 80000000, y: 168
+direction: 0
+x: 80000000, y: -168
+direction: 1
+x: 80000000, y: -1386591539
+direction: 1
+x: 80000000, y: -2147483479
+direction: 1
+x: 80000000, y: 2147483478
+direction: 0
+x: 80000000, y: 169
+direction: 0
+x: 80000000, y: -169
+direction: 1
+x: 80000000, y: -1998239459
+direction: 1
+x: 80000000, y: -2147483478
+direction: 1
+x: 80000000, y: 2147483477
+direction: 0
+x: 80000000, y: 170
+direction: 0
+x: 80000000, y: -170
+direction: 1
+x: 80000000, y: -766264317
+direction: 1
+x: 80000000, y: -2147483477
+direction: 1
+x: 80000000, y: 2147483476
+direction: 0
+x: 80000000, y: 171
+direction: 0
+x: 80000000, y: -171
+direction: 1
+x: 80000000, y: -705853081
+direction: 1
+x: 80000000, y: -2147483476
+direction: 1
+x: 80000000, y: 2147483475
+direction: 0
+x: 80000000, y: 172
+direction: 0
+x: 80000000, y: -172
+direction: 1
+x: 80000000, y: 1195181128
+direction: 0
+x: 80000000, y: -2147483475
+direction: 1
+x: 80000000, y: 2147483474
+direction: 0
+x: 80000000, y: 173
+direction: 0
+x: 80000000, y: -173
+direction: 1
+x: 80000000, y: 1681364028
+direction: 0
+x: 80000000, y: -2147483474
+direction: 1
+x: 80000000, y: 2147483473
+direction: 0
+x: 80000000, y: 174
+direction: 0
+x: 80000000, y: -174
+direction: 1
+x: 80000000, y: 934392304
+direction: 0
+x: 80000000, y: -2147483473
+direction: 1
+x: 80000000, y: 2147483472
+direction: 0
+x: 80000000, y: 175
+direction: 0
+x: 80000000, y: -175
+direction: 1
+x: 80000000, y: -1152898259
+direction: 1
+x: 80000000, y: -2147483472
+direction: 1
+x: 80000000, y: 2147483471
+direction: 0
+x: 80000000, y: 176
+direction: 0
+x: 80000000, y: -176
+direction: 1
+x: 80000000, y: 1878692136
+direction: 0
+x: 80000000, y: -2147483471
+direction: 1
+x: 80000000, y: 2147483470
+direction: 0
+x: 80000000, y: 177
+direction: 0
+x: 80000000, y: -177
+direction: 1
+x: 80000000, y: -1107789729
+direction: 1
+x: 80000000, y: -2147483470
+direction: 1
+x: 80000000, y: 2147483469
+direction: 0
+x: 80000000, y: 178
+direction: 0
+x: 80000000, y: -178
+direction: 1
+x: 80000000, y: 1471601368
+direction: 0
+x: 80000000, y: -2147483469
+direction: 1
+x: 80000000, y: 2147483468
+direction: 0
+x: 80000000, y: 179
+direction: 0
+x: 80000000, y: -179
+direction: 1
+x: 80000000, y: 618873676
+direction: 0
+x: 80000000, y: -2147483468
+direction: 1
+x: 80000000, y: 2147483467
+direction: 0
+x: 80000000, y: 180
+direction: 0
+x: 80000000, y: -180
+direction: 1
+x: 80000000, y: -1099373907
+direction: 1
+x: 80000000, y: -2147483467
+direction: 1
+x: 80000000, y: 2147483466
+direction: 0
+x: 80000000, y: 181
+direction: 0
+x: 80000000, y: -181
+direction: 1
+x: 80000000, y: 2041143072
+direction: 0
+x: 80000000, y: -2147483466
+direction: 1
+x: 80000000, y: 2147483465
+direction: 0
+x: 80000000, y: 182
+direction: 0
+x: 80000000, y: -182
+direction: 1
+x: 80000000, y: -1114106293
+direction: 1
+x: 80000000, y: -2147483465
+direction: 1
+x: 80000000, y: 2147483464
+direction: 0
+x: 80000000, y: 183
+direction: 0
+x: 80000000, y: -183
+direction: 1
+x: 80000000, y: -935235759
+direction: 1
+x: 80000000, y: -2147483464
+direction: 1
+x: 80000000, y: 2147483463
+direction: 0
+x: 80000000, y: 184
+direction: 0
+x: 80000000, y: -184
+direction: 1
+x: 80000000, y: 418129544
+direction: 0
+x: 80000000, y: -2147483463
+direction: 1
+x: 80000000, y: 2147483462
+direction: 0
+x: 80000000, y: 185
+direction: 0
+x: 80000000, y: -185
+direction: 1
+x: 80000000, y: 1551868772
+direction: 0
+x: 80000000, y: -2147483462
+direction: 1
+x: 80000000, y: 2147483461
+direction: 0
+x: 80000000, y: 186
+direction: 0
+x: 80000000, y: -186
+direction: 1
+x: 80000000, y: -1996067955
+direction: 1
+x: 80000000, y: -2147483461
+direction: 1
+x: 80000000, y: 2147483460
+direction: 0
+x: 80000000, y: 187
+direction: 0
+x: 80000000, y: -187
+direction: 1
+x: 80000000, y: 837196926
+direction: 0
+x: 80000000, y: -2147483460
+direction: 1
+x: 80000000, y: 2147483459
+direction: 0
+x: 80000000, y: 188
+direction: 0
+x: 80000000, y: -188
+direction: 1
+x: 80000000, y: 1495775080
+direction: 0
+x: 80000000, y: -2147483459
+direction: 1
+x: 80000000, y: 2147483458
+direction: 0
+x: 80000000, y: 189
+direction: 0
+x: 80000000, y: -189
+direction: 1
+x: 80000000, y: -668614295
+direction: 1
+x: 80000000, y: -2147483458
+direction: 1
+x: 80000000, y: 2147483457
+direction: 0
+x: 80000000, y: 190
+direction: 0
+x: 80000000, y: -190
+direction: 1
+x: 80000000, y: -65887105
+direction: 1
+x: 80000000, y: -2147483457
+direction: 1
+x: 80000000, y: 2147483456
+direction: 0
+x: 80000000, y: 191
+direction: 0
+x: 80000000, y: -191
+direction: 1
+x: 80000000, y: 326798006
+direction: 0
+x: 80000000, y: -2147483456
+direction: 1
+x: 80000000, y: 2147483455
+direction: 0
+x: 80000000, y: 192
+direction: 0
+x: 80000000, y: -192
+direction: 1
+x: 80000000, y: 378189718
+direction: 0
+x: 80000000, y: -2147483455
+direction: 1
+x: 80000000, y: 2147483454
+direction: 0
+x: 80000000, y: 193
+direction: 0
+x: 80000000, y: -193
+direction: 1
+x: 80000000, y: -415911069
+direction: 1
+x: 80000000, y: -2147483454
+direction: 1
+x: 80000000, y: 2147483453
+direction: 0
+x: 80000000, y: 194
+direction: 0
+x: 80000000, y: -194
+direction: 1
+x: 80000000, y: -1414027269
+direction: 1
+x: 80000000, y: -2147483453
+direction: 1
+x: 80000000, y: 2147483452
+direction: 0
+x: 80000000, y: 195
+direction: 0
+x: 80000000, y: -195
+direction: 1
+x: 80000000, y: -1172216501
+direction: 1
+x: 80000000, y: -2147483452
+direction: 1
+x: 80000000, y: 2147483451
+direction: 0
+x: 80000000, y: 196
+direction: 0
+x: 80000000, y: -196
+direction: 1
+x: 80000000, y: 1489774752
+direction: 0
+x: 80000000, y: -2147483451
+direction: 1
+x: 80000000, y: 2147483450
+direction: 0
+x: 80000000, y: 197
+direction: 0
+x: 80000000, y: -197
+direction: 1
+x: 80000000, y: 1249157720
+direction: 0
+x: 80000000, y: -2147483450
+direction: 1
+x: 80000000, y: 2147483449
+direction: 0
+x: 80000000, y: 198
+direction: 0
+x: 80000000, y: -198
+direction: 1
+x: 80000000, y: 428771808
+direction: 0
+x: 80000000, y: -2147483449
+direction: 1
+x: 80000000, y: 2147483448
+direction: 0
+x: 80000000, y: 199
+direction: 0
+x: 80000000, y: -199
+direction: 1
+x: 80000000, y: -2044300435
+direction: 1
+x: 80000000, y: -2147483448
+direction: 1
+x: 80000000, y: 2147483447
+direction: 0
+x: 80000000, y: 200
+direction: 0
+x: 80000000, y: -200
+direction: 1
+x: 80000000, y: 1398401908
+direction: 0
+x: 80000000, y: -2147483447
+direction: 1
+x: 80000000, y: 2147483446
+direction: 0
+x: 80000000, y: 201
+direction: 0
+x: 80000000, y: -201
+direction: 1
+x: 80000000, y: 1809991138
+direction: 0
+x: 80000000, y: -2147483446
+direction: 1
+x: 80000000, y: 2147483445
+direction: 0
+x: 80000000, y: 202
+direction: 0
+x: 80000000, y: -202
+direction: 1
+x: 80000000, y: -602669869
+direction: 1
+x: 80000000, y: -2147483445
+direction: 1
+x: 80000000, y: 2147483444
+direction: 0
+x: 80000000, y: 203
+direction: 0
+x: 80000000, y: -203
+direction: 1
+x: 80000000, y: 446099388
+direction: 0
+x: 80000000, y: -2147483444
+direction: 1
+x: 80000000, y: 2147483443
+direction: 0
+x: 80000000, y: 204
+direction: 0
+x: 80000000, y: -204
+direction: 1
+x: 80000000, y: 1343871518
+direction: 0
+x: 80000000, y: -2147483443
+direction: 1
+x: 80000000, y: 2147483442
+direction: 0
+x: 80000000, y: 205
+direction: 0
+x: 80000000, y: -205
+direction: 1
+x: 80000000, y: -1815761211
+direction: 1
+x: 80000000, y: -2147483442
+direction: 1
+x: 80000000, y: 2147483441
+direction: 0
+x: 80000000, y: 206
+direction: 0
+x: 80000000, y: -206
+direction: 1
+x: 80000000, y: 1440684778
+direction: 0
+x: 80000000, y: -2147483441
+direction: 1
+x: 80000000, y: 2147483440
+direction: 0
+x: 80000000, y: 207
+direction: 0
+x: 80000000, y: -207
+direction: 1
+x: 80000000, y: 1075080006
+direction: 0
+x: 80000000, y: -2147483440
+direction: 1
+x: 80000000, y: 2147483439
+direction: 0
+x: 80000000, y: 208
+direction: 0
+x: 80000000, y: -208
+direction: 1
+x: 80000000, y: -776067293
+direction: 1
+x: 80000000, y: -2147483439
+direction: 1
+x: 80000000, y: 2147483438
+direction: 0
+x: 80000000, y: 209
+direction: 0
+x: 80000000, y: -209
+direction: 1
+x: 80000000, y: 764802498
+direction: 0
+x: 80000000, y: -2147483438
+direction: 1
+x: 80000000, y: 2147483437
+direction: 0
+x: 80000000, y: 210
+direction: 0
+x: 80000000, y: -210
+direction: 1
+x: 80000000, y: -453529965
+direction: 1
+x: 80000000, y: -2147483437
+direction: 1
+x: 80000000, y: 2147483436
+direction: 0
+x: 80000000, y: 211
+direction: 0
+x: 80000000, y: -211
+direction: 1
+x: 80000000, y: 272042446
+direction: 0
+x: 80000000, y: -2147483436
+direction: 1
+x: 80000000, y: 2147483435
+direction: 0
+x: 80000000, y: 212
+direction: 0
+x: 80000000, y: -212
+direction: 1
+x: 80000000, y: 658461922
+direction: 0
+x: 80000000, y: -2147483435
+direction: 1
+x: 80000000, y: 2147483434
+direction: 0
+x: 80000000, y: 213
+direction: 0
+x: 80000000, y: -213
+direction: 1
+x: 80000000, y: 579847390
+direction: 0
+x: 80000000, y: -2147483434
+direction: 1
+x: 80000000, y: 2147483433
+direction: 0
+x: 80000000, y: 214
+direction: 0
+x: 80000000, y: -214
+direction: 1
+x: 80000000, y: 1484290334
+direction: 0
+x: 80000000, y: -2147483433
+direction: 1
+x: 80000000, y: 2147483432
+direction: 0
+x: 80000000, y: 215
+direction: 0
+x: 80000000, y: -215
+direction: 1
+x: 80000000, y: -1070892181
+direction: 1
+x: 80000000, y: -2147483432
+direction: 1
+x: 80000000, y: 2147483431
+direction: 0
+x: 80000000, y: 216
+direction: 0
+x: 80000000, y: -216
+direction: 1
+x: 80000000, y: -15767485
+direction: 1
+x: 80000000, y: -2147483431
+direction: 1
+x: 80000000, y: 2147483430
+direction: 0
+x: 80000000, y: 217
+direction: 0
+x: 80000000, y: -217
+direction: 1
+x: 80000000, y: 1635706026
+direction: 0
+x: 80000000, y: -2147483430
+direction: 1
+x: 80000000, y: 2147483429
+direction: 0
+x: 80000000, y: 218
+direction: 0
+x: 80000000, y: -218
+direction: 1
+x: 80000000, y: 1913788392
+direction: 0
+x: 80000000, y: -2147483429
+direction: 1
+x: 80000000, y: 2147483428
+direction: 0
+x: 80000000, y: 219
+direction: 0
+x: 80000000, y: -219
+direction: 1
+x: 80000000, y: -667476053
+direction: 1
+x: 80000000, y: -2147483428
+direction: 1
+x: 80000000, y: 2147483427
+direction: 0
+x: 80000000, y: 220
+direction: 0
+x: 80000000, y: -220
+direction: 1
+x: 80000000, y: -1180391917
+direction: 1
+x: 80000000, y: -2147483427
+direction: 1
+x: 80000000, y: 2147483426
+direction: 0
+x: 80000000, y: 221
+direction: 0
+x: 80000000, y: -221
+direction: 1
+x: 80000000, y: -299582361
+direction: 1
+x: 80000000, y: -2147483426
+direction: 1
+x: 80000000, y: 2147483425
+direction: 0
+x: 80000000, y: 222
+direction: 0
+x: 80000000, y: -222
+direction: 1
+x: 80000000, y: 1806805600
+direction: 0
+x: 80000000, y: -2147483425
+direction: 1
+x: 80000000, y: 2147483424
+direction: 0
+x: 80000000, y: 223
+direction: 0
+x: 80000000, y: -223
+direction: 1
+x: 80000000, y: 1345281450
+direction: 0
+x: 80000000, y: -2147483424
+direction: 1
+x: 80000000, y: 2147483423
+direction: 0
+x: 80000000, y: 224
+direction: 0
+x: 80000000, y: -224
+direction: 1
+x: 80000000, y: 1431990218
+direction: 0
+x: 80000000, y: -2147483423
+direction: 1
+x: 80000000, y: 2147483422
+direction: 0
+x: 80000000, y: 225
+direction: 0
+x: 80000000, y: -225
+direction: 1
+x: 80000000, y: -1754705315
+direction: 1
+x: 80000000, y: -2147483422
+direction: 1
+x: 80000000, y: 2147483421
+direction: 0
+x: 80000000, y: 226
+direction: 0
+x: 80000000, y: -226
+direction: 1
+x: 80000000, y: -1974418699
+direction: 1
+x: 80000000, y: -2147483421
+direction: 1
+x: 80000000, y: 2147483420
+direction: 0
+x: 80000000, y: 227
+direction: 0
+x: 80000000, y: -227
+direction: 1
+x: 80000000, y: 774281322
+direction: 0
+x: 80000000, y: -2147483420
+direction: 1
+x: 80000000, y: 2147483419
+direction: 0
+x: 80000000, y: 228
+direction: 0
+x: 80000000, y: -228
+direction: 1
+x: 80000000, y: 1641936052
+direction: 0
+x: 80000000, y: -2147483419
+direction: 1
+x: 80000000, y: 2147483418
+direction: 0
+x: 80000000, y: 229
+direction: 0
+x: 80000000, y: -229
+direction: 1
+x: 80000000, y: 601836756
+direction: 0
+x: 80000000, y: -2147483418
+direction: 1
+x: 80000000, y: 2147483417
+direction: 0
+x: 80000000, y: 230
+direction: 0
+x: 80000000, y: -230
+direction: 1
+x: 80000000, y: 877464534
+direction: 0
+x: 80000000, y: -2147483417
+direction: 1
+x: 80000000, y: 2147483416
+direction: 0
+x: 80000000, y: 231
+direction: 0
+x: 80000000, y: -231
+direction: 1
+x: 80000000, y: 892854312
+direction: 0
+x: 80000000, y: -2147483416
+direction: 1
+x: 80000000, y: 2147483415
+direction: 0
+x: 80000000, y: 232
+direction: 0
+x: 80000000, y: -232
+direction: 1
+x: 80000000, y: 264344246
+direction: 0
+x: 80000000, y: -2147483415
+direction: 1
+x: 80000000, y: 2147483414
+direction: 0
+x: 80000000, y: 233
+direction: 0
+x: 80000000, y: -233
+direction: 1
+x: 80000000, y: -1872688981
+direction: 1
+x: 80000000, y: -2147483414
+direction: 1
+x: 80000000, y: 2147483413
+direction: 0
+x: 80000000, y: 234
+direction: 0
+x: 80000000, y: -234
+direction: 1
+x: 80000000, y: -808529945
+direction: 1
+x: 80000000, y: -2147483413
+direction: 1
+x: 80000000, y: 2147483412
+direction: 0
+x: 80000000, y: 235
+direction: 0
+x: 80000000, y: -235
+direction: 1
+x: 80000000, y: -539267883
+direction: 1
+x: 80000000, y: -2147483412
+direction: 1
+x: 80000000, y: 2147483411
+direction: 0
+x: 80000000, y: 236
+direction: 0
+x: 80000000, y: -236
+direction: 1
+x: 80000000, y: -1540966545
+direction: 1
+x: 80000000, y: -2147483411
+direction: 1
+x: 80000000, y: 2147483410
+direction: 0
+x: 80000000, y: 237
+direction: 0
+x: 80000000, y: -237
+direction: 1
+x: 80000000, y: -1515328815
+direction: 1
+x: 80000000, y: -2147483410
+direction: 1
+x: 80000000, y: 2147483409
+direction: 0
+x: 80000000, y: 238
+direction: 0
+x: 80000000, y: -238
+direction: 1
+x: 80000000, y: -1611671525
+direction: 1
+x: 80000000, y: -2147483409
+direction: 1
+x: 80000000, y: 2147483408
+direction: 0
+x: 80000000, y: 239
+direction: 0
+x: 80000000, y: -239
+direction: 1
+x: 80000000, y: -169550191
+direction: 1
+x: 80000000, y: -2147483408
+direction: 1
+x: 80000000, y: 2147483407
+direction: 0
+x: 80000000, y: 240
+direction: 0
+x: 80000000, y: -240
+direction: 1
+x: 80000000, y: 1396957330
+direction: 0
+x: 80000000, y: -2147483407
+direction: 1
+x: 80000000, y: 2147483406
+direction: 0
+x: 80000000, y: 241
+direction: 0
+x: 80000000, y: -241
+direction: 1
+x: 80000000, y: 82282158
+direction: 0
+x: 80000000, y: -2147483406
+direction: 1
+x: 80000000, y: 2147483405
+direction: 0
+x: 80000000, y: 242
+direction: 0
+x: 80000000, y: -242
+direction: 1
+x: 80000000, y: -2044991393
+direction: 1
+x: 80000000, y: -2147483405
+direction: 1
+x: 80000000, y: 2147483404
+direction: 0
+x: 80000000, y: 243
+direction: 0
+x: 80000000, y: -243
+direction: 1
+x: 80000000, y: -92064395
+direction: 1
+x: 80000000, y: -2147483404
+direction: 1
+x: 80000000, y: 2147483403
+direction: 0
+x: 80000000, y: 244
+direction: 0
+x: 80000000, y: -244
+direction: 1
+x: 80000000, y: -1485354099
+direction: 1
+x: 80000000, y: -2147483403
+direction: 1
+x: 80000000, y: 2147483402
+direction: 0
+x: 80000000, y: 245
+direction: 0
+x: 80000000, y: -245
+direction: 1
+x: 80000000, y: 1586782588
+direction: 0
+x: 80000000, y: -2147483402
+direction: 1
+x: 80000000, y: 2147483401
+direction: 0
+x: 80000000, y: 246
+direction: 0
+x: 80000000, y: -246
+direction: 1
+x: 80000000, y: 984527070
+direction: 0
+x: 80000000, y: -2147483401
+direction: 1
+x: 80000000, y: 2147483400
+direction: 0
+x: 80000000, y: 247
+direction: 0
+x: 80000000, y: -247
+direction: 1
+x: 80000000, y: 646362062
+direction: 0
+x: 80000000, y: -2147483400
+direction: 1
+x: 80000000, y: 2147483399
+direction: 0
+x: 80000000, y: 248
+direction: 0
+x: 80000000, y: -248
+direction: 1
+x: 80000000, y: 1075004966
+direction: 0
+x: 80000000, y: -2147483399
+direction: 1
+x: 80000000, y: 2147483398
+direction: 0
+x: 80000000, y: 249
+direction: 0
+x: 80000000, y: -249
+direction: 1
+x: 80000000, y: 750831814
+direction: 0
+x: 80000000, y: -2147483398
+direction: 1
+x: 80000000, y: 2147483397
+direction: 0
+x: 80000000, y: 250
+direction: 0
+x: 80000000, y: -250
+direction: 1
+x: 80000000, y: 2126369656
+direction: 0
+x: 80000000, y: -2147483397
+direction: 1
+x: 80000000, y: 2147483396
+direction: 0
+x: 80000000, y: 251
+direction: 0
+x: 80000000, y: -251
+direction: 1
+x: 80000000, y: 2042096696
+direction: 0
+x: 80000000, y: -2147483396
+direction: 1
+x: 80000000, y: 2147483395
+direction: 0
+x: 80000000, y: 252
+direction: 0
+x: 80000000, y: -252
+direction: 1
+x: 80000000, y: -1696234193
+direction: 1
+x: 80000000, y: -2147483395
+direction: 1
+x: 80000000, y: 2147483394
+direction: 0
+x: 80000000, y: 253
+direction: 0
+x: 80000000, y: -253
+direction: 1
+x: 80000000, y: 1785691610
+direction: 0
+x: 80000000, y: -2147483394
+direction: 1
+x: 80000000, y: 2147483393
+direction: 0
+x: 80000000, y: 254
+direction: 0
+x: 80000000, y: -254
+direction: 1
+x: 80000000, y: 1239894498
+direction: 0
+x: 80000000, y: -2147483393
+direction: 1
+x: 80000000, y: 2147483392
+direction: 0
+x: 80000000, y: 255
+direction: 0
+x: 80000000, y: -255
+direction: 1
+x: 80000000, y: 1883239672
+direction: 0
+x: 80000000, y: -2147483392
+direction: 1
+x: 80000000, y: 2147483391
+direction: 0
+x: 80000000, y: 256
+direction: 0
+x: 80000000, y: -256
+direction: 1
+x: 80000000, y: -2116497353
+direction: 1
+x: 80000000, y: -2147483391
+direction: 1
+x: 80000000, y: 2147483390
+direction: 0
+x: 80000000, y: 257
+direction: 0
+x: 80000000, y: -257
+direction: 1
+x: 80000000, y: 1412959446
+direction: 0
+x: 80000000, y: -2147483390
+direction: 1
+x: 80000000, y: 2147483389
+direction: 0
+x: 80000000, y: 258
+direction: 0
+x: 80000000, y: -258
+direction: 1
+x: 80000000, y: 510037346
+direction: 0
+x: 80000000, y: -2147483389
+direction: 1
+x: 80000000, y: 2147483388
+direction: 0
+x: 80000000, y: 259
+direction: 0
+x: 80000000, y: -259
+direction: 1
+x: 80000000, y: 1672922346
+direction: 0
+x: 80000000, y: -2147483388
+direction: 1
+x: 80000000, y: 2147483387
+direction: 0
+x: 80000000, y: 260
+direction: 0
+x: 80000000, y: -260
+direction: 1
+x: 80000000, y: -132687445
+direction: 1
+x: 80000000, y: -2147483387
+direction: 1
+x: 80000000, y: 2147483386
+direction: 0
+x: 80000000, y: 261
+direction: 0
+x: 80000000, y: -261
+direction: 1
+x: 80000000, y: -759981767
+direction: 1
+x: 80000000, y: -2147483386
+direction: 1
+x: 80000000, y: 2147483385
+direction: 0
+x: 80000000, y: 262
+direction: 0
+x: 80000000, y: -262
+direction: 1
+x: 80000000, y: 418293010
+direction: 0
+x: 80000000, y: -2147483385
+direction: 1
+x: 80000000, y: 2147483384
+direction: 0
+x: 80000000, y: 263
+direction: 0
+x: 80000000, y: -263
+direction: 1
+x: 80000000, y: -2015826847
+direction: 1
+x: 80000000, y: -2147483384
+direction: 1
+x: 80000000, y: 2147483383
+direction: 0
+x: 80000000, y: 264
+direction: 0
+x: 80000000, y: -264
+direction: 1
+x: 80000000, y: -485187101
+direction: 1
+x: 80000000, y: -2147483383
+direction: 1
+x: 80000000, y: 2147483382
+direction: 0
+x: 80000000, y: 265
+direction: 0
+x: 80000000, y: -265
+direction: 1
+x: 80000000, y: 1757246712
+direction: 0
+x: 80000000, y: -2147483382
+direction: 1
+x: 80000000, y: 2147483381
+direction: 0
+x: 80000000, y: 266
+direction: 0
+x: 80000000, y: -266
+direction: 1
+x: 80000000, y: -407611083
+direction: 1
+x: 80000000, y: -2147483381
+direction: 1
+x: 80000000, y: 2147483380
+direction: 0
+x: 80000000, y: 267
+direction: 0
+x: 80000000, y: -267
+direction: 1
+x: 80000000, y: 121330000
+direction: 0
+x: 80000000, y: -2147483380
+direction: 1
+x: 80000000, y: 2147483379
+direction: 0
+x: 80000000, y: 268
+direction: 0
+x: 80000000, y: -268
+direction: 1
+x: 80000000, y: -1905565751
+direction: 1
+x: 80000000, y: -2147483379
+direction: 1
+x: 80000000, y: 2147483378
+direction: 0
+x: 80000000, y: 269
+direction: 0
+x: 80000000, y: -269
+direction: 1
+x: 80000000, y: 128201040
+direction: 0
+x: 80000000, y: -2147483378
+direction: 1
+x: 80000000, y: 2147483377
+direction: 0
+x: 80000000, y: 270
+direction: 0
+x: 80000000, y: -270
+direction: 1
+x: 80000000, y: 2099263456
+direction: 0
+x: 80000000, y: -2147483377
+direction: 1
+x: 80000000, y: 2147483376
+direction: 0
+x: 80000000, y: 271
+direction: 0
+x: 80000000, y: -271
+direction: 1
+x: 80000000, y: 1638875226
+direction: 0
+x: 80000000, y: -2147483376
+direction: 1
+x: 80000000, y: 2147483375
+direction: 0
+x: 80000000, y: 272
+direction: 0
+x: 80000000, y: -272
+direction: 1
+x: 80000000, y: -1937000449
+direction: 1
+x: 80000000, y: -2147483375
+direction: 1
+x: 80000000, y: 2147483374
+direction: 0
+x: 80000000, y: 273
+direction: 0
+x: 80000000, y: -273
+direction: 1
+x: 80000000, y: -2093211585
+direction: 1
+x: 80000000, y: -2147483374
+direction: 1
+x: 80000000, y: 2147483373
+direction: 0
+x: 80000000, y: 274
+direction: 0
+x: 80000000, y: -274
+direction: 1
+x: 80000000, y: -600672817
+direction: 1
+x: 80000000, y: -2147483373
+direction: 1
+x: 80000000, y: 2147483372
+direction: 0
+x: 80000000, y: 275
+direction: 0
+x: 80000000, y: -275
+direction: 1
+x: 80000000, y: -1274870901
+direction: 1
+x: 80000000, y: -2147483372
+direction: 1
+x: 80000000, y: 2147483371
+direction: 0
+x: 80000000, y: 276
+direction: 0
+x: 80000000, y: -276
+direction: 1
+x: 80000000, y: 1641054650
+direction: 0
+x: 80000000, y: -2147483371
+direction: 1
+x: 80000000, y: 2147483370
+direction: 0
+x: 80000000, y: 277
+direction: 0
+x: 80000000, y: -277
+direction: 1
+x: 80000000, y: -1763629395
+direction: 1
+x: 80000000, y: -2147483370
+direction: 1
+x: 80000000, y: 2147483369
+direction: 0
+x: 80000000, y: 278
+direction: 0
+x: 80000000, y: -278
+direction: 1
+x: 80000000, y: 1518974808
+direction: 0
+x: 80000000, y: -2147483369
+direction: 1
+x: 80000000, y: 2147483368
+direction: 0
+x: 80000000, y: 279
+direction: 0
+x: 80000000, y: -279
+direction: 1
+x: 80000000, y: 568575968
+direction: 0
+x: 80000000, y: -2147483368
+direction: 1
+x: 80000000, y: 2147483367
+direction: 0
+x: 80000000, y: 280
+direction: 0
+x: 80000000, y: -280
+direction: 1
+x: 80000000, y: 1134686068
+direction: 0
+x: 80000000, y: -2147483367
+direction: 1
+x: 80000000, y: 2147483366
+direction: 0
+x: 80000000, y: 281
+direction: 0
+x: 80000000, y: -281
+direction: 1
+x: 80000000, y: 1497860816
+direction: 0
+x: 80000000, y: -2147483366
+direction: 1
+x: 80000000, y: 2147483365
+direction: 0
+x: 80000000, y: 282
+direction: 0
+x: 80000000, y: -282
+direction: 1
+x: 80000000, y: 463189018
+direction: 0
+x: 80000000, y: -2147483365
+direction: 1
+x: 80000000, y: 2147483364
+direction: 0
+x: 80000000, y: 283
+direction: 0
+x: 80000000, y: -283
+direction: 1
+x: 80000000, y: 1585935522
+direction: 0
+x: 80000000, y: -2147483364
+direction: 1
+x: 80000000, y: 2147483363
+direction: 0
+x: 80000000, y: 284
+direction: 0
+x: 80000000, y: -284
+direction: 1
+x: 80000000, y: 1136068778
+direction: 0
+x: 80000000, y: -2147483363
+direction: 1
+x: 80000000, y: 2147483362
+direction: 0
+x: 80000000, y: 285
+direction: 0
+x: 80000000, y: -285
+direction: 1
+x: 80000000, y: -444400131
+direction: 1
+x: 80000000, y: -2147483362
+direction: 1
+x: 80000000, y: 2147483361
+direction: 0
+x: 80000000, y: 286
+direction: 0
+x: 80000000, y: -286
+direction: 1
+x: 80000000, y: 1321691546
+direction: 0
+x: 80000000, y: -2147483361
+direction: 1
+x: 80000000, y: 2147483360
+direction: 0
+x: 80000000, y: 287
+direction: 0
+x: 80000000, y: -287
+direction: 1
+x: 80000000, y: 1167055072
+direction: 0
+x: 80000000, y: -2147483360
+direction: 1
+x: 80000000, y: 2147483359
+direction: 0
+x: 80000000, y: 288
+direction: 0
+x: 80000000, y: -288
+direction: 1
+x: 80000000, y: -1178924331
+direction: 1
+x: 80000000, y: -2147483359
+direction: 1
+x: 80000000, y: 2147483358
+direction: 0
+x: 80000000, y: 289
+direction: 0
+x: 80000000, y: -289
+direction: 1
+x: 80000000, y: -315754755
+direction: 1
+x: 80000000, y: -2147483358
+direction: 1
+x: 80000000, y: 2147483357
+direction: 0
+x: 80000000, y: 290
+direction: 0
+x: 80000000, y: -290
+direction: 1
+x: 80000000, y: 692493770
+direction: 0
+x: 80000000, y: -2147483357
+direction: 1
+x: 80000000, y: 2147483356
+direction: 0
+x: 80000000, y: 291
+direction: 0
+x: 80000000, y: -291
+direction: 1
+x: 80000000, y: 835871870
+direction: 0
+x: 80000000, y: -2147483356
+direction: 1
+x: 80000000, y: 2147483355
+direction: 0
+x: 80000000, y: 292
+direction: 0
+x: 80000000, y: -292
+direction: 1
+x: 80000000, y: 1071747124
+direction: 0
+x: 80000000, y: -2147483355
+direction: 1
+x: 80000000, y: 2147483354
+direction: 0
+x: 80000000, y: 293
+direction: 0
+x: 80000000, y: -293
+direction: 1
+x: 80000000, y: -1036696865
+direction: 1
+x: 80000000, y: -2147483354
+direction: 1
+x: 80000000, y: 2147483353
+direction: 0
+x: 80000000, y: 294
+direction: 0
+x: 80000000, y: -294
+direction: 1
+x: 80000000, y: 967528672
+direction: 0
+x: 80000000, y: -2147483353
+direction: 1
+x: 80000000, y: 2147483352
+direction: 0
+x: 80000000, y: 295
+direction: 0
+x: 80000000, y: -295
+direction: 1
+x: 80000000, y: -1560923623
+direction: 1
+x: 80000000, y: -2147483352
+direction: 1
+x: 80000000, y: 2147483351
+direction: 0
+x: 80000000, y: 296
+direction: 0
+x: 80000000, y: -296
+direction: 1
+x: 80000000, y: -1426933801
+direction: 1
+x: 80000000, y: -2147483351
+direction: 1
+x: 80000000, y: 2147483350
+direction: 0
+x: 80000000, y: 297
+direction: 0
+x: 80000000, y: -297
+direction: 1
+x: 80000000, y: -1587566059
+direction: 1
+x: 80000000, y: -2147483350
+direction: 1
+x: 80000000, y: 2147483349
+direction: 0
+x: 80000000, y: 298
+direction: 0
+x: 80000000, y: -298
+direction: 1
+x: 80000000, y: 707890024
+direction: 0
+x: 80000000, y: -2147483349
+direction: 1
+x: 80000000, y: 2147483348
+direction: 0
+x: 80000000, y: 299
+direction: 0
+x: 80000000, y: -299
+direction: 1
+x: 80000000, y: -1185015903
+direction: 1
+x: 80000000, y: -2147483348
+direction: 1
+x: 80000000, y: 2147483347
+direction: 0
+x: 80000000, y: 300
+direction: 0
+x: 80000000, y: -300
+direction: 1
+x: 80000000, y: 688118628
+direction: 0
+x: 80000000, y: -2147483347
+direction: 1
+x: 80000000, y: 2147483346
+direction: 0
+x: 80000000, y: 301
+direction: 0
+x: 80000000, y: -301
+direction: 1
+x: 80000000, y: 659669834
+direction: 0
+x: 80000000, y: -2147483346
+direction: 1
+x: 80000000, y: 2147483345
+direction: 0
+x: 80000000, y: 302
+direction: 0
+x: 80000000, y: -302
+direction: 1
+x: 80000000, y: -1693624325
+direction: 1
+x: 80000000, y: -2147483345
+direction: 1
+x: 80000000, y: 2147483344
+direction: 0
+x: 80000000, y: 303
+direction: 0
+x: 80000000, y: -303
+direction: 1
+x: 80000000, y: 898601826
+direction: 0
+x: 80000000, y: -2147483344
+direction: 1
+x: 80000000, y: 2147483343
+direction: 0
+x: 80000000, y: 304
+direction: 0
+x: 80000000, y: -304
+direction: 1
+x: 80000000, y: 713941896
+direction: 0
+x: 80000000, y: -2147483343
+direction: 1
+x: 80000000, y: 2147483342
+direction: 0
+x: 80000000, y: 305
+direction: 0
+x: 80000000, y: -305
+direction: 1
+x: 80000000, y: -146813493
+direction: 1
+x: 80000000, y: -2147483342
+direction: 1
+x: 80000000, y: 2147483341
+direction: 0
+x: 80000000, y: 306
+direction: 0
+x: 80000000, y: -306
+direction: 1
+x: 80000000, y: 1771214572
+direction: 0
+x: 80000000, y: -2147483341
+direction: 1
+x: 80000000, y: 2147483340
+direction: 0
+x: 80000000, y: 307
+direction: 0
+x: 80000000, y: -307
+direction: 1
+x: 80000000, y: 207512900
+direction: 0
+x: 80000000, y: -2147483340
+direction: 1
+x: 80000000, y: 2147483339
+direction: 0
+x: 80000000, y: 308
+direction: 0
+x: 80000000, y: -308
+direction: 1
+x: 80000000, y: 237040758
+direction: 0
+x: 80000000, y: -2147483339
+direction: 1
+x: 80000000, y: 2147483338
+direction: 0
+x: 80000000, y: 309
+direction: 0
+x: 80000000, y: -309
+direction: 1
+x: 80000000, y: 1142705732
+direction: 0
+x: 80000000, y: -2147483338
+direction: 1
+x: 80000000, y: 2147483337
+direction: 0
+x: 80000000, y: 310
+direction: 0
+x: 80000000, y: -310
+direction: 1
+x: 80000000, y: -1371394779
+direction: 1
+x: 80000000, y: -2147483337
+direction: 1
+x: 80000000, y: 2147483336
+direction: 0
+x: 80000000, y: 311
+direction: 0
+x: 80000000, y: -311
+direction: 1
+x: 80000000, y: -775756821
+direction: 1
+x: 80000000, y: -2147483336
+direction: 1
+x: 80000000, y: 2147483335
+direction: 0
+x: 80000000, y: 312
+direction: 0
+x: 80000000, y: -312
+direction: 1
+x: 80000000, y: 493082902
+direction: 0
+x: 80000000, y: -2147483335
+direction: 1
+x: 80000000, y: 2147483334
+direction: 0
+x: 80000000, y: 313
+direction: 0
+x: 80000000, y: -313
+direction: 1
+x: 80000000, y: 1239277886
+direction: 0
+x: 80000000, y: -2147483334
+direction: 1
+x: 80000000, y: 2147483333
+direction: 0
+x: 80000000, y: 314
+direction: 0
+x: 80000000, y: -314
+direction: 1
+x: 80000000, y: -1337304947
+direction: 1
+x: 80000000, y: -2147483333
+direction: 1
+x: 80000000, y: 2147483332
+direction: 0
+x: 80000000, y: 315
+direction: 0
+x: 80000000, y: -315
+direction: 1
+x: 80000000, y: -518331967
+direction: 1
+x: 80000000, y: -2147483332
+direction: 1
+x: 80000000, y: 2147483331
+direction: 0
+x: 80000000, y: 316
+direction: 0
+x: 80000000, y: -316
+direction: 1
+x: 80000000, y: -1352605891
+direction: 1
+x: 80000000, y: -2147483331
+direction: 1
+x: 80000000, y: 2147483330
+direction: 0
+x: 80000000, y: 317
+direction: 0
+x: 80000000, y: -317
+direction: 1
+x: 80000000, y: 2131870246
+direction: 0
+x: 80000000, y: -2147483330
+direction: 1
+x: 80000000, y: 2147483329
+direction: 0
+x: 80000000, y: 318
+direction: 0
+x: 80000000, y: -318
+direction: 1
+x: 80000000, y: -1498760541
+direction: 1
+x: 80000000, y: -2147483329
+direction: 1
+x: 80000000, y: 2147483328
+direction: 0
+x: 80000000, y: 319
+direction: 0
+x: 80000000, y: -319
+direction: 1
+x: 80000000, y: -384046575
+direction: 1
+x: 80000000, y: -2147483328
+direction: 1
+x: 80000000, y: 2147483327
+direction: 0
+x: 80000000, y: 320
+direction: 0
+x: 80000000, y: -320
+direction: 1
+x: 80000000, y: -331368157
+direction: 1
+x: 80000000, y: -2147483327
+direction: 1
+x: 80000000, y: 2147483326
+direction: 0
+x: 80000000, y: 321
+direction: 0
+x: 80000000, y: -321
+direction: 1
+x: 80000000, y: 1341216876
+direction: 0
+x: 80000000, y: -2147483326
+direction: 1
+x: 80000000, y: 2147483325
+direction: 0
+x: 80000000, y: 322
+direction: 0
+x: 80000000, y: -322
+direction: 1
+x: 80000000, y: -1695658353
+direction: 1
+x: 80000000, y: -2147483325
+direction: 1
+x: 80000000, y: 2147483324
+direction: 0
+x: 80000000, y: 323
+direction: 0
+x: 80000000, y: -323
+direction: 1
+x: 80000000, y: -1407104679
+direction: 1
+x: 80000000, y: -2147483324
+direction: 1
+x: 80000000, y: 2147483323
+direction: 0
+x: 80000000, y: 324
+direction: 0
+x: 80000000, y: -324
+direction: 1
+x: 80000000, y: -1842963637
+direction: 1
+x: 80000000, y: -2147483323
+direction: 1
+x: 80000000, y: 2147483322
+direction: 0
+x: 80000000, y: 325
+direction: 0
+x: 80000000, y: -325
+direction: 1
+x: 80000000, y: 1419353966
+direction: 0
+x: 80000000, y: -2147483322
+direction: 1
+x: 80000000, y: 2147483321
+direction: 0
+x: 80000000, y: 326
+direction: 0
+x: 80000000, y: -326
+direction: 1
+x: 80000000, y: -820544655
+direction: 1
+x: 80000000, y: -2147483321
+direction: 1
+x: 80000000, y: 2147483320
+direction: 0
+x: 80000000, y: 327
+direction: 0
+x: 80000000, y: -327
+direction: 1
+x: 80000000, y: -1122413789
+direction: 1
+x: 80000000, y: -2147483320
+direction: 1
+x: 80000000, y: 2147483319
+direction: 0
+x: 80000000, y: 328
+direction: 0
+x: 80000000, y: -328
+direction: 1
+x: 80000000, y: 1979271556
+direction: 0
+x: 80000000, y: -2147483319
+direction: 1
+x: 80000000, y: 2147483318
+direction: 0
+x: 80000000, y: 329
+direction: 0
+x: 80000000, y: -329
+direction: 1
+x: 80000000, y: 2034829016
+direction: 0
+x: 80000000, y: -2147483318
+direction: 1
+x: 80000000, y: 2147483317
+direction: 0
+x: 80000000, y: 330
+direction: 0
+x: 80000000, y: -330
+direction: 1
+x: 80000000, y: -159946045
+direction: 1
+x: 80000000, y: -2147483317
+direction: 1
+x: 80000000, y: 2147483316
+direction: 0
+x: 80000000, y: 331
+direction: 0
+x: 80000000, y: -331
+direction: 1
+x: 80000000, y: 519906536
+direction: 0
+x: 80000000, y: -2147483316
+direction: 1
+x: 80000000, y: 2147483315
+direction: 0
+x: 80000000, y: 332
+direction: 0
+x: 80000000, y: -332
+direction: 1
+x: 80000000, y: 547015202
+direction: 0
+x: 80000000, y: -2147483315
+direction: 1
+x: 80000000, y: 2147483314
+direction: 0
+x: 80000000, y: 333
+direction: 0
+x: 80000000, y: -333
+direction: 1
+x: 80000000, y: 293913276
+direction: 0
+x: 80000000, y: -2147483314
+direction: 1
+x: 80000000, y: 2147483313
+direction: 0
+x: 80000000, y: 334
+direction: 0
+x: 80000000, y: -334
+direction: 1
+x: 80000000, y: -728975283
+direction: 1
+x: 80000000, y: -2147483313
+direction: 1
+x: 80000000, y: 2147483312
+direction: 0
+x: 80000000, y: 335
+direction: 0
+x: 80000000, y: -335
+direction: 1
+x: 80000000, y: -886526547
+direction: 1
+x: 80000000, y: -2147483312
+direction: 1
+x: 80000000, y: 2147483311
+direction: 0
+x: 80000000, y: 336
+direction: 0
+x: 80000000, y: -336
+direction: 1
+x: 80000000, y: -2000383865
+direction: 1
+x: 80000000, y: -2147483311
+direction: 1
+x: 80000000, y: 2147483310
+direction: 0
+x: 80000000, y: 337
+direction: 0
+x: 80000000, y: -337
+direction: 1
+x: 80000000, y: -1105244359
+direction: 1
+x: 80000000, y: -2147483310
+direction: 1
+x: 80000000, y: 2147483309
+direction: 0
+x: 80000000, y: 338
+direction: 0
+x: 80000000, y: -338
+direction: 1
+x: 80000000, y: 1468470000
+direction: 0
+x: 80000000, y: -2147483309
+direction: 1
+x: 80000000, y: 2147483308
+direction: 0
+x: 80000000, y: 339
+direction: 0
+x: 80000000, y: -339
+direction: 1
+x: 80000000, y: 384140542
+direction: 0
+x: 80000000, y: -2147483308
+direction: 1
+x: 80000000, y: 2147483307
+direction: 0
+x: 80000000, y: 340
+direction: 0
+x: 80000000, y: -340
+direction: 1
+x: 80000000, y: -2110022273
+direction: 1
+x: 80000000, y: -2147483307
+direction: 1
+x: 80000000, y: 2147483306
+direction: 0
+x: 80000000, y: 341
+direction: 0
+x: 80000000, y: -341
+direction: 1
+x: 80000000, y: -2050408427
+direction: 1
+x: 80000000, y: -2147483306
+direction: 1
+x: 80000000, y: 2147483305
+direction: 0
+x: 80000000, y: 342
+direction: 0
+x: 80000000, y: -342
+direction: 1
+x: 80000000, y: 1755867368
+direction: 0
+x: 80000000, y: -2147483305
+direction: 1
+x: 80000000, y: 2147483304
+direction: 0
+x: 80000000, y: 343
+direction: 0
+x: 80000000, y: -343
+direction: 1
+x: 80000000, y: 530544276
+direction: 0
+x: 80000000, y: -2147483304
+direction: 1
+x: 80000000, y: 2147483303
+direction: 0
+x: 80000000, y: 344
+direction: 0
+x: 80000000, y: -344
+direction: 1
+x: 80000000, y: 1336353108
+direction: 0
+x: 80000000, y: -2147483303
+direction: 1
+x: 80000000, y: 2147483302
+direction: 0
+x: 80000000, y: 345
+direction: 0
+x: 80000000, y: -345
+direction: 1
+x: 80000000, y: -1728921225
+direction: 1
+x: 80000000, y: -2147483302
+direction: 1
+x: 80000000, y: 2147483301
+direction: 0
+x: 80000000, y: 346
+direction: 0
+x: 80000000, y: -346
+direction: 1
+x: 80000000, y: -2135271339
+direction: 1
+x: 80000000, y: -2147483301
+direction: 1
+x: 80000000, y: 2147483300
+direction: 0
+x: 80000000, y: 347
+direction: 0
+x: 80000000, y: -347
+direction: 1
+x: 80000000, y: 2131230864
+direction: 0
+x: 80000000, y: -2147483300
+direction: 1
+x: 80000000, y: 2147483299
+direction: 0
+x: 80000000, y: 348
+direction: 0
+x: 80000000, y: -348
+direction: 1
+x: 80000000, y: -1744534627
+direction: 1
+x: 80000000, y: -2147483299
+direction: 1
+x: 80000000, y: 2147483298
+direction: 0
+x: 80000000, y: 349
+direction: 0
+x: 80000000, y: -349
+direction: 1
+x: 80000000, y: -1486548233
+direction: 1
+x: 80000000, y: -2147483298
+direction: 1
+x: 80000000, y: 2147483297
+direction: 0
+x: 80000000, y: 350
+direction: 0
+x: 80000000, y: -350
+direction: 1
+x: 80000000, y: -400299359
+direction: 1
+x: 80000000, y: -2147483297
+direction: 1
+x: 80000000, y: 2147483296
+direction: 0
+x: 80000000, y: 351
+direction: 0
+x: 80000000, y: -351
+direction: 1
+x: 80000000, y: 71580864
+direction: 0
+x: 80000000, y: -2147483296
+direction: 1
+x: 80000000, y: 2147483295
+direction: 0
+x: 80000000, y: 352
+direction: 0
+x: 80000000, y: -352
+direction: 1
+x: 80000000, y: 2002152292
+direction: 0
+x: 80000000, y: -2147483295
+direction: 1
+x: 80000000, y: 2147483294
+direction: 0
+x: 80000000, y: 353
+direction: 0
+x: 80000000, y: -353
+direction: 1
+x: 80000000, y: 51525934
+direction: 0
+x: 80000000, y: -2147483294
+direction: 1
+x: 80000000, y: 2147483293
+direction: 0
+x: 80000000, y: 354
+direction: 0
+x: 80000000, y: -354
+direction: 1
+x: 80000000, y: 811959832
+direction: 0
+x: 80000000, y: -2147483293
+direction: 1
+x: 80000000, y: 2147483292
+direction: 0
+x: 80000000, y: 355
+direction: 0
+x: 80000000, y: -355
+direction: 1
+x: 80000000, y: -1988294993
+direction: 1
+x: 80000000, y: -2147483292
+direction: 1
+x: 80000000, y: 2147483291
+direction: 0
+x: 80000000, y: 356
+direction: 0
+x: 80000000, y: -356
+direction: 1
+x: 80000000, y: -676603745
+direction: 1
+x: 80000000, y: -2147483291
+direction: 1
+x: 80000000, y: 2147483290
+direction: 0
+x: 80000000, y: 357
+direction: 0
+x: 80000000, y: -357
+direction: 1
+x: 80000000, y: 2138898824
+direction: 0
+x: 80000000, y: -2147483290
+direction: 1
+x: 80000000, y: 2147483289
+direction: 0
+x: 80000000, y: 358
+direction: 0
+x: 80000000, y: -358
+direction: 1
+x: 80000000, y: -963225135
+direction: 1
+x: 80000000, y: -2147483289
+direction: 1
+x: 80000000, y: 2147483288
+direction: 0
+x: 80000000, y: 359
+direction: 0
+x: 80000000, y: -359
+direction: 1
+x: 80000000, y: -844815837
+direction: 1
+x: 80000000, y: -2147483288
+direction: 1
+x: 80000000, y: 2147483287
+direction: 0
+x: 80000000, y: 360
+direction: 0
+x: 80000000, y: -360
+direction: 1
+x: 80000000, y: 2026244192
+direction: 0
+x: 80000000, y: -2147483287
+direction: 1
+x: 80000000, y: 2147483286
+direction: 0
+x: 80000000, y: 361
+direction: 0
+x: 80000000, y: -361
+direction: 1
+x: 80000000, y: 1024312466
+direction: 0
+x: 80000000, y: -2147483286
+direction: 1
+x: 80000000, y: 2147483285
+direction: 0
+x: 80000000, y: 362
+direction: 0
+x: 80000000, y: -362
+direction: 1
+x: 80000000, y: 1822574346
+direction: 0
+x: 80000000, y: -2147483285
+direction: 1
+x: 80000000, y: 2147483284
+direction: 0
+x: 80000000, y: 363
+direction: 0
+x: 80000000, y: -363
+direction: 1
+x: 80000000, y: 425775748
+direction: 0
+x: 80000000, y: -2147483284
+direction: 1
+x: 80000000, y: 2147483283
+direction: 0
+x: 80000000, y: 364
+direction: 0
+x: 80000000, y: -364
+direction: 1
+x: 80000000, y: -829257903
+direction: 1
+x: 80000000, y: -2147483283
+direction: 1
+x: 80000000, y: 2147483282
+direction: 0
+x: 80000000, y: 365
+direction: 0
+x: 80000000, y: -365
+direction: 1
+x: 80000000, y: -1053884585
+direction: 1
+x: 80000000, y: -2147483282
+direction: 1
+x: 80000000, y: 2147483281
+direction: 0
+x: 80000000, y: 366
+direction: 0
+x: 80000000, y: -366
+direction: 1
+x: 80000000, y: 1686732848
+direction: 0
+x: 80000000, y: -2147483281
+direction: 1
+x: 80000000, y: 2147483280
+direction: 0
+x: 80000000, y: 367
+direction: 0
+x: 80000000, y: -367
+direction: 1
+x: 80000000, y: -682158121
+direction: 1
+x: 80000000, y: -2147483280
+direction: 1
+x: 80000000, y: 2147483279
+direction: 0
+x: 80000000, y: 368
+direction: 0
+x: 80000000, y: -368
+direction: 1
+x: 80000000, y: -11645295
+direction: 1
+x: 80000000, y: -2147483279
+direction: 1
+x: 80000000, y: 2147483278
+direction: 0
+x: 80000000, y: 369
+direction: 0
+x: 80000000, y: -369
+direction: 1
+x: 80000000, y: 1007719200
+direction: 0
+x: 80000000, y: -2147483278
+direction: 1
+x: 80000000, y: 2147483277
+direction: 0
+x: 80000000, y: 370
+direction: 0
+x: 80000000, y: -370
+direction: 1
+x: 80000000, y: 1849466068
+direction: 0
+x: 80000000, y: -2147483277
+direction: 1
+x: 80000000, y: 2147483276
+direction: 0
+x: 80000000, y: 371
+direction: 0
+x: 80000000, y: -371
+direction: 1
+x: 80000000, y: 25816078
+direction: 0
+x: 80000000, y: -2147483276
+direction: 1
+x: 80000000, y: 2147483275
+direction: 0
+x: 80000000, y: 372
+direction: 0
+x: 80000000, y: -372
+direction: 1
+x: 80000000, y: 1104794420
+direction: 0
+x: 80000000, y: -2147483275
+direction: 1
+x: 80000000, y: 2147483274
+direction: 0
+x: 80000000, y: 373
+direction: 0
+x: 80000000, y: -373
+direction: 1
+x: 80000000, y: 1457849790
+direction: 0
+x: 80000000, y: -2147483274
+direction: 1
+x: 80000000, y: 2147483273
+direction: 0
+x: 80000000, y: 374
+direction: 0
+x: 80000000, y: -374
+direction: 1
+x: 80000000, y: -1591123293
+direction: 1
+x: 80000000, y: -2147483273
+direction: 1
+x: 80000000, y: 2147483272
+direction: 0
+x: 80000000, y: 375
+direction: 0
+x: 80000000, y: -375
+direction: 1
+x: 80000000, y: 293663880
+direction: 0
+x: 80000000, y: -2147483272
+direction: 1
+x: 80000000, y: 2147483271
+direction: 0
+x: 80000000, y: 376
+direction: 0
+x: 80000000, y: -376
+direction: 1
+x: 80000000, y: 1876412212
+direction: 0
+x: 80000000, y: -2147483271
+direction: 1
+x: 80000000, y: 2147483270
+direction: 0
+x: 80000000, y: 377
+direction: 0
+x: 80000000, y: -377
+direction: 1
+x: 80000000, y: -1578910985
+direction: 1
+x: 80000000, y: -2147483270
+direction: 1
+x: 80000000, y: 2147483269
+direction: 0
+x: 80000000, y: 378
+direction: 0
+x: 80000000, y: -378
+direction: 1
+x: 80000000, y: 277411096
+direction: 0
+x: 80000000, y: -2147483269
+direction: 1
+x: 80000000, y: 2147483268
+direction: 0
+x: 80000000, y: 379
+direction: 0
+x: 80000000, y: -379
+direction: 1
+x: 80000000, y: -2015606063
+direction: 1
+x: 80000000, y: -2147483268
+direction: 1
+x: 80000000, y: 2147483267
+direction: 0
+x: 80000000, y: 380
+direction: 0
+x: 80000000, y: -380
+direction: 1
+x: 80000000, y: -917975569
+direction: 1
+x: 80000000, y: -2147483267
+direction: 1
+x: 80000000, y: 2147483266
+direction: 0
+x: 80000000, y: 381
+direction: 0
+x: 80000000, y: -381
+direction: 1
+x: 80000000, y: 2024595384
+direction: 0
+x: 80000000, y: -2147483266
+direction: 1
+x: 80000000, y: 2147483265
+direction: 0
+x: 80000000, y: 382
+direction: 0
+x: 80000000, y: -382
+direction: 1
+x: 80000000, y: 203458448
+direction: 0
+x: 80000000, y: -2147483265
+direction: 1
+x: 80000000, y: 2147483264
+direction: 0
+x: 80000000, y: 383
+direction: 0
+x: 80000000, y: -383
+direction: 1
+x: 80000000, y: -1063306925
+direction: 1
+x: 80000000, y: -2147483264
+direction: 1
+x: 80000000, y: 2147483263
+direction: 0
+x: 80000000, y: 384
+direction: 0
+x: 80000000, y: -384
+direction: 1
+x: 80000000, y: -71362327
+direction: 1
+x: 80000000, y: -2147483263
+direction: 1
+x: 80000000, y: 2147483262
+direction: 0
+x: 80000000, y: 385
+direction: 0
+x: 80000000, y: -385
+direction: 1
+x: 80000000, y: -1132065367
+direction: 1
+x: 80000000, y: -2147483262
+direction: 1
+x: 80000000, y: 2147483261
+direction: 0
+x: 80000000, y: 386
+direction: 0
+x: 80000000, y: -386
+direction: 1
+x: 80000000, y: -904118271
+direction: 1
+x: 80000000, y: -2147483261
+direction: 1
+x: 80000000, y: 2147483260
+direction: 0
+x: 80000000, y: 387
+direction: 0
+x: 80000000, y: -387
+direction: 1
+x: 80000000, y: 1399517574
+direction: 0
+x: 80000000, y: -2147483260
+direction: 1
+x: 80000000, y: 2147483259
+direction: 0
+x: 80000000, y: 388
+direction: 0
+x: 80000000, y: -388
+direction: 1
+x: 80000000, y: -1140650191
+direction: 1
+x: 80000000, y: -2147483259
+direction: 1
+x: 80000000, y: 2147483258
+direction: 0
+x: 80000000, y: 389
+direction: 0
+x: 80000000, y: -389
+direction: 1
+x: 80000000, y: 280140242
+direction: 0
+x: 80000000, y: -2147483258
+direction: 1
+x: 80000000, y: 2147483257
+direction: 0
+x: 80000000, y: 390
+direction: 0
+x: 80000000, y: -390
+direction: 1
+x: 80000000, y: -1592781911
+direction: 1
+x: 80000000, y: -2147483257
+direction: 1
+x: 80000000, y: 2147483256
+direction: 0
+x: 80000000, y: 391
+direction: 0
+x: 80000000, y: -391
+direction: 1
+x: 80000000, y: -1261889645
+direction: 1
+x: 80000000, y: -2147483256
+direction: 1
+x: 80000000, y: 2147483255
+direction: 0
+x: 80000000, y: 392
+direction: 0
+x: 80000000, y: -392
+direction: 1
+x: 80000000, y: -843030939
+direction: 1
+x: 80000000, y: -2147483255
+direction: 1
+x: 80000000, y: 2147483254
+direction: 0
+x: 80000000, y: 393
+direction: 0
+x: 80000000, y: -393
+direction: 1
+x: 80000000, y: -1917691213
+direction: 1
+x: 80000000, y: -2147483254
+direction: 1
+x: 80000000, y: 2147483253
+direction: 0
+x: 80000000, y: 394
+direction: 0
+x: 80000000, y: -394
+direction: 1
+x: 80000000, y: 1311369750
+direction: 0
+x: 80000000, y: -2147483253
+direction: 1
+x: 80000000, y: 2147483252
+direction: 0
+x: 80000000, y: 395
+direction: 0
+x: 80000000, y: -395
+direction: 1
+x: 80000000, y: 475194804
+direction: 0
+x: 80000000, y: -2147483252
+direction: 1
+x: 80000000, y: 2147483251
+direction: 0
+x: 80000000, y: 396
+direction: 0
+x: 80000000, y: -396
+direction: 1
+x: 80000000, y: -824092149
+direction: 1
+x: 80000000, y: -2147483251
+direction: 1
+x: 80000000, y: 2147483250
+direction: 0
+x: 80000000, y: 397
+direction: 0
+x: 80000000, y: -397
+direction: 1
+x: 80000000, y: 850618950
+direction: 0
+x: 80000000, y: -2147483250
+direction: 1
+x: 80000000, y: 2147483249
+direction: 0
+x: 80000000, y: 398
+direction: 0
+x: 80000000, y: -398
+direction: 1
+x: 80000000, y: 1940520332
+direction: 0
+x: 80000000, y: -2147483249
+direction: 1
+x: 80000000, y: 2147483248
+direction: 0
+x: 80000000, y: 399
+direction: 0
+x: 80000000, y: -399
+direction: 1
+x: 80000000, y: 1311746202
+direction: 0
+x: 80000000, y: -2147483248
+direction: 1
+x: 80000000, y: 2147483247
+direction: 0
+x: 80000000, y: 400
+direction: 0
+x: 80000000, y: -400
+direction: 1
+x: 80000000, y: -289145497
+direction: 1
+x: 80000000, y: -2147483247
+direction: 1
+x: 80000000, y: 2147483246
+direction: 0
+x: 80000000, y: 401
+direction: 0
+x: 80000000, y: -401
+direction: 1
+x: 80000000, y: 1642502752
+direction: 0
+x: 80000000, y: -2147483246
+direction: 1
+x: 80000000, y: 2147483245
+direction: 0
+x: 80000000, y: 402
+direction: 0
+x: 80000000, y: -402
+direction: 1
+x: 80000000, y: -809921367
+direction: 1
+x: 80000000, y: -2147483245
+direction: 1
+x: 80000000, y: 2147483244
+direction: 0
+x: 80000000, y: 403
+direction: 0
+x: 80000000, y: -403
+direction: 1
+x: 80000000, y: -1331834725
+direction: 1
+x: 80000000, y: -2147483244
+direction: 1
+x: 80000000, y: 2147483243
+direction: 0
+x: 80000000, y: 404
+direction: 0
+x: 80000000, y: -404
+direction: 1
+x: 80000000, y: 952868894
+direction: 0
+x: 80000000, y: -2147483243
+direction: 1
+x: 80000000, y: 2147483242
+direction: 0
+x: 80000000, y: 405
+direction: 0
+x: 80000000, y: -405
+direction: 1
+x: 80000000, y: -253561013
+direction: 1
+x: 80000000, y: -2147483242
+direction: 1
+x: 80000000, y: 2147483241
+direction: 0
+x: 80000000, y: 406
+direction: 0
+x: 80000000, y: -406
+direction: 1
+x: 80000000, y: 1109312804
+direction: 0
+x: 80000000, y: -2147483241
+direction: 1
+x: 80000000, y: 2147483240
+direction: 0
+x: 80000000, y: 407
+direction: 0
+x: 80000000, y: -407
+direction: 1
+x: 80000000, y: 681797458
+direction: 0
+x: 80000000, y: -2147483240
+direction: 1
+x: 80000000, y: 2147483239
+direction: 0
+x: 80000000, y: 408
+direction: 0
+x: 80000000, y: -408
+direction: 1
+x: 80000000, y: 315011648
+direction: 0
+x: 80000000, y: -2147483239
+direction: 1
+x: 80000000, y: 2147483238
+direction: 0
+x: 80000000, y: 409
+direction: 0
+x: 80000000, y: -409
+direction: 1
+x: 80000000, y: -760759747
+direction: 1
+x: 80000000, y: -2147483238
+direction: 1
+x: 80000000, y: 2147483237
+direction: 0
+x: 80000000, y: 410
+direction: 0
+x: 80000000, y: -410
+direction: 1
+x: 80000000, y: 813675044
+direction: 0
+x: 80000000, y: -2147483237
+direction: 1
+x: 80000000, y: 2147483236
+direction: 0
+x: 80000000, y: 411
+direction: 0
+x: 80000000, y: -411
+direction: 1
+x: 80000000, y: 1544519726
+direction: 0
+x: 80000000, y: -2147483236
+direction: 1
+x: 80000000, y: 2147483235
+direction: 0
+x: 80000000, y: 412
+direction: 0
+x: 80000000, y: -412
+direction: 1
+x: 80000000, y: -883648009
+direction: 1
+x: 80000000, y: -2147483235
+direction: 1
+x: 80000000, y: 2147483234
+direction: 0
+x: 80000000, y: 413
+direction: 0
+x: 80000000, y: -413
+direction: 1
+x: 80000000, y: -1130350155
+direction: 1
+x: 80000000, y: -2147483234
+direction: 1
+x: 80000000, y: 2147483233
+direction: 0
+x: 80000000, y: 414
+direction: 0
+x: 80000000, y: -414
+direction: 1
+x: 80000000, y: -1666270847
+direction: 1
+x: 80000000, y: -2147483233
+direction: 1
+x: 80000000, y: 2147483232
+direction: 0
+x: 80000000, y: 415
+direction: 0
+x: 80000000, y: -415
+direction: 1
+x: 80000000, y: 1192473310
+direction: 0
+x: 80000000, y: -2147483232
+direction: 1
+x: 80000000, y: 2147483231
+direction: 0
+x: 80000000, y: 416
+direction: 0
+x: 80000000, y: -416
+direction: 1
+x: 80000000, y: -114931873
+direction: 1
+x: 80000000, y: -2147483231
+direction: 1
+x: 80000000, y: 2147483230
+direction: 0
+x: 80000000, y: 417
+direction: 0
+x: 80000000, y: -417
+direction: 1
+x: 80000000, y: -422905469
+direction: 1
+x: 80000000, y: -2147483230
+direction: 1
+x: 80000000, y: 2147483229
+direction: 0
+x: 80000000, y: 418
+direction: 0
+x: 80000000, y: -418
+direction: 1
+x: 80000000, y: 444507236
+direction: 0
+x: 80000000, y: -2147483229
+direction: 1
+x: 80000000, y: 2147483228
+direction: 0
+x: 80000000, y: 419
+direction: 0
+x: 80000000, y: -419
+direction: 1
+x: 80000000, y: 891901582
+direction: 0
+x: 80000000, y: -2147483228
+direction: 1
+x: 80000000, y: 2147483227
+direction: 0
+x: 80000000, y: 420
+direction: 0
+x: 80000000, y: -420
+direction: 1
+x: 80000000, y: 2004718420
+direction: 0
+x: 80000000, y: -2147483227
+direction: 1
+x: 80000000, y: 2147483226
+direction: 0
+x: 80000000, y: 421
+direction: 0
+x: 80000000, y: -421
+direction: 1
+x: 80000000, y: 999208972
+direction: 0
+x: 80000000, y: -2147483226
+direction: 1
+x: 80000000, y: 2147483225
+direction: 0
+x: 80000000, y: 422
+direction: 0
+x: 80000000, y: -422
+direction: 1
+x: 80000000, y: 1777495584
+direction: 0
+x: 80000000, y: -2147483225
+direction: 1
+x: 80000000, y: 2147483224
+direction: 0
+x: 80000000, y: 423
+direction: 0
+x: 80000000, y: -423
+direction: 1
+x: 80000000, y: -985796167
+direction: 1
+x: 80000000, y: -2147483224
+direction: 1
+x: 80000000, y: 2147483223
+direction: 0
+x: 80000000, y: 424
+direction: 0
+x: 80000000, y: -424
+direction: 1
+x: 80000000, y: 1229001406
+direction: 0
+x: 80000000, y: -2147483223
+direction: 1
+x: 80000000, y: 2147483222
+direction: 0
+x: 80000000, y: 425
+direction: 0
+x: 80000000, y: -425
+direction: 1
+x: 80000000, y: 941381686
+direction: 0
+x: 80000000, y: -2147483222
+direction: 1
+x: 80000000, y: 2147483221
+direction: 0
+x: 80000000, y: 426
+direction: 0
+x: 80000000, y: -426
+direction: 1
+x: 80000000, y: 1636882286
+direction: 0
+x: 80000000, y: -2147483221
+direction: 1
+x: 80000000, y: 2147483220
+direction: 0
+x: 80000000, y: 427
+direction: 0
+x: 80000000, y: -427
+direction: 1
+x: 80000000, y: -1742574391
+direction: 1
+x: 80000000, y: -2147483220
+direction: 1
+x: 80000000, y: 2147483219
+direction: 0
+x: 80000000, y: 428
+direction: 0
+x: 80000000, y: -428
+direction: 1
+x: 80000000, y: -355483011
+direction: 1
+x: 80000000, y: -2147483219
+direction: 1
+x: 80000000, y: 2147483218
+direction: 0
+x: 80000000, y: 429
+direction: 0
+x: 80000000, y: -429
+direction: 1
+x: 80000000, y: 1429918970
+direction: 0
+x: 80000000, y: -2147483218
+direction: 1
+x: 80000000, y: 2147483217
+direction: 0
+x: 80000000, y: 430
+direction: 0
+x: 80000000, y: -430
+direction: 1
+x: 80000000, y: 1716655458
+direction: 0
+x: 80000000, y: -2147483217
+direction: 1
+x: 80000000, y: 2147483216
+direction: 0
+x: 80000000, y: 431
+direction: 0
+x: 80000000, y: -431
+direction: 1
+x: 80000000, y: 1502855138
+direction: 0
+x: 80000000, y: -2147483216
+direction: 1
+x: 80000000, y: 2147483215
+direction: 0
+x: 80000000, y: 432
+direction: 0
+x: 80000000, y: -432
+direction: 1
+x: 80000000, y: 924938074
+direction: 0
+x: 80000000, y: -2147483215
+direction: 1
+x: 80000000, y: 2147483214
+direction: 0
+x: 80000000, y: 433
+direction: 0
+x: 80000000, y: -433
+direction: 1
+x: 80000000, y: -1240749557
+direction: 1
+x: 80000000, y: -2147483214
+direction: 1
+x: 80000000, y: 2147483213
+direction: 0
+x: 80000000, y: 434
+direction: 0
+x: 80000000, y: -434
+direction: 1
+x: 80000000, y: -1976463233
+direction: 1
+x: 80000000, y: -2147483213
+direction: 1
+x: 80000000, y: 2147483212
+direction: 0
+x: 80000000, y: 435
+direction: 0
+x: 80000000, y: -435
+direction: 1
+x: 80000000, y: -269676677
+direction: 1
+x: 80000000, y: -2147483212
+direction: 1
+x: 80000000, y: 2147483211
+direction: 0
+x: 80000000, y: 436
+direction: 0
+x: 80000000, y: -436
+direction: 1
+x: 80000000, y: 653173076
+direction: 0
+x: 80000000, y: -2147483211
+direction: 1
+x: 80000000, y: 2147483210
+direction: 0
+x: 80000000, y: 437
+direction: 0
+x: 80000000, y: -437
+direction: 1
+x: 80000000, y: 1280333218
+direction: 0
+x: 80000000, y: -2147483210
+direction: 1
+x: 80000000, y: 2147483209
+direction: 0
+x: 80000000, y: 438
+direction: 0
+x: 80000000, y: -438
+direction: 1
+x: 80000000, y: -1735362867
+direction: 1
+x: 80000000, y: -2147483209
+direction: 1
+x: 80000000, y: 2147483208
+direction: 0
+x: 80000000, y: 439
+direction: 0
+x: 80000000, y: -439
+direction: 1
+x: 80000000, y: -1179298921
+direction: 1
+x: 80000000, y: -2147483208
+direction: 1
+x: 80000000, y: 2147483207
+direction: 0
+x: 80000000, y: 440
+direction: 0
+x: 80000000, y: -440
+direction: 1
+x: 80000000, y: -1627910177
+direction: 1
+x: 80000000, y: -2147483207
+direction: 1
+x: 80000000, y: 2147483206
+direction: 0
+x: 80000000, y: 441
+direction: 0
+x: 80000000, y: -441
+direction: 1
+x: 80000000, y: 1225795824
+direction: 0
+x: 80000000, y: -2147483206
+direction: 1
+x: 80000000, y: 2147483205
+direction: 0
+x: 80000000, y: 442
+direction: 0
+x: 80000000, y: -442
+direction: 1
+x: 80000000, y: -1782262843
+direction: 1
+x: 80000000, y: -2147483205
+direction: 1
+x: 80000000, y: 2147483204
+direction: 0
+x: 80000000, y: 443
+direction: 0
+x: 80000000, y: -443
+direction: 1
+x: 80000000, y: -364074539
+direction: 1
+x: 80000000, y: -2147483204
+direction: 1
+x: 80000000, y: 2147483203
+direction: 0
+x: 80000000, y: 444
+direction: 0
+x: 80000000, y: -444
+direction: 1
+x: 80000000, y: -2052037977
+direction: 1
+x: 80000000, y: -2147483203
+direction: 1
+x: 80000000, y: 2147483202
+direction: 0
+x: 80000000, y: 445
+direction: 0
+x: 80000000, y: -445
+direction: 1
+x: 80000000, y: -1301050041
+direction: 1
+x: 80000000, y: -2147483202
+direction: 1
+x: 80000000, y: 2147483201
+direction: 0
+x: 80000000, y: 446
+direction: 0
+x: 80000000, y: -446
+direction: 1
+x: 80000000, y: -1319084877
+direction: 1
+x: 80000000, y: -2147483201
+direction: 1
+x: 80000000, y: 2147483200
+direction: 0
+x: 80000000, y: 447
+direction: 0
+x: 80000000, y: -447
+direction: 1
+x: 80000000, y: -19486203
+direction: 1
+x: 80000000, y: -2147483200
+direction: 1
+x: 80000000, y: 2147483199
+direction: 0
+x: 80000000, y: 448
+direction: 0
+x: 80000000, y: -448
+direction: 1
+x: 80000000, y: 423528136
+direction: 0
+x: 80000000, y: -2147483199
+direction: 1
+x: 80000000, y: 2147483198
+direction: 0
+x: 80000000, y: 449
+direction: 0
+x: 80000000, y: -449
+direction: 1
+x: 80000000, y: 1272906006
+direction: 0
+x: 80000000, y: -2147483198
+direction: 1
+x: 80000000, y: 2147483197
+direction: 0
+x: 80000000, y: 450
+direction: 0
+x: 80000000, y: -450
+direction: 1
+x: 80000000, y: -1275068269
+direction: 1
+x: 80000000, y: -2147483197
+direction: 1
+x: 80000000, y: 2147483196
+direction: 0
+x: 80000000, y: 451
+direction: 0
+x: 80000000, y: -451
+direction: 1
+x: 80000000, y: 280762908
+direction: 0
+x: 80000000, y: -2147483196
+direction: 1
+x: 80000000, y: 2147483195
+direction: 0
+x: 80000000, y: 452
+direction: 0
+x: 80000000, y: -452
+direction: 1
+x: 80000000, y: 124631330
+direction: 0
+x: 80000000, y: -2147483195
+direction: 1
+x: 80000000, y: 2147483194
+direction: 0
+x: 80000000, y: 453
+direction: 0
+x: 80000000, y: -453
+direction: 1
+x: 80000000, y: -1645056331
+direction: 1
+x: 80000000, y: -2147483194
+direction: 1
+x: 80000000, y: 2147483193
+direction: 0
+x: 80000000, y: 454
+direction: 0
+x: 80000000, y: -454
+direction: 1
+x: 80000000, y: 1442450388
+direction: 0
+x: 80000000, y: -2147483193
+direction: 1
+x: 80000000, y: 2147483192
+direction: 0
+x: 80000000, y: 455
+direction: 0
+x: 80000000, y: -455
+direction: 1
+x: 80000000, y: -793850909
+direction: 1
+x: 80000000, y: -2147483192
+direction: 1
+x: 80000000, y: 2147483191
+direction: 0
+x: 80000000, y: 456
+direction: 0
+x: 80000000, y: -456
+direction: 1
+x: 80000000, y: 1443809002
+direction: 0
+x: 80000000, y: -2147483191
+direction: 1
+x: 80000000, y: 2147483190
+direction: 0
+x: 80000000, y: 457
+direction: 0
+x: 80000000, y: -457
+direction: 1
+x: 80000000, y: 931849026
+direction: 0
+x: 80000000, y: -2147483190
+direction: 1
+x: 80000000, y: 2147483189
+direction: 0
+x: 80000000, y: 458
+direction: 0
+x: 80000000, y: -458
+direction: 1
+x: 80000000, y: -388941653
+direction: 1
+x: 80000000, y: -2147483189
+direction: 1
+x: 80000000, y: 2147483188
+direction: 0
+x: 80000000, y: 459
+direction: 0
+x: 80000000, y: -459
+direction: 1
+x: 80000000, y: -1059157655
+direction: 1
+x: 80000000, y: -2147483188
+direction: 1
+x: 80000000, y: 2147483187
+direction: 0
+x: 80000000, y: 460
+direction: 0
+x: 80000000, y: -460
+direction: 1
+x: 80000000, y: 214284348
+direction: 0
+x: 80000000, y: -2147483187
+direction: 1
+x: 80000000, y: 2147483186
+direction: 0
+x: 80000000, y: 461
+direction: 0
+x: 80000000, y: -461
+direction: 1
+x: 80000000, y: -819769841
+direction: 1
+x: 80000000, y: -2147483186
+direction: 1
+x: 80000000, y: 2147483185
+direction: 0
+x: 80000000, y: 462
+direction: 0
+x: 80000000, y: -462
+direction: 1
+x: 80000000, y: -1703786165
+direction: 1
+x: 80000000, y: -2147483185
+direction: 1
+x: 80000000, y: 2147483184
+direction: 0
+x: 80000000, y: 463
+direction: 0
+x: 80000000, y: -463
+direction: 1
+x: 80000000, y: -1008261223
+direction: 1
+x: 80000000, y: -2147483184
+direction: 1
+x: 80000000, y: 2147483183
+direction: 0
+x: 80000000, y: 464
+direction: 0
+x: 80000000, y: -464
+direction: 1
+x: 80000000, y: 86964248
+direction: 0
+x: 80000000, y: -2147483183
+direction: 1
+x: 80000000, y: 2147483182
+direction: 0
+x: 80000000, y: 465
+direction: 0
+x: 80000000, y: -465
+direction: 1
+x: 80000000, y: -1532765751
+direction: 1
+x: 80000000, y: -2147483182
+direction: 1
+x: 80000000, y: 2147483181
+direction: 0
+x: 80000000, y: 466
+direction: 0
+x: 80000000, y: -466
+direction: 1
+x: 80000000, y: 869545746
+direction: 0
+x: 80000000, y: -2147483181
+direction: 1
+x: 80000000, y: 2147483180
+direction: 0
+x: 80000000, y: 467
+direction: 0
+x: 80000000, y: -467
+direction: 1
+x: 80000000, y: -1407346321
+direction: 1
+x: 80000000, y: -2147483180
+direction: 1
+x: 80000000, y: 2147483179
+direction: 0
+x: 80000000, y: 468
+direction: 0
+x: 80000000, y: -468
+direction: 1
+x: 80000000, y: 1895051114
+direction: 0
+x: 80000000, y: -2147483179
+direction: 1
+x: 80000000, y: 2147483178
+direction: 0
+x: 80000000, y: 469
+direction: 0
+x: 80000000, y: -469
+direction: 1
+x: 80000000, y: 1281666526
+direction: 0
+x: 80000000, y: -2147483178
+direction: 1
+x: 80000000, y: 2147483177
+direction: 0
+x: 80000000, y: 470
+direction: 0
+x: 80000000, y: -470
+direction: 1
+x: 80000000, y: -439161595
+direction: 1
+x: 80000000, y: -2147483177
+direction: 1
+x: 80000000, y: 2147483176
+direction: 0
+x: 80000000, y: 471
+direction: 0
+x: 80000000, y: -471
+direction: 1
+x: 80000000, y: -1880342709
+direction: 1
+x: 80000000, y: -2147483176
+direction: 1
+x: 80000000, y: 2147483175
+direction: 0
+x: 80000000, y: 472
+direction: 0
+x: 80000000, y: -472
+direction: 1
+x: 80000000, y: 359978704
+direction: 0
+x: 80000000, y: -2147483175
+direction: 1
+x: 80000000, y: 2147483174
+direction: 0
+x: 80000000, y: 473
+direction: 0
+x: 80000000, y: -473
+direction: 1
+x: 80000000, y: -73940791
+direction: 1
+x: 80000000, y: -2147483174
+direction: 1
+x: 80000000, y: 2147483173
+direction: 0
+x: 80000000, y: 474
+direction: 0
+x: 80000000, y: -474
+direction: 1
+x: 80000000, y: -96933601
+direction: 1
+x: 80000000, y: -2147483173
+direction: 1
+x: 80000000, y: 2147483172
+direction: 0
+x: 80000000, y: 475
+direction: 0
+x: 80000000, y: -475
+direction: 1
+x: 80000000, y: 455424374
+direction: 0
+x: 80000000, y: -2147483172
+direction: 1
+x: 80000000, y: 2147483171
+direction: 0
+x: 80000000, y: 476
+direction: 0
+x: 80000000, y: -476
+direction: 1
+x: 80000000, y: 772492814
+direction: 0
+x: 80000000, y: -2147483171
+direction: 1
+x: 80000000, y: 2147483170
+direction: 0
+x: 80000000, y: 477
+direction: 0
+x: 80000000, y: -477
+direction: 1
+x: 80000000, y: 731465170
+direction: 0
+x: 80000000, y: -2147483170
+direction: 1
+x: 80000000, y: 2147483169
+direction: 0
+x: 80000000, y: 478
+direction: 0
+x: 80000000, y: -478
+direction: 1
+x: 80000000, y: -1711545477
+direction: 1
+x: 80000000, y: -2147483169
+direction: 1
+x: 80000000, y: 2147483168
+direction: 0
+x: 80000000, y: 479
+direction: 0
+x: 80000000, y: -479
+direction: 1
+x: 80000000, y: -951462697
+direction: 1
+x: 80000000, y: -2147483168
+direction: 1
+x: 80000000, y: 2147483167
+direction: 0
+x: 80000000, y: 480
+direction: 0
+x: 80000000, y: -480
+direction: 1
+x: 80000000, y: -143112471
+direction: 1
+x: 80000000, y: -2147483167
+direction: 1
+x: 80000000, y: 2147483166
+direction: 0
+x: 80000000, y: 481
+direction: 0
+x: 80000000, y: -481
+direction: 1
+x: 80000000, y: -839130099
+direction: 1
+x: 80000000, y: -2147483166
+direction: 1
+x: 80000000, y: 2147483165
+direction: 0
+x: 80000000, y: 482
+direction: 0
+x: 80000000, y: -482
+direction: 1
+x: 80000000, y: 1476783858
+direction: 0
+x: 80000000, y: -2147483165
+direction: 1
+x: 80000000, y: 2147483164
+direction: 0
+x: 80000000, y: 483
+direction: 0
+x: 80000000, y: -483
+direction: 1
+x: 80000000, y: 2129002508
+direction: 0
+x: 80000000, y: -2147483164
+direction: 1
+x: 80000000, y: 2147483163
+direction: 0
+x: 80000000, y: 484
+direction: 0
+x: 80000000, y: -484
+direction: 1
+x: 80000000, y: -336702783
+direction: 1
+x: 80000000, y: -2147483163
+direction: 1
+x: 80000000, y: 2147483162
+direction: 0
+x: 80000000, y: 485
+direction: 0
+x: 80000000, y: -485
+direction: 1
+x: 80000000, y: 771750600
+direction: 0
+x: 80000000, y: -2147483162
+direction: 1
+x: 80000000, y: 2147483161
+direction: 0
+x: 80000000, y: 486
+direction: 0
+x: 80000000, y: -486
+direction: 1
+x: 80000000, y: -812332049
+direction: 1
+x: 80000000, y: -2147483161
+direction: 1
+x: 80000000, y: 2147483160
+direction: 0
+x: 80000000, y: 487
+direction: 0
+x: 80000000, y: -487
+direction: 1
+x: 80000000, y: -1040377427
+direction: 1
+x: 80000000, y: -2147483160
+direction: 1
+x: 80000000, y: 2147483159
+direction: 0
+x: 80000000, y: 488
+direction: 0
+x: 80000000, y: -488
+direction: 1
+x: 80000000, y: -443884021
+direction: 1
+x: 80000000, y: -2147483159
+direction: 1
+x: 80000000, y: 2147483158
+direction: 0
+x: 80000000, y: 489
+direction: 0
+x: 80000000, y: -489
+direction: 1
+x: 80000000, y: 946209944
+direction: 0
+x: 80000000, y: -2147483158
+direction: 1
+x: 80000000, y: 2147483157
+direction: 0
+x: 80000000, y: 490
+direction: 0
+x: 80000000, y: -490
+direction: 1
+x: 80000000, y: 47948564
+direction: 0
+x: 80000000, y: -2147483157
+direction: 1
+x: 80000000, y: 2147483156
+direction: 0
+x: 80000000, y: 491
+direction: 0
+x: 80000000, y: -491
+direction: 1
+x: 80000000, y: 1917883976
+direction: 0
+x: 80000000, y: -2147483156
+direction: 1
+x: 80000000, y: 2147483155
+direction: 0
+x: 80000000, y: 492
+direction: 0
+x: 80000000, y: -492
+direction: 1
+x: 80000000, y: -2021043545
+direction: 1
+x: 80000000, y: -2147483155
+direction: 1
+x: 80000000, y: 2147483154
+direction: 0
+x: 80000000, y: 493
+direction: 0
+x: 80000000, y: -493
+direction: 1
+x: 80000000, y: 491646046
+direction: 0
+x: 80000000, y: -2147483154
+direction: 1
+x: 80000000, y: 2147483153
+direction: 0
+x: 80000000, y: 494
+direction: 0
+x: 80000000, y: -494
+direction: 1
+x: 80000000, y: -1237860895
+direction: 1
+x: 80000000, y: -2147483153
+direction: 1
+x: 80000000, y: 2147483152
+direction: 0
+x: 80000000, y: 495
+direction: 0
+x: 80000000, y: -495
+direction: 1
+x: 80000000, y: 213404352
+direction: 0
+x: 80000000, y: -2147483152
+direction: 1
+x: 80000000, y: 2147483151
+direction: 0
+x: 80000000, y: 496
+direction: 0
+x: 80000000, y: -496
+direction: 1
+x: 80000000, y: 1106363944
+direction: 0
+x: 80000000, y: -2147483151
+direction: 1
+x: 80000000, y: 2147483150
+direction: 0
+x: 80000000, y: 497
+direction: 0
+x: 80000000, y: -497
+direction: 1
+x: 80000000, y: 1779168498
+direction: 0
+x: 80000000, y: -2147483150
+direction: 1
+x: 80000000, y: 2147483149
+direction: 0
+x: 80000000, y: 498
+direction: 0
+x: 80000000, y: -498
+direction: 1
+x: 80000000, y: 953541678
+direction: 0
+x: 80000000, y: -2147483149
+direction: 1
+x: 80000000, y: 2147483148
+direction: 0
+x: 80000000, y: 499
+direction: 0
+x: 80000000, y: -499
+direction: 1
+x: 80000000, y: 853931410
+direction: 0
+x: 80000000, y: -2147483148
+direction: 1
+x: 80000000, y: 2147483147
+direction: 0
+x: 80000000, y: 500
+direction: 0
+x: 80000000, y: -500
+direction: 1
+x: 80000000, y: 913351376
+direction: 0
+x: 80000000, y: -2147483147
+direction: 1
+x: 80000000, y: 2147483146
+direction: 0
+x: 80000000, y: 501
+direction: 0
+x: 80000000, y: -501
+direction: 1
+x: 80000000, y: -1633103565
+direction: 1
+x: 80000000, y: -2147483146
+direction: 1
+x: 80000000, y: 2147483145
+direction: 0
+x: 80000000, y: 502
+direction: 0
+x: 80000000, y: -502
+direction: 1
+x: 80000000, y: 1121072348
+direction: 0
+x: 80000000, y: -2147483145
+direction: 1
+x: 80000000, y: 2147483144
+direction: 0
+x: 80000000, y: 503
+direction: 0
+x: 80000000, y: -503
+direction: 1
+x: 80000000, y: -874153567
+direction: 1
+x: 80000000, y: -2147483144
+direction: 1
+x: 80000000, y: 2147483143
+direction: 0
+x: 80000000, y: 504
+direction: 0
+x: 80000000, y: -504
+direction: 1
+x: 80000000, y: 440439290
+direction: 0
+x: 80000000, y: -2147483143
+direction: 1
+x: 80000000, y: 2147483142
+direction: 0
+x: 80000000, y: 505
+direction: 0
+x: 80000000, y: -505
+direction: 1
+x: 80000000, y: -1123344899
+direction: 1
+x: 80000000, y: -2147483142
+direction: 1
+x: 80000000, y: 2147483141
+direction: 0
+x: 80000000, y: 506
+direction: 0
+x: 80000000, y: -506
+direction: 1
+x: 80000000, y: 1728754454
+direction: 0
+x: 80000000, y: -2147483141
+direction: 1
+x: 80000000, y: 2147483140
+direction: 0
+x: 80000000, y: 507
+direction: 0
+x: 80000000, y: -507
+direction: 1
+x: 80000000, y: -934551541
+direction: 1
+x: 80000000, y: -2147483140
+direction: 1
+x: 80000000, y: 2147483139
+direction: 0
+x: 80000000, y: 508
+direction: 0
+x: 80000000, y: -508
+direction: 1
+x: 80000000, y: 1755603918
+direction: 0
+x: 80000000, y: -2147483139
+direction: 1
+x: 80000000, y: 2147483138
+direction: 0
+x: 80000000, y: 509
+direction: 0
+x: 80000000, y: -509
+direction: 1
+x: 80000000, y: -2130274671
+direction: 1
+x: 80000000, y: -2147483138
+direction: 1
+x: 80000000, y: 2147483137
+direction: 0
+x: 80000000, y: 510
+direction: 0
+x: 80000000, y: -510
+direction: 1
+x: 80000000, y: 261469408
+direction: 0
+x: 80000000, y: -2147483137
+direction: 1
+x: 80000000, y: 2147483136
+direction: 0
+x: 80000000, y: 511
+direction: 0
+x: 80000000, y: -511
+direction: 1
+x: 80000000, y: -534992201
+direction: 1
+x: 80000000, y: -2147483136
+direction: 1
+x: 80000000, y: 2147483135
+direction: 0
+x: 80000000, y: 512
+direction: 0
+x: 80000000, y: -512
+direction: 1
+x: 80000000, y: -821921121
+direction: 1
+x: 80000000, y: -2147483135
+direction: 1
+x: 80000000, y: 2147483134
+direction: 0
+x: 80000000, y: 513
+direction: 0
+x: 80000000, y: -513
+direction: 1
+x: 80000000, y: -409230379
+direction: 1
+x: 80000000, y: -2147483134
+direction: 1
+x: 80000000, y: 2147483133
+direction: 0
+x: 80000000, y: 514
+direction: 0
+x: 80000000, y: -514
+direction: 1
+x: 80000000, y: -553473341
+direction: 1
+x: 80000000, y: -2147483133
+direction: 1
+x: 80000000, y: 2147483132
+direction: 0
+x: 80000000, y: 515
+direction: 0
+x: 80000000, y: -515
+direction: 1
+x: 80000000, y: 988859742
+direction: 0
+x: 80000000, y: -2147483132
+direction: 1
+x: 80000000, y: 2147483131
+direction: 0
+x: 80000000, y: 516
+direction: 0
+x: 80000000, y: -516
+direction: 1
+x: 80000000, y: -1784963427
+direction: 1
+x: 80000000, y: -2147483131
+direction: 1
+x: 80000000, y: 2147483130
+direction: 0
+x: 80000000, y: 517
+direction: 0
+x: 80000000, y: -517
+direction: 1
+x: 80000000, y: 781678256
+direction: 0
+x: 80000000, y: -2147483130
+direction: 1
+x: 80000000, y: 2147483129
+direction: 0
+x: 80000000, y: 518
+direction: 0
+x: 80000000, y: -518
+direction: 1
+x: 80000000, y: 2095965962
+direction: 0
+x: 80000000, y: -2147483129
+direction: 1
+x: 80000000, y: 2147483128
+direction: 0
+x: 80000000, y: 519
+direction: 0
+x: 80000000, y: -519
+direction: 1
+x: 80000000, y: -81363801
+direction: 1
+x: 80000000, y: -2147483128
+direction: 1
+x: 80000000, y: 2147483127
+direction: 0
+x: 80000000, y: 520
+direction: 0
+x: 80000000, y: -520
+direction: 1
+x: 80000000, y: -419595445
+direction: 1
+x: 80000000, y: -2147483127
+direction: 1
+x: 80000000, y: 2147483126
+direction: 0
+x: 80000000, y: 521
+direction: 0
+x: 80000000, y: -521
+direction: 1
+x: 80000000, y: -3569121
+direction: 1
+x: 80000000, y: -2147483126
+direction: 1
+x: 80000000, y: 2147483125
+direction: 0
+x: 80000000, y: 522
+direction: 0
+x: 80000000, y: -522
+direction: 1
+x: 80000000, y: -310963473
+direction: 1
+x: 80000000, y: -2147483125
+direction: 1
+x: 80000000, y: 2147483124
+direction: 0
+x: 80000000, y: 523
+direction: 0
+x: 80000000, y: -523
+direction: 1
+x: 80000000, y: -293155343
+direction: 1
+x: 80000000, y: -2147483124
+direction: 1
+x: 80000000, y: 2147483123
+direction: 0
+x: 80000000, y: 524
+direction: 0
+x: 80000000, y: -524
+direction: 1
+x: 80000000, y: -1659406721
+direction: 1
+x: 80000000, y: -2147483123
+direction: 1
+x: 80000000, y: 2147483122
+direction: 0
+x: 80000000, y: 525
+direction: 0
+x: 80000000, y: -525
+direction: 1
+x: 80000000, y: 598659278
+direction: 0
+x: 80000000, y: -2147483122
+direction: 1
+x: 80000000, y: 2147483121
+direction: 0
+x: 80000000, y: 526
+direction: 0
+x: 80000000, y: -526
+direction: 1
+x: 80000000, y: 2067732656
+direction: 0
+x: 80000000, y: -2147483121
+direction: 1
+x: 80000000, y: 2147483120
+direction: 0
+x: 80000000, y: 527
+direction: 0
+x: 80000000, y: -527
+direction: 1
+x: 80000000, y: 1594440870
+direction: 0
+x: 80000000, y: -2147483120
+direction: 1
+x: 80000000, y: 2147483119
+direction: 0
+x: 80000000, y: 528
+direction: 0
+x: 80000000, y: -528
+direction: 1
+x: 80000000, y: 230344128
+direction: 0
+x: 80000000, y: -2147483119
+direction: 1
+x: 80000000, y: 2147483118
+direction: 0
+x: 80000000, y: 529
+direction: 0
+x: 80000000, y: -529
+direction: 1
+x: 80000000, y: 873790686
+direction: 0
+x: 80000000, y: -2147483118
+direction: 1
+x: 80000000, y: 2147483117
+direction: 0
+x: 80000000, y: 530
+direction: 0
+x: 80000000, y: -530
+direction: 1
+x: 80000000, y: 300888632
+direction: 0
+x: 80000000, y: -2147483117
+direction: 1
+x: 80000000, y: 2147483116
+direction: 0
+x: 80000000, y: 531
+direction: 0
+x: 80000000, y: -531
+direction: 1
+x: 80000000, y: -1003788141
+direction: 1
+x: 80000000, y: -2147483116
+direction: 1
+x: 80000000, y: 2147483115
+direction: 0
+x: 80000000, y: 532
+direction: 0
+x: 80000000, y: -532
+direction: 1
+x: 80000000, y: 1388170768
+direction: 0
+x: 80000000, y: -2147483115
+direction: 1
+x: 80000000, y: 2147483114
+direction: 0
+x: 80000000, y: 533
+direction: 0
+x: 80000000, y: -533
+direction: 1
+x: 80000000, y: -725522665
+direction: 1
+x: 80000000, y: -2147483114
+direction: 1
+x: 80000000, y: 2147483113
+direction: 0
+x: 80000000, y: 534
+direction: 0
+x: 80000000, y: -534
+direction: 1
+x: 80000000, y: 269541938
+direction: 0
+x: 80000000, y: -2147483113
+direction: 1
+x: 80000000, y: 2147483112
+direction: 0
+x: 80000000, y: 535
+direction: 0
+x: 80000000, y: -535
+direction: 1
+x: 80000000, y: -318873587
+direction: 1
+x: 80000000, y: -2147483112
+direction: 1
+x: 80000000, y: 2147483111
+direction: 0
+x: 80000000, y: 536
+direction: 0
+x: 80000000, y: -536
+direction: 1
+x: 80000000, y: 298616082
+direction: 0
+x: 80000000, y: -2147483111
+direction: 1
+x: 80000000, y: 2147483110
+direction: 0
+x: 80000000, y: 537
+direction: 0
+x: 80000000, y: -537
+direction: 1
+x: 80000000, y: -149187253
+direction: 1
+x: 80000000, y: -2147483110
+direction: 1
+x: 80000000, y: 2147483109
+direction: 0
+x: 80000000, y: 538
+direction: 0
+x: 80000000, y: -538
+direction: 1
+x: 80000000, y: 894058518
+direction: 0
+x: 80000000, y: -2147483109
+direction: 1
+x: 80000000, y: 2147483108
+direction: 0
+x: 80000000, y: 539
+direction: 0
+x: 80000000, y: -539
+direction: 1
+x: 80000000, y: -93263647
+direction: 1
+x: 80000000, y: -2147483108
+direction: 1
+x: 80000000, y: 2147483107
+direction: 0
+x: 80000000, y: 540
+direction: 0
+x: 80000000, y: -540
+direction: 1
+x: 80000000, y: -131978277
+direction: 1
+x: 80000000, y: -2147483107
+direction: 1
+x: 80000000, y: 2147483106
+direction: 0
+x: 80000000, y: 541
+direction: 0
+x: 80000000, y: -541
+direction: 1
+x: 80000000, y: -991955721
+direction: 1
+x: 80000000, y: -2147483106
+direction: 1
+x: 80000000, y: 2147483105
+direction: 0
+x: 80000000, y: 542
+direction: 0
+x: 80000000, y: -542
+direction: 1
+x: 80000000, y: 1519227798
+direction: 0
+x: 80000000, y: -2147483105
+direction: 1
+x: 80000000, y: 2147483104
+direction: 0
+x: 80000000, y: 543
+direction: 0
+x: 80000000, y: -543
+direction: 1
+x: 80000000, y: 1193584248
+direction: 0
+x: 80000000, y: -2147483104
+direction: 1
+x: 80000000, y: 2147483103
+direction: 0
+x: 80000000, y: 544
+direction: 0
+x: 80000000, y: -544
+direction: 1
+x: 80000000, y: 746297546
+direction: 0
+x: 80000000, y: -2147483103
+direction: 1
+x: 80000000, y: 2147483102
+direction: 0
+x: 80000000, y: 545
+direction: 0
+x: 80000000, y: -545
+direction: 1
+x: 80000000, y: -1181729189
+direction: 1
+x: 80000000, y: -2147483102
+direction: 1
+x: 80000000, y: 2147483101
+direction: 0
+x: 80000000, y: 546
+direction: 0
+x: 80000000, y: -546
+direction: 1
+x: 80000000, y: 34960344
+direction: 0
+x: 80000000, y: -2147483101
+direction: 1
+x: 80000000, y: 2147483100
+direction: 0
+x: 80000000, y: 547
+direction: 0
+x: 80000000, y: -547
+direction: 1
+x: 80000000, y: 1108817766
+direction: 0
+x: 80000000, y: -2147483100
+direction: 1
+x: 80000000, y: 2147483099
+direction: 0
+x: 80000000, y: 548
+direction: 0
+x: 80000000, y: -548
+direction: 1
+x: 80000000, y: 1747432714
+direction: 0
+x: 80000000, y: -2147483099
+direction: 1
+x: 80000000, y: 2147483098
+direction: 0
+x: 80000000, y: 549
+direction: 0
+x: 80000000, y: -549
+direction: 1
+x: 80000000, y: -16557341
+direction: 1
+x: 80000000, y: -2147483098
+direction: 1
+x: 80000000, y: 2147483097
+direction: 0
+x: 80000000, y: 550
+direction: 0
+x: 80000000, y: -550
+direction: 1
+x: 80000000, y: -1120029681
+direction: 1
+x: 80000000, y: -2147483097
+direction: 1
+x: 80000000, y: 2147483096
+direction: 0
+x: 80000000, y: 551
+direction: 0
+x: 80000000, y: -551
+direction: 1
+x: 80000000, y: -819646379
+direction: 1
+x: 80000000, y: -2147483096
+direction: 1
+x: 80000000, y: 2147483095
+direction: 0
+x: 80000000, y: 552
+direction: 0
+x: 80000000, y: -552
+direction: 1
+x: 80000000, y: 2127357186
+direction: 0
+x: 80000000, y: -2147483095
+direction: 1
+x: 80000000, y: 2147483094
+direction: 0
+x: 80000000, y: 553
+direction: 0
+x: 80000000, y: -553
+direction: 1
+x: 80000000, y: 716490492
+direction: 0
+x: 80000000, y: -2147483094
+direction: 1
+x: 80000000, y: 2147483093
+direction: 0
+x: 80000000, y: 554
+direction: 0
+x: 80000000, y: -554
+direction: 1
+x: 80000000, y: 1034681926
+direction: 0
+x: 80000000, y: -2147483093
+direction: 1
+x: 80000000, y: 2147483092
+direction: 0
+x: 80000000, y: 555
+direction: 0
+x: 80000000, y: -555
+direction: 1
+x: 80000000, y: -1679533183
+direction: 1
+x: 80000000, y: -2147483092
+direction: 1
+x: 80000000, y: 2147483091
+direction: 0
+x: 80000000, y: 556
+direction: 0
+x: 80000000, y: -556
+direction: 1
+x: 80000000, y: -832333875
+direction: 1
+x: 80000000, y: -2147483091
+direction: 1
+x: 80000000, y: 2147483090
+direction: 0
+x: 80000000, y: 557
+direction: 0
+x: 80000000, y: -557
+direction: 1
+x: 80000000, y: 954930934
+direction: 0
+x: 80000000, y: -2147483090
+direction: 1
+x: 80000000, y: 2147483089
+direction: 0
+x: 80000000, y: 558
+direction: 0
+x: 80000000, y: -558
+direction: 1
+x: 80000000, y: 2062391334
+direction: 0
+x: 80000000, y: -2147483089
+direction: 1
+x: 80000000, y: 2147483088
+direction: 0
+x: 80000000, y: 559
+direction: 0
+x: 80000000, y: -559
+direction: 1
+x: 80000000, y: 1545493900
+direction: 0
+x: 80000000, y: -2147483088
+direction: 1
+x: 80000000, y: 2147483087
+direction: 0
+x: 80000000, y: 560
+direction: 0
+x: 80000000, y: -560
+direction: 1
+x: 80000000, y: -318762025
+direction: 1
+x: 80000000, y: -2147483087
+direction: 1
+x: 80000000, y: 2147483086
+direction: 0
+x: 80000000, y: 561
+direction: 0
+x: 80000000, y: -561
+direction: 1
+x: 80000000, y: 215796318
+direction: 0
+x: 80000000, y: -2147483086
+direction: 1
+x: 80000000, y: 2147483085
+direction: 0
+x: 80000000, y: 562
+direction: 0
+x: 80000000, y: -562
+direction: 1
+x: 80000000, y: -1605777889
+direction: 1
+x: 80000000, y: -2147483085
+direction: 1
+x: 80000000, y: 2147483084
+direction: 0
+x: 80000000, y: 563
+direction: 0
+x: 80000000, y: -563
+direction: 1
+x: 80000000, y: -1078074905
+direction: 1
+x: 80000000, y: -2147483084
+direction: 1
+x: 80000000, y: 2147483083
+direction: 0
+x: 80000000, y: 564
+direction: 0
+x: 80000000, y: -564
+direction: 1
+x: 80000000, y: 1637757300
+direction: 0
+x: 80000000, y: -2147483083
+direction: 1
+x: 80000000, y: 2147483082
+direction: 0
+x: 80000000, y: 565
+direction: 0
+x: 80000000, y: -565
+direction: 1
+x: 80000000, y: 811247698
+direction: 0
+x: 80000000, y: -2147483082
+direction: 1
+x: 80000000, y: 2147483081
+direction: 0
+x: 80000000, y: 566
+direction: 0
+x: 80000000, y: -566
+direction: 1
+x: 80000000, y: 750535154
+direction: 0
+x: 80000000, y: -2147483081
+direction: 1
+x: 80000000, y: 2147483080
+direction: 0
+x: 80000000, y: 567
+direction: 0
+x: 80000000, y: -567
+direction: 1
+x: 80000000, y: -211110265
+direction: 1
+x: 80000000, y: -2147483080
+direction: 1
+x: 80000000, y: 2147483079
+direction: 0
+x: 80000000, y: 568
+direction: 0
+x: 80000000, y: -568
+direction: 1
+x: 80000000, y: -1485423203
+direction: 1
+x: 80000000, y: -2147483079
+direction: 1
+x: 80000000, y: 2147483078
+direction: 0
+x: 80000000, y: 569
+direction: 0
+x: 80000000, y: -569
+direction: 1
+x: 80000000, y: -502889975
+direction: 1
+x: 80000000, y: -2147483078
+direction: 1
+x: 80000000, y: 2147483077
+direction: 0
+x: 80000000, y: 570
+direction: 0
+x: 80000000, y: -570
+direction: 1
+x: 80000000, y: 1843109734
+direction: 0
+x: 80000000, y: -2147483077
+direction: 1
+x: 80000000, y: 2147483076
+direction: 0
+x: 80000000, y: 571
+direction: 0
+x: 80000000, y: -571
+direction: 1
+x: 80000000, y: 530082166
+direction: 0
+x: 80000000, y: -2147483076
+direction: 1
+x: 80000000, y: 2147483075
+direction: 0
+x: 80000000, y: 572
+direction: 0
+x: 80000000, y: -572
+direction: 1
+x: 80000000, y: 652637952
+direction: 0
+x: 80000000, y: -2147483075
+direction: 1
+x: 80000000, y: 2147483074
+direction: 0
+x: 80000000, y: 573
+direction: 0
+x: 80000000, y: -573
+direction: 1
+x: 80000000, y: 1214853886
+direction: 0
+x: 80000000, y: -2147483074
+direction: 1
+x: 80000000, y: 2147483073
+direction: 0
+x: 80000000, y: 574
+direction: 0
+x: 80000000, y: -574
+direction: 1
+x: 80000000, y: -423817231
+direction: 1
+x: 80000000, y: -2147483073
+direction: 1
+x: 80000000, y: 2147483072
+direction: 0
+x: 80000000, y: 575
+direction: 0
+x: 80000000, y: -575
+direction: 1
+x: 80000000, y: -748548149
+direction: 1
+x: 80000000, y: -2147483072
+direction: 1
+x: 80000000, y: 2147483071
+direction: 0
+x: 80000000, y: 576
+direction: 0
+x: 80000000, y: -576
+direction: 1
+x: 80000000, y: -2114358951
+direction: 1
+x: 80000000, y: -2147483071
+direction: 1
+x: 80000000, y: 2147483070
+direction: 0
+x: 80000000, y: 577
+direction: 0
+x: 80000000, y: -577
+direction: 1
+x: 80000000, y: 1758626760
+direction: 0
+x: 80000000, y: -2147483070
+direction: 1
+x: 80000000, y: 2147483069
+direction: 0
+x: 80000000, y: 578
+direction: 0
+x: 80000000, y: -578
+direction: 1
+x: 80000000, y: -1787214029
+direction: 1
+x: 80000000, y: -2147483069
+direction: 1
+x: 80000000, y: 2147483068
+direction: 0
+x: 80000000, y: 579
+direction: 0
+x: 80000000, y: -579
+direction: 1
+x: 80000000, y: 1780557410
+direction: 0
+x: 80000000, y: -2147483068
+direction: 1
+x: 80000000, y: 2147483067
+direction: 0
+x: 80000000, y: 580
+direction: 0
+x: 80000000, y: -580
+direction: 1
+x: 80000000, y: -405414229
+direction: 1
+x: 80000000, y: -2147483067
+direction: 1
+x: 80000000, y: 2147483066
+direction: 0
+x: 80000000, y: 581
+direction: 0
+x: 80000000, y: -581
+direction: 1
+x: 80000000, y: -759760063
+direction: 1
+x: 80000000, y: -2147483066
+direction: 1
+x: 80000000, y: 2147483065
+direction: 0
+x: 80000000, y: 582
+direction: 0
+x: 80000000, y: -582
+direction: 1
+x: 80000000, y: -1186572615
+direction: 1
+x: 80000000, y: -2147483065
+direction: 1
+x: 80000000, y: 2147483064
+direction: 0
+x: 80000000, y: 583
+direction: 0
+x: 80000000, y: -583
+direction: 1
+x: 80000000, y: -425540691
+direction: 1
+x: 80000000, y: -2147483064
+direction: 1
+x: 80000000, y: 2147483063
+direction: 0
+x: 80000000, y: 584
+direction: 0
+x: 80000000, y: -584
+direction: 1
+x: 80000000, y: 2104214076
+direction: 0
+x: 80000000, y: -2147483063
+direction: 1
+x: 80000000, y: 2147483062
+direction: 0
+x: 80000000, y: 585
+direction: 0
+x: 80000000, y: -585
+direction: 1
+x: 80000000, y: 1995592958
+direction: 0
+x: 80000000, y: -2147483062
+direction: 1
+x: 80000000, y: 2147483061
+direction: 0
+x: 80000000, y: 586
+direction: 0
+x: 80000000, y: -586
+direction: 1
+x: 80000000, y: 42409772
+direction: 0
+x: 80000000, y: -2147483061
+direction: 1
+x: 80000000, y: 2147483060
+direction: 0
+x: 80000000, y: 587
+direction: 0
+x: 80000000, y: -587
+direction: 1
+x: 80000000, y: -875603447
+direction: 1
+x: 80000000, y: -2147483060
+direction: 1
+x: 80000000, y: 2147483059
+direction: 0
+x: 80000000, y: 588
+direction: 0
+x: 80000000, y: -588
+direction: 1
+x: 80000000, y: 803040244
+direction: 0
+x: 80000000, y: -2147483059
+direction: 1
+x: 80000000, y: 2147483058
+direction: 0
+x: 80000000, y: 589
+direction: 0
+x: 80000000, y: -589
+direction: 1
+x: 80000000, y: -42682541
+direction: 1
+x: 80000000, y: -2147483058
+direction: 1
+x: 80000000, y: 2147483057
+direction: 0
+x: 80000000, y: 590
+direction: 0
+x: 80000000, y: -590
+direction: 1
+x: 80000000, y: -1477593193
+direction: 1
+x: 80000000, y: -2147483057
+direction: 1
+x: 80000000, y: 2147483056
+direction: 0
+x: 80000000, y: 591
+direction: 0
+x: 80000000, y: -591
+direction: 1
+x: 80000000, y: -1663205429
+direction: 1
+x: 80000000, y: -2147483056
+direction: 1
+x: 80000000, y: 2147483055
+direction: 0
+x: 80000000, y: 592
+direction: 0
+x: 80000000, y: -592
+direction: 1
+x: 80000000, y: -1974369869
+direction: 1
+x: 80000000, y: -2147483055
+direction: 1
+x: 80000000, y: 2147483054
+direction: 0
+x: 80000000, y: 593
+direction: 0
+x: 80000000, y: -593
+direction: 1
+x: 80000000, y: -935887435
+direction: 1
+x: 80000000, y: -2147483054
+direction: 1
+x: 80000000, y: 2147483053
+direction: 0
+x: 80000000, y: 594
+direction: 0
+x: 80000000, y: -594
+direction: 1
+x: 80000000, y: -593796685
+direction: 1
+x: 80000000, y: -2147483053
+direction: 1
+x: 80000000, y: 2147483052
+direction: 0
+x: 80000000, y: 595
+direction: 0
+x: 80000000, y: -595
+direction: 1
+x: 80000000, y: 1810871078
+direction: 0
+x: 80000000, y: -2147483052
+direction: 1
+x: 80000000, y: 2147483051
+direction: 0
+x: 80000000, y: 596
+direction: 0
+x: 80000000, y: -596
+direction: 1
+x: 80000000, y: 2022843910
+direction: 0
+x: 80000000, y: -2147483051
+direction: 1
+x: 80000000, y: 2147483050
+direction: 0
+x: 80000000, y: 597
+direction: 0
+x: 80000000, y: -597
+direction: 1
+x: 80000000, y: -1990745179
+direction: 1
+x: 80000000, y: -2147483050
+direction: 1
+x: 80000000, y: 2147483049
+direction: 0
+x: 80000000, y: 598
+direction: 0
+x: 80000000, y: -598
+direction: 1
+x: 80000000, y: -547722833
+direction: 1
+x: 80000000, y: -2147483049
+direction: 1
+x: 80000000, y: 2147483048
+direction: 0
+x: 80000000, y: 599
+direction: 0
+x: 80000000, y: -599
+direction: 1
+x: 80000000, y: -1610062941
+direction: 1
+x: 80000000, y: -2147483048
+direction: 1
+x: 80000000, y: 2147483047
+direction: 0
+x: 80000000, y: 600
+direction: 0
+x: 80000000, y: -600
+direction: 1
+x: 80000000, y: -346151505
+direction: 1
+x: 80000000, y: -2147483047
+direction: 1
+x: 80000000, y: 2147483046
+direction: 0
+x: 80000000, y: 601
+direction: 0
+x: 80000000, y: -601
+direction: 1
+x: 80000000, y: -852096747
+direction: 1
+x: 80000000, y: -2147483046
+direction: 1
+x: 80000000, y: 2147483045
+direction: 0
+x: 80000000, y: 602
+direction: 0
+x: 80000000, y: -602
+direction: 1
+x: 80000000, y: 1067502874
+direction: 0
+x: 80000000, y: -2147483045
+direction: 1
+x: 80000000, y: 2147483044
+direction: 0
+x: 80000000, y: 603
+direction: 0
+x: 80000000, y: -603
+direction: 1
+x: 80000000, y: -1840997201
+direction: 1
+x: 80000000, y: -2147483044
+direction: 1
+x: 80000000, y: 2147483043
+direction: 0
+x: 80000000, y: 604
+direction: 0
+x: 80000000, y: -604
+direction: 1
+x: 80000000, y: -1784726509
+direction: 1
+x: 80000000, y: -2147483043
+direction: 1
+x: 80000000, y: 2147483042
+direction: 0
+x: 80000000, y: 605
+direction: 0
+x: 80000000, y: -605
+direction: 1
+x: 80000000, y: -1503798005
+direction: 1
+x: 80000000, y: -2147483042
+direction: 1
+x: 80000000, y: 2147483041
+direction: 0
+x: 80000000, y: 606
+direction: 0
+x: 80000000, y: -606
+direction: 1
+x: 80000000, y: -442061703
+direction: 1
+x: 80000000, y: -2147483041
+direction: 1
+x: 80000000, y: 2147483040
+direction: 0
+x: 80000000, y: 607
+direction: 0
+x: 80000000, y: -607
+direction: 1
+x: 80000000, y: -1751601813
+direction: 1
+x: 80000000, y: -2147483040
+direction: 1
+x: 80000000, y: 2147483039
+direction: 0
+x: 80000000, y: 608
+direction: 0
+x: 80000000, y: -608
+direction: 1
+x: 80000000, y: -1892654893
+direction: 1
+x: 80000000, y: -2147483039
+direction: 1
+x: 80000000, y: 2147483038
+direction: 0
+x: 80000000, y: 609
+direction: 0
+x: 80000000, y: -609
+direction: 1
+x: 80000000, y: -81792085
+direction: 1
+x: 80000000, y: -2147483038
+direction: 1
+x: 80000000, y: 2147483037
+direction: 0
+x: 80000000, y: 610
+direction: 0
+x: 80000000, y: -610
+direction: 1
+x: 80000000, y: -2118528049
+direction: 1
+x: 80000000, y: -2147483037
+direction: 1
+x: 80000000, y: 2147483036
+direction: 0
+x: 80000000, y: 611
+direction: 0
+x: 80000000, y: -611
+direction: 1
+x: 80000000, y: -150585475
+direction: 1
+x: 80000000, y: -2147483036
+direction: 1
+x: 80000000, y: 2147483035
+direction: 0
+x: 80000000, y: 612
+direction: 0
+x: 80000000, y: -612
+direction: 1
+x: 80000000, y: 1305931498
+direction: 0
+x: 80000000, y: -2147483035
+direction: 1
+x: 80000000, y: 2147483034
+direction: 0
+x: 80000000, y: 613
+direction: 0
+x: 80000000, y: -613
+direction: 1
+x: 80000000, y: -1157617017
+direction: 1
+x: 80000000, y: -2147483034
+direction: 1
+x: 80000000, y: 2147483033
+direction: 0
+x: 80000000, y: 614
+direction: 0
+x: 80000000, y: -614
+direction: 1
+x: 80000000, y: 1571357482
+direction: 0
+x: 80000000, y: -2147483033
+direction: 1
+x: 80000000, y: 2147483032
+direction: 0
+x: 80000000, y: 615
+direction: 0
+x: 80000000, y: -615
+direction: 1
+x: 80000000, y: 1262661928
+direction: 0
+x: 80000000, y: -2147483032
+direction: 1
+x: 80000000, y: 2147483031
+direction: 0
+x: 80000000, y: 616
+direction: 0
+x: 80000000, y: -616
+direction: 1
+x: 80000000, y: -1309507707
+direction: 1
+x: 80000000, y: -2147483031
+direction: 1
+x: 80000000, y: 2147483030
+direction: 0
+x: 80000000, y: 617
+direction: 0
+x: 80000000, y: -617
+direction: 1
+x: 80000000, y: -533716393
+direction: 1
+x: 80000000, y: -2147483030
+direction: 1
+x: 80000000, y: 2147483029
+direction: 0
+x: 80000000, y: 618
+direction: 0
+x: 80000000, y: -618
+direction: 1
+x: 80000000, y: -1760425167
+direction: 1
+x: 80000000, y: -2147483029
+direction: 1
+x: 80000000, y: 2147483028
+direction: 0
+x: 80000000, y: 619
+direction: 0
+x: 80000000, y: -619
+direction: 1
+x: 80000000, y: 1641016184
+direction: 0
+x: 80000000, y: -2147483028
+direction: 1
+x: 80000000, y: 2147483027
+direction: 0
+x: 80000000, y: 620
+direction: 0
+x: 80000000, y: -620
+direction: 1
+x: 80000000, y: 1571084714
+direction: 0
+x: 80000000, y: -2147483027
+direction: 1
+x: 80000000, y: 2147483026
+direction: 0
+x: 80000000, y: 621
+direction: 0
+x: 80000000, y: -621
+direction: 1
+x: 80000000, y: -1090534713
+direction: 1
+x: 80000000, y: -2147483026
+direction: 1
+x: 80000000, y: 2147483025
+direction: 0
+x: 80000000, y: 622
+direction: 0
+x: 80000000, y: -622
+direction: 1
+x: 80000000, y: 2125294404
+direction: 0
+x: 80000000, y: -2147483025
+direction: 1
+x: 80000000, y: 2147483024
+direction: 0
+x: 80000000, y: 623
+direction: 0
+x: 80000000, y: -623
+direction: 1
+x: 80000000, y: 1744198492
+direction: 0
+x: 80000000, y: -2147483024
+direction: 1
+x: 80000000, y: 2147483023
+direction: 0
+x: 80000000, y: 624
+direction: 0
+x: 80000000, y: -624
+direction: 1
+x: 80000000, y: 121061500
+direction: 0
+x: 80000000, y: -2147483023
+direction: 1
+x: 80000000, y: 2147483022
+direction: 0
+x: 80000000, y: 625
+direction: 0
+x: 80000000, y: -625
+direction: 1
+x: 80000000, y: -615985929
+direction: 1
+x: 80000000, y: -2147483022
+direction: 1
+x: 80000000, y: 2147483021
+direction: 0
+x: 80000000, y: 626
+direction: 0
+x: 80000000, y: -626
+direction: 1
+x: 80000000, y: 1407585922
+direction: 0
+x: 80000000, y: -2147483021
+direction: 1
+x: 80000000, y: 2147483020
+direction: 0
+x: 80000000, y: 627
+direction: 0
+x: 80000000, y: -627
+direction: 1
+x: 80000000, y: -3578237
+direction: 1
+x: 80000000, y: -2147483020
+direction: 1
+x: 80000000, y: 2147483019
+direction: 0
+x: 80000000, y: 628
+direction: 0
+x: 80000000, y: -628
+direction: 1
+x: 80000000, y: -459247461
+direction: 1
+x: 80000000, y: -2147483019
+direction: 1
+x: 80000000, y: 2147483018
+direction: 0
+x: 80000000, y: 629
+direction: 0
+x: 80000000, y: -629
+direction: 1
+x: 80000000, y: -1287620559
+direction: 1
+x: 80000000, y: -2147483018
+direction: 1
+x: 80000000, y: 2147483017
+direction: 0
+x: 80000000, y: 630
+direction: 0
+x: 80000000, y: -630
+direction: 1
+x: 80000000, y: 533842470
+direction: 0
+x: 80000000, y: -2147483017
+direction: 1
+x: 80000000, y: 2147483016
+direction: 0
+x: 80000000, y: 631
+direction: 0
+x: 80000000, y: -631
+direction: 1
+x: 80000000, y: 1342084680
+direction: 0
+x: 80000000, y: -2147483016
+direction: 1
+x: 80000000, y: 2147483015
+direction: 0
+x: 80000000, y: 632
+direction: 0
+x: 80000000, y: -632
+direction: 1
+x: 80000000, y: 7766342
+direction: 0
+x: 80000000, y: -2147483015
+direction: 1
+x: 80000000, y: 2147483014
+direction: 0
+x: 80000000, y: 633
+direction: 0
+x: 80000000, y: -633
+direction: 1
+x: 80000000, y: -546138303
+direction: 1
+x: 80000000, y: -2147483014
+direction: 1
+x: 80000000, y: 2147483013
+direction: 0
+x: 80000000, y: 634
+direction: 0
+x: 80000000, y: -634
+direction: 1
+x: 80000000, y: 1648571126
+direction: 0
+x: 80000000, y: -2147483013
+direction: 1
+x: 80000000, y: 2147483012
+direction: 0
+x: 80000000, y: 635
+direction: 0
+x: 80000000, y: -635
+direction: 1
+x: 80000000, y: 370523480
+direction: 0
+x: 80000000, y: -2147483012
+direction: 1
+x: 80000000, y: 2147483011
+direction: 0
+x: 80000000, y: 636
+direction: 0
+x: 80000000, y: -636
+direction: 1
+x: 80000000, y: 97547338
+direction: 0
+x: 80000000, y: -2147483011
+direction: 1
+x: 80000000, y: 2147483010
+direction: 0
+x: 80000000, y: 637
+direction: 0
+x: 80000000, y: -637
+direction: 1
+x: 80000000, y: -940974223
+direction: 1
+x: 80000000, y: -2147483010
+direction: 1
+x: 80000000, y: 2147483009
+direction: 0
+x: 80000000, y: 638
+direction: 0
+x: 80000000, y: -638
+direction: 1
+x: 80000000, y: 766405316
+direction: 0
+x: 80000000, y: -2147483009
+direction: 1
+x: 80000000, y: 2147483008
+direction: 0
+x: 80000000, y: 639
+direction: 0
+x: 80000000, y: -639
+direction: 1
+x: 80000000, y: 352376092
+direction: 0
+x: 80000000, y: -2147483008
+direction: 1
+x: 80000000, y: 2147483007
+direction: 0
+x: 80000000, y: 640
+direction: 0
+x: 80000000, y: -640
+direction: 1
+x: 80000000, y: 1124717338
+direction: 0
+x: 80000000, y: -2147483007
+direction: 1
+x: 80000000, y: 2147483006
+direction: 0
+x: 80000000, y: 641
+direction: 0
+x: 80000000, y: -641
+direction: 1
+x: 80000000, y: 795360914
+direction: 0
+x: 80000000, y: -2147483006
+direction: 1
+x: 80000000, y: 2147483005
+direction: 0
+x: 80000000, y: 642
+direction: 0
+x: 80000000, y: -642
+direction: 1
+x: 80000000, y: -1945693031
+direction: 1
+x: 80000000, y: -2147483005
+direction: 1
+x: 80000000, y: 2147483004
+direction: 0
+x: 80000000, y: 643
+direction: 0
+x: 80000000, y: -643
+direction: 1
+x: 80000000, y: 283165190
+direction: 0
+x: 80000000, y: -2147483004
+direction: 1
+x: 80000000, y: 2147483003
+direction: 0
+x: 80000000, y: 644
+direction: 0
+x: 80000000, y: -644
+direction: 1
+x: 80000000, y: 1785227544
+direction: 0
+x: 80000000, y: -2147483003
+direction: 1
+x: 80000000, y: 2147483002
+direction: 0
+x: 80000000, y: 645
+direction: 0
+x: 80000000, y: -645
+direction: 1
+x: 80000000, y: 1773148098
+direction: 0
+x: 80000000, y: -2147483002
+direction: 1
+x: 80000000, y: 2147483001
+direction: 0
+x: 80000000, y: 646
+direction: 0
+x: 80000000, y: -646
+direction: 1
+x: 80000000, y: -601656529
+direction: 1
+x: 80000000, y: -2147483001
+direction: 1
+x: 80000000, y: 2147483000
+direction: 0
+x: 80000000, y: 647
+direction: 0
+x: 80000000, y: -647
+direction: 1
+x: 80000000, y: -1671763811
+direction: 1
+x: 80000000, y: -2147483000
+direction: 1
+x: 80000000, y: 2147482999
+direction: 0
+x: 80000000, y: 648
+direction: 0
+x: 80000000, y: -648
+direction: 1
+x: 80000000, y: -908051941
+direction: 1
+x: 80000000, y: -2147482999
+direction: 1
+x: 80000000, y: 2147482998
+direction: 0
+x: 80000000, y: 649
+direction: 0
+x: 80000000, y: -649
+direction: 1
+x: 80000000, y: -214598049
+direction: 1
+x: 80000000, y: -2147482998
+direction: 1
+x: 80000000, y: 2147482997
+direction: 0
+x: 80000000, y: 650
+direction: 0
+x: 80000000, y: -650
+direction: 1
+x: 80000000, y: 2116736020
+direction: 0
+x: 80000000, y: -2147482997
+direction: 1
+x: 80000000, y: 2147482996
+direction: 0
+x: 80000000, y: 651
+direction: 0
+x: 80000000, y: -651
+direction: 1
+x: 80000000, y: -1484450875
+direction: 1
+x: 80000000, y: -2147482996
+direction: 1
+x: 80000000, y: 2147482995
+direction: 0
+x: 80000000, y: 652
+direction: 0
+x: 80000000, y: -652
+direction: 1
+x: 80000000, y: 842350886
+direction: 0
+x: 80000000, y: -2147482995
+direction: 1
+x: 80000000, y: 2147482994
+direction: 0
+x: 80000000, y: 653
+direction: 0
+x: 80000000, y: -653
+direction: 1
+x: 80000000, y: 2094546776
+direction: 0
+x: 80000000, y: -2147482994
+direction: 1
+x: 80000000, y: 2147482993
+direction: 0
+x: 80000000, y: 654
+direction: 0
+x: 80000000, y: -654
+direction: 1
+x: 80000000, y: -1887736031
+direction: 1
+x: 80000000, y: -2147482993
+direction: 1
+x: 80000000, y: 2147482992
+direction: 0
+x: 80000000, y: 655
+direction: 0
+x: 80000000, y: -655
+direction: 1
+x: 80000000, y: -1184071261
+direction: 1
+x: 80000000, y: -2147482992
+direction: 1
+x: 80000000, y: 2147482991
+direction: 0
+x: 80000000, y: 656
+direction: 0
+x: 80000000, y: -656
+direction: 1
+x: 80000000, y: -668922801
+direction: 1
+x: 80000000, y: -2147482991
+direction: 1
+x: 80000000, y: 2147482990
+direction: 0
+x: 80000000, y: 657
+direction: 0
+x: 80000000, y: -657
+direction: 1
+x: 80000000, y: 1667333538
+direction: 0
+x: 80000000, y: -2147482990
+direction: 1
+x: 80000000, y: 2147482989
+direction: 0
+x: 80000000, y: 658
+direction: 0
+x: 80000000, y: -658
+direction: 1
+x: 80000000, y: 959834148
+direction: 0
+x: 80000000, y: -2147482989
+direction: 1
+x: 80000000, y: 2147482988
+direction: 0
+x: 80000000, y: 659
+direction: 0
+x: 80000000, y: -659
+direction: 1
+x: 80000000, y: 1019313386
+direction: 0
+x: 80000000, y: -2147482988
+direction: 1
+x: 80000000, y: 2147482987
+direction: 0
+x: 80000000, y: 660
+direction: 0
+x: 80000000, y: -660
+direction: 1
+x: 80000000, y: -1767770667
+direction: 1
+x: 80000000, y: -2147482987
+direction: 1
+x: 80000000, y: 2147482986
+direction: 0
+x: 80000000, y: 661
+direction: 0
+x: 80000000, y: -661
+direction: 1
+x: 80000000, y: -653807029
+direction: 1
+x: 80000000, y: -2147482986
+direction: 1
+x: 80000000, y: 2147482985
+direction: 0
+x: 80000000, y: 662
+direction: 0
+x: 80000000, y: -662
+direction: 1
+x: 80000000, y: 213914418
+direction: 0
+x: 80000000, y: -2147482985
+direction: 1
+x: 80000000, y: 2147482984
+direction: 0
+x: 80000000, y: 663
+direction: 0
+x: 80000000, y: -663
+direction: 1
+x: 80000000, y: 387479322
+direction: 0
+x: 80000000, y: -2147482984
+direction: 1
+x: 80000000, y: 2147482983
+direction: 0
+x: 80000000, y: 664
+direction: 0
+x: 80000000, y: -664
+direction: 1
+x: 80000000, y: 947538314
+direction: 0
+x: 80000000, y: -2147482983
+direction: 1
+x: 80000000, y: 2147482982
+direction: 0
+x: 80000000, y: 665
+direction: 0
+x: 80000000, y: -665
+direction: 1
+x: 80000000, y: -284998101
+direction: 1
+x: 80000000, y: -2147482982
+direction: 1
+x: 80000000, y: 2147482981
+direction: 0
+x: 80000000, y: 666
+direction: 0
+x: 80000000, y: -666
+direction: 1
+x: 80000000, y: -1389480845
+direction: 1
+x: 80000000, y: -2147482981
+direction: 1
+x: 80000000, y: 2147482980
+direction: 0
+x: 80000000, y: 667
+direction: 0
+x: 80000000, y: -667
+direction: 1
+x: 80000000, y: -1102397995
+direction: 1
+x: 80000000, y: -2147482980
+direction: 1
+x: 80000000, y: 2147482979
+direction: 0
+x: 80000000, y: 668
+direction: 0
+x: 80000000, y: -668
+direction: 1
+x: 80000000, y: 921511322
+direction: 0
+x: 80000000, y: -2147482979
+direction: 1
+x: 80000000, y: 2147482978
+direction: 0
+x: 80000000, y: 669
+direction: 0
+x: 80000000, y: -669
+direction: 1
+x: 80000000, y: 1524408118
+direction: 0
+x: 80000000, y: -2147482978
+direction: 1
+x: 80000000, y: 2147482977
+direction: 0
+x: 80000000, y: 670
+direction: 0
+x: 80000000, y: -670
+direction: 1
+x: 80000000, y: 1397461744
+direction: 0
+x: 80000000, y: -2147482977
+direction: 1
+x: 80000000, y: 2147482976
+direction: 0
+x: 80000000, y: 671
+direction: 0
+x: 80000000, y: -671
+direction: 1
+x: 80000000, y: -101254987
+direction: 1
+x: 80000000, y: -2147482976
+direction: 1
+x: 80000000, y: 2147482975
+direction: 0
+x: 80000000, y: 672
+direction: 0
+x: 80000000, y: -672
+direction: 1
+x: 80000000, y: 172285384
+direction: 0
+x: 80000000, y: -2147482975
+direction: 1
+x: 80000000, y: 2147482974
+direction: 0
+x: 80000000, y: 673
+direction: 0
+x: 80000000, y: -673
+direction: 1
+x: 80000000, y: 1599252362
+direction: 0
+x: 80000000, y: -2147482974
+direction: 1
+x: 80000000, y: 2147482973
+direction: 0
+x: 80000000, y: 674
+direction: 0
+x: 80000000, y: -674
+direction: 1
+x: 80000000, y: -1965573445
+direction: 1
+x: 80000000, y: -2147482973
+direction: 1
+x: 80000000, y: 2147482972
+direction: 0
+x: 80000000, y: 675
+direction: 0
+x: 80000000, y: -675
+direction: 1
+x: 80000000, y: -189970719
+direction: 1
+x: 80000000, y: -2147482972
+direction: 1
+x: 80000000, y: 2147482971
+direction: 0
+x: 80000000, y: 676
+direction: 0
+x: 80000000, y: -676
+direction: 1
+x: 80000000, y: 1224916812
+direction: 0
+x: 80000000, y: -2147482971
+direction: 1
+x: 80000000, y: 2147482970
+direction: 0
+x: 80000000, y: 677
+direction: 0
+x: 80000000, y: -677
+direction: 1
+x: 80000000, y: -419746327
+direction: 1
+x: 80000000, y: -2147482970
+direction: 1
+x: 80000000, y: 2147482969
+direction: 0
+x: 80000000, y: 678
+direction: 0
+x: 80000000, y: -678
+direction: 1
+x: 80000000, y: 285749116
+direction: 0
+x: 80000000, y: -2147482969
+direction: 1
+x: 80000000, y: 2147482968
+direction: 0
+x: 80000000, y: 679
+direction: 0
+x: 80000000, y: -679
+direction: 1
+x: 80000000, y: -1830618777
+direction: 1
+x: 80000000, y: -2147482968
+direction: 1
+x: 80000000, y: 2147482967
+direction: 0
+x: 80000000, y: 680
+direction: 0
+x: 80000000, y: -680
+direction: 1
+x: 80000000, y: 1513139272
+direction: 0
+x: 80000000, y: -2147482967
+direction: 1
+x: 80000000, y: 2147482966
+direction: 0
+x: 80000000, y: 681
+direction: 0
+x: 80000000, y: -681
+direction: 1
+x: 80000000, y: 255001490
+direction: 0
+x: 80000000, y: -2147482966
+direction: 1
+x: 80000000, y: 2147482965
+direction: 0
+x: 80000000, y: 682
+direction: 0
+x: 80000000, y: -682
+direction: 1
+x: 80000000, y: -1167586005
+direction: 1
+x: 80000000, y: -2147482965
+direction: 1
+x: 80000000, y: 2147482964
+direction: 0
+x: 80000000, y: 683
+direction: 0
+x: 80000000, y: -683
+direction: 1
+x: 80000000, y: 208006510
+direction: 0
+x: 80000000, y: -2147482964
+direction: 1
+x: 80000000, y: 2147482963
+direction: 0
+x: 80000000, y: 684
+direction: 0
+x: 80000000, y: -684
+direction: 1
+x: 80000000, y: 202064618
+direction: 0
+x: 80000000, y: -2147482963
+direction: 1
+x: 80000000, y: 2147482962
+direction: 0
+x: 80000000, y: 685
+direction: 0
+x: 80000000, y: -685
+direction: 1
+x: 80000000, y: -907838389
+direction: 1
+x: 80000000, y: -2147482962
+direction: 1
+x: 80000000, y: 2147482961
+direction: 0
+x: 80000000, y: 686
+direction: 0
+x: 80000000, y: -686
+direction: 1
+x: 80000000, y: 1171418896
+direction: 0
+x: 80000000, y: -2147482961
+direction: 1
+x: 80000000, y: 2147482960
+direction: 0
+x: 80000000, y: 687
+direction: 0
+x: 80000000, y: -687
+direction: 1
+x: 80000000, y: 1680625466
+direction: 0
+x: 80000000, y: -2147482960
+direction: 1
+x: 80000000, y: 2147482959
+direction: 0
+x: 80000000, y: 688
+direction: 0
+x: 80000000, y: -688
+direction: 1
+x: 80000000, y: -1387988497
+direction: 1
+x: 80000000, y: -2147482959
+direction: 1
+x: 80000000, y: 2147482958
+direction: 0
+x: 80000000, y: 689
+direction: 0
+x: 80000000, y: -689
+direction: 1
+x: 80000000, y: -16230603
+direction: 1
+x: 80000000, y: -2147482958
+direction: 1
+x: 80000000, y: 2147482957
+direction: 0
+x: 80000000, y: 690
+direction: 0
+x: 80000000, y: -690
+direction: 1
+x: 80000000, y: 552455204
+direction: 0
+x: 80000000, y: -2147482957
+direction: 1
+x: 80000000, y: 2147482956
+direction: 0
+x: 80000000, y: 691
+direction: 0
+x: 80000000, y: -691
+direction: 1
+x: 80000000, y: -1008275517
+direction: 1
+x: 80000000, y: -2147482956
+direction: 1
+x: 80000000, y: 2147482955
+direction: 0
+x: 80000000, y: 692
+direction: 0
+x: 80000000, y: -692
+direction: 1
+x: 80000000, y: 1477446016
+direction: 0
+x: 80000000, y: -2147482955
+direction: 1
+x: 80000000, y: 2147482954
+direction: 0
+x: 80000000, y: 693
+direction: 0
+x: 80000000, y: -693
+direction: 1
+x: 80000000, y: -1381114025
+direction: 1
+x: 80000000, y: -2147482954
+direction: 1
+x: 80000000, y: 2147482953
+direction: 0
+x: 80000000, y: 694
+direction: 0
+x: 80000000, y: -694
+direction: 1
+x: 80000000, y: 1526687452
+direction: 0
+x: 80000000, y: -2147482953
+direction: 1
+x: 80000000, y: 2147482952
+direction: 0
+x: 80000000, y: 695
+direction: 0
+x: 80000000, y: -695
+direction: 1
+x: 80000000, y: 277500682
+direction: 0
+x: 80000000, y: -2147482952
+direction: 1
+x: 80000000, y: 2147482951
+direction: 0
+x: 80000000, y: 696
+direction: 0
+x: 80000000, y: -696
+direction: 1
+x: 80000000, y: 481371520
+direction: 0
+x: 80000000, y: -2147482951
+direction: 1
+x: 80000000, y: 2147482950
+direction: 0
+x: 80000000, y: 697
+direction: 0
+x: 80000000, y: -697
+direction: 1
+x: 80000000, y: -2010277041
+direction: 1
+x: 80000000, y: -2147482950
+direction: 1
+x: 80000000, y: 2147482949
+direction: 0
+x: 80000000, y: 698
+direction: 0
+x: 80000000, y: -698
+direction: 1
+x: 80000000, y: 1322586336
+direction: 0
+x: 80000000, y: -2147482949
+direction: 1
+x: 80000000, y: 2147482948
+direction: 0
+x: 80000000, y: 699
+direction: 0
+x: 80000000, y: -699
+direction: 1
+x: 80000000, y: -744600805
+direction: 1
+x: 80000000, y: -2147482948
+direction: 1
+x: 80000000, y: 2147482947
+direction: 0
+x: 80000000, y: 700
+direction: 0
+x: 80000000, y: -700
+direction: 1
+x: 80000000, y: 1661614726
+direction: 0
+x: 80000000, y: -2147482947
+direction: 1
+x: 80000000, y: 2147482946
+direction: 0
+x: 80000000, y: 701
+direction: 0
+x: 80000000, y: -701
+direction: 1
+x: 80000000, y: 572564432
+direction: 0
+x: 80000000, y: -2147482946
+direction: 1
+x: 80000000, y: 2147482945
+direction: 0
+x: 80000000, y: 702
+direction: 0
+x: 80000000, y: -702
+direction: 1
+x: 80000000, y: 1301627856
+direction: 0
+x: 80000000, y: -2147482945
+direction: 1
+x: 80000000, y: 2147482944
+direction: 0
+x: 80000000, y: 703
+direction: 0
+x: 80000000, y: -703
+direction: 1
+x: 80000000, y: -313583537
+direction: 1
+x: 80000000, y: -2147482944
+direction: 1
+x: 80000000, y: 2147482943
+direction: 0
+x: 80000000, y: 704
+direction: 0
+x: 80000000, y: -704
+direction: 1
+x: 80000000, y: 24333146
+direction: 0
+x: 80000000, y: -2147482943
+direction: 1
+x: 80000000, y: 2147482942
+direction: 0
+x: 80000000, y: 705
+direction: 0
+x: 80000000, y: -705
+direction: 1
+x: 80000000, y: 1483538058
+direction: 0
+x: 80000000, y: -2147482942
+direction: 1
+x: 80000000, y: 2147482941
+direction: 0
+x: 80000000, y: 706
+direction: 0
+x: 80000000, y: -706
+direction: 1
+x: 80000000, y: 1643929392
+direction: 0
+x: 7fffffff, y: -2147483648
+direction: 0
+ERROR: Test isLessOrEqual(2147483647[0x7fffffff],-2147483648[0x80000000]) failed...
+...Gives 1[0x1]. Should be 0[0x0]
+ERROR: Test ilog2(1[0x1]) failed...
+...Gives 2[0x2]. Should be 0[0x0]
+ERROR: Test float_neg(0[0x0]) failed...
+...Gives 2[0x2]. Should be -2147483648[0x80000000]
+ERROR: Test float_i2f(0[0x0]) failed...
+...Gives 2[0x2]. Should be 0[0x0]
+ERROR: Test float_twice(0[0x0]) failed...
+...Gives 2[0x2]. Should be 0[0x0]
+Total points: 16/41

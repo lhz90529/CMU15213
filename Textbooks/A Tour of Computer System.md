@@ -179,3 +179,73 @@
     3. ***files:*** abstraction of `I/O`
 
     ![OS Abstractions](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/OS%20Abstraction.PNG)
+
+- **Process**
+    - A _process_ is the operating system's abstraction of ***a running program***
+    - Operating System provides the illusions for each `process` that
+        - each process is **the only one running on the system**
+        - each process has **exclusive use of `processor`, `main memory` and `I/O`**
+        - each process will be executed by `processor` without `interruption`
+    - Multicore processors can execute several processes _simultaneously_
+    - singlecore processor can appear to execute multiple processes concurrently by **`context switching`**
+        ```
+        OS keep tracking of all state information that the process need to run
+            save the context of current-running process
+            load the context of a new process
+            pass control to the new process
+        ```
+- **Threads**
+    - a `process` consist of multiple execution units, called _`thread`_ eahc running in the context of `process` and sharing the same `code` and `global data`
+    - **easier** to share data between `threads` than `processes`
+- **Virtual Memory**
+    - an abstraction that provides each process with the _illusion_ that it has ***exclusive use of the main memory***
+    - Each process has **the same uniform view of memory**, which is known as its _virtual address space_
+    ![virtual address space](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/virtual%20address%20space.PNG)
+    - `virtual address space` consists of following well-defined areas:
+        - _Program code and data_
+            - begins at the same fixed address for all processes
+            - initialized directly from an executable object file
+        - _Heap (run time)_
+            - expand and shrink dynamically at run time as a result of `malloc` and `free`
+        - _Shared libraries_
+            - Chapter7
+        - _Stack_
+            - at the **top** of user's virtual address space 
+            - expand and shrink dynamically at run time as a result of `function call`
+        - _Kernal virtual memory_
+            - always resident in memory
+            - top of virtual address space is ***reserved for kernel***
+            - application are not allowed to `read` or `write` to this area
+- **Files**
+    - is a sequence of byte, _nohting more and nothing less_
+    - provides applications with a uniform view of `I/Os`
+### 1.8 Systems Communicate with Other Systems Using Networks
+- The `network` can be viewed as just another I/O device. 
+![network](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/network.PNG)
+- The system copies sequence of bytes from main memory to `the network adapter`, then the data flows across the network to another machine
+    ```
+    Data flow:
+                copied                   transferred
+    main memory -------> network adapter ------------> another machine
+    *******************************************************************
+    A basic example: There are basically 5 steps involved if you want to run "hello" program on a remote server using "talnet"
+
+    1: We type "hello" to the talent client and hit the enter key
+    2: Client will send the string "hello" to remote server
+    3: Sever receives the string "hello" and pass it to the shell which will run program "hello"
+    4: Sever will send the output "hello world\n" back to Client
+    5: Client receives the string "hello world\n" and display it
+    ```
+    ![run hello remotely](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/Run%20hello%20remotely.PNG)
+
+### 1.9 Important Themes
+
+#### Concurrency and Parallelism
+- **Thread-level Concurrency**
+    ![different processor types](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/different%20processor%20types.PNG)
+- **Instruction-Level Parallelism**
+    - modern processor can execute multiple instructions at one time, a property known as _instruction-level parallelism_
+
+#### The importantce of Abstractions in Computer Systems
+![abstraction](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/abstraction.PNG)
+- virtual machine is an abstraction of `the entire computer`

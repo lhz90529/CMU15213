@@ -227,8 +227,8 @@ int tmin(void) {//Operators:1
  *   Rating: 2
  */
 int fitsBits(int x, int n) {
-    return 2;
-}
+    return !(x ^ (x << (33 + ~n) >> (33 + ~n)));
+    }
 
 /* 
  * divpwr2 - Compute x/(2^n), for 0 <= n <= 30
@@ -239,11 +239,9 @@ int fitsBits(int x, int n) {
  *   Rating: 2
  */
 int divpwr2(int x, int n) {
-    int temp = x + (1 << n) + (~1 + 1);
-    int bias = temp & 1;
-    //printf("size of pointer: %d\n", sizeof(void*));
-    //printf("bias: %d\n", bias);
-    return (temp >> n) + bias;
+    int shift = (1 << n) + (~1 + 1);
+    int sX = (x >> 31);
+    return (x + (shift & sX)) >> n;
 }
 /* 
  * negate - return -x 

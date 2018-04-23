@@ -312,7 +312,7 @@ unsigned float_neg(unsigned uf) {
     int exp = uf & 0x7F800000;
     int frac = uf & 0x007FFFFF;
     if ((exp == 0x7F800000) && (frac != 0)) {
-        return uf;
+        return 0x7FC00000;
     } else {
         return uf + 0x80000000;
     }

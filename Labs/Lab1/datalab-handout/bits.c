@@ -272,7 +272,20 @@ int isPositive(int x) {//Operators: 5
  *   Rating: 3
  */
 int isLessOrEqual(int x, int y) {
-    return 2;
+    int sX = !!(x >> 31);//sign of x
+    int sY = !!(y >> 31);//sign of y
+    int sameSign = !(sX ^ sY);//sameSign = 1 iff x and y have the same sign
+    int diff = x + (~y + 1);//x - y
+    int sDiff = !!(diff >> 31);//sign of x - y
+    int isEqual = !(diff);//isEqual = 1 when x and y is equal
+    int isLess = (sameSign & sDiff) | ((!sameSign) & sX);
+    /*
+    if x and y have same sign, 
+        return sDiff
+    else 
+        return sign of x
+    */
+    return isEqual | isLess;
 }
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0
@@ -296,6 +309,7 @@ int ilog2(int x) {
  *   Rating: 2
  */
 unsigned float_neg(unsigned uf) {
+
  return 2;
 }
 /* 

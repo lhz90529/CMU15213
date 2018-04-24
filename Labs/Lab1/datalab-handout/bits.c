@@ -311,6 +311,7 @@ int ilog2(int x) {
 unsigned float_neg(unsigned uf) {
     int exp = uf & 0x7F800000;
     int frac = uf & 0x007FFFFF;
+
     if ((exp == 0x7F800000) && (frac != 0)) {
         return uf;
     } else {
@@ -327,7 +328,33 @@ unsigned float_neg(unsigned uf) {
  *   Rating: 4
  */
 unsigned float_i2f(int x) {
-  return 2;
+  if (x == 0) {
+      return x;
+  } else {
+      int sign = x & 0x80000000;//get the sign bit
+      printf("sign bit: 0x%x\n", sign);
+      int count = 0;
+      int temp = x;
+      while (temp != 1) {
+          temp = logicalShift(temp, 1);
+          count = count + 1;
+      }
+      printf("count: %d\n", count);
+      int exp  = 127 + count;
+      printf("exp: %d\n", exp);
+      exp = exp << 23;
+      printf("exp: 0x%x\n", exp);
+      int special = 0x80000000;
+      special = special >> (31 - count);
+      printf("special: 0x%x\n", special);
+      special = ~special;
+      printf("special: 0x%x\n", special);
+      int frac = x & special;
+      frac = frac << (23 - count);
+      printf("frac: %x\n",frac);
+      return sign + exp + frac;    
+
+  }
 }
 /* 
  * float_twice - Return bit-level equivalent of expression 2*f for

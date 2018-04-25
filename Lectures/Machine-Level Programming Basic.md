@@ -53,6 +53,7 @@
 #### Turn C into Object Code
 - Compiling into Assembly
 ```c
+//source code
 long plus (long x, long y);
 
 void sumstore(long x, long y, long *dest) {
@@ -61,13 +62,14 @@ void sumstore(long x, long y, long *dest) {
 }
 ```
 ```bash
+Command:
 gcc -Og -S sum.c
     -Og: basic optimization
     -S: for assembly
 ```
 
 ```assembly
-//coresspoing assembly code
+Coresspoing assembly code
 sumstore:
     pushq   %rbx            push sth onto stack
     movq    %rdx, %rbx      move sth from src to dst

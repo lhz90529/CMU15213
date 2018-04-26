@@ -1,14 +1,14 @@
 ## Machine-Level Programming I: Basics
 
 ### Intel x86 Processors
-- **Naming:** The first one is called `8086`, they skipped `81` and went to `8286`, `8386` and so forth, ***the one thing in common is `86`*** , so peple call them `x86`
+- **Naming:** The first one is called `8086`, they (`intel`) skipped `81` and went to `8286`, `8386` and so forth, ***the one thing in common is `86`*** , so peple call them `x86`
 
 - **CISC:** Complex instruction set computer
 - **RISC:** Reduced instruction set computer
 [check out here!!!](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/)
 
-#### Intel x86 Evolution:
-|    Name    | Date | Transistor |    MHz    |                                 Description                                 |
+#### Intel x86 Evolution: Milestones
+|    Name    | Date | Transistors |    MHz    |                                 Description                                 |
 |:----------:|:----:|:----------:|:---------:|:---------------------------------------------------------------------------:|
 |    8086    | 1978 |     29K    |    5-10   | First 16-bit Intel processor                                                |
 |     386    | 1985 |    275K    |   16-33   | First 32-bit Intel processor, referred to as IA32,  capable of running Unix |
@@ -24,29 +24,33 @@
 - **USB:**  ...
 - **Ethernet:** connection to network
 
-#### AMD (Advanced Micro Devices)
+#### AMD (Advanced Micro Devices) 
 - Almost always _No.2_ behind `intel`............
 
 #### Terminology
-- **Architecture:** (also ISA: instruction set architecture) The parts of a processor design that one needs to understand for writing assembly/machine code.
+- **Architecture:** (also ISA: `instruction set architecture`) The parts of a processor design that one needs to understand for writing assembly/machine code.
 - **Microarchitecture:**: Implementation of the architecture
 - **Machine code:** The byte-level programs that a processor executes
 - **Assembly code:** A text representation of machine code 
-
+- **Example ISAs**
+    - Intel: `x86`, `IA32`, `Itanium`, `x86-64`
+    - ARM: Used in almost all mobile phones
+    - RICS V: New open-source ISA
 #### Assembly/Machine Code View
 ##### Programmer-visible state
 ![Assembly/Machine Code View](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/Assembly%20Machine%20Code%20View.PNG)
 - **PC: program counter**
     - Address of next instruction
-    - called "RIP" (x86-64) ---> %rip
+    - called "RIP" (x86-64) ---> `%rip`
 - **Register file (a set of registers)**
-    - a very small number of memory locations that store the value will be used by processor
+    - a very small number of memory locations that store the value will be used during execution
+    - These `registers` can hold `integer data` or `address`
 - **Condition codes**
-    - store status infomation about most recent arthmetic or logical operation
+    - store `status infomation` about most recent arthmetic or logical operation
 - **Memory**
     - Byte addressable array
-    - Code and user data
-    - Stack to support procedures    
+    - Machine code and user data
+    - Run-time stack to support procedures    
 - **Cache is NOT visible to Programmer**
     - You have NO way to access or manipulate data in `cache`
 
@@ -84,12 +88,13 @@ sumstore:
 
 #### Assembly Characteristics: Operations
 - Perform arithmetic function on register or memory data
-- Transfer data between memory and register
-    - **load** data from `memory` into `register`
-    - **store** `register data` into `memory`
+- ***Transfer data between memory and register***
+    - **Load** data from `memory` into `register`
+    - **Store** `register data` into `memory`
 - Transfer control
     - Unconditional jumps to/from procedures
     - Conditional branches
+    - Indirect branches
 #### Machine Instruction Example
 ```c
 //C
@@ -98,8 +103,8 @@ sumstore:
 //Assembly
 move %rax, (%rbx)
 /*
-t: Register %rax
-dest: Register %rbx
+t: stored in register %rax
+dest: a memory variable stored in register %rbx
 *dest: Memory M[%rbx]
 */
 
@@ -109,7 +114,7 @@ dest: Register %rbx
 
 #### Disassembling Object Code
 ```bash 
-objdump -d object executable filei or .o file
+objdump -d object executable file or .o file
 ```
 ```bash
 gdb executable object file
@@ -141,7 +146,7 @@ disassemble function that you specify
         - example: `$0x400`, `$-533`
     - Register: One of the 16 integer register 
         - example: `%rax`, `%r13` and so on
-        - `%rsp%` is reserved for special purpose
+        - But `%rsp%` is reserved for special purpose
     - Memory: 8 consecutive bytes of memory at address given by register 
         - example: `(%rax)`
 ![movq](https://raw.githubusercontent.com/lhz90529/CMU15213/master/pics/movq.PNG)
@@ -186,7 +191,7 @@ void swap (long *xp, long *yp){
 |:--------:|:-----:|
 |   %rdi   |   xp  |
 |   %rsi   |   yp  |
-|   %rax   |   t0  |
+|   %rax   |   t0  |    
 |   %rdx   |   t1  |
 - `%rdi`: the register for 1st argument
 - `%rsi`: the register for 2nd argument
@@ -220,6 +225,6 @@ swap:
 ### Arithmetic & logical operations
 
 #### `leaq src dst`
-//ToDo
+[A very good example](https://courses.cs.washington.edu/courses/cse374/16wi/lectures/leaq-movq.pdf)
 
 ####

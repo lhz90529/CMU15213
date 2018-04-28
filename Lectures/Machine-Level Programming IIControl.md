@@ -153,11 +153,146 @@ absdiff:
     movq    %rsi, %rax
     subq    %rdi, %rax
     ret
- ````
+```
 
 #### Expressing with Goto Code
 - C allows **`goto`** statement
 - Jump to position designated by label
 
 ```c
+long absdiff_j (long x, long y) {
+    long result;
+    int ntest = x <= y;
+    if (ntest) 
+        goto Else;
+    result = x-y;
+    goto Done;
+
+    Else:
+        result = y-x;
+    Done:
+        return result;
+}
 ```
+
+#### General Conditional Expression Translation (Using Branches)
+- C Code
+```c
+val = Test ? Then_Expr : Else_Expr;
+val = x > y ? x - y : y - x;
+```
+
+#### Using Conditional Moves
+- Basic idea: compute the result for both condition `true` and `false`, evaluate condition and assign one of the value to result 
+- Conditional Move Instructions:
+    if (Test) Dest <--- Src
+
+```c
+Goto Version
+result = Then_Expr;//get the value if condition is true
+eval = Else_Expr;//get the value if condition is false
+nt = !Test;
+if (nt)//evaluate the condition and assign appropriate value
+    result = eval;
+return result;
+```
+
+```c
+long absdiff (long x, long y) {
+    long result;
+    if (x > y)
+        result = x-y;
+    else
+        result = y-x;
+    return result;
+}
+```
+| Registers |      Use     |
+|:---------:|:------------:|
+|    %rdi   |  Argument x  |
+|    %rsi   |  Argument y  |
+|    %rax   | Return value |
+
+```assembly
+absdiff:
+    movq    %rdi, %rax # x
+    subq    %rsi, %rax # result = x-y
+    movq    %rsi, %rdx
+    subq    %rdi, %rdx # eval = y-x
+    cmpq    %rsi, %rdi # x:y
+    cmovle  %rdx, %rax # if <=, result = eval
+    ret
+```
+
+
+#### Bad Cases for Conditional Move
+1. Expensive Computations:
+    `val = Test(x) ? Hard1(x) : Hard2(2)`
+    - If `Hard1(x)` and `Hard2(x)` requires really expensive computations, it is bad idea to use conditional move
+    - only make sense when computations are **very simple**
+2. Risky Computations:
+    `val = p ? *p : 0;`
+    - Think about in this way, if the pointer p is `null`, you cannot compute `*p` which is required by `conditional move`
+    - May have undesirable effects
+3. Computation with side effects
+    `val = x > 0 ? x*=7 :x+=3`
+    - When you compute `x*=7`, you have already altered `x` such that the other value `x+=3` will be contaminated;
+    - Must be side-effect free 
+
+### Loops
+
+#### Do-While Loop Example
+- C code
+    ```c
+    //Count number of 1’s in argument x
+    long pcount_do (unsigned long x) {
+        long result = 0;
+        do {
+            result += x & 0x1;
+            x >>= 1;
+        } while (x);
+        return result;
+    }
+    ```
+- Goto version:
+    ```c
+    long pcount_goto (unsigned long x) {
+    long result = 0;
+    loop:
+        result += x & 0x1;
+        x >>= 1;
+        if(x) 
+            goto loop;
+        return result;
+    }
+    ```
+- Assembly:
+    ```assembly
+        movl $0, %eax   # result = 0
+    .L2:                # loop:
+        movq %rdi, %rdx
+        andl $1, %edx   # t = x & 0x1
+        addq %rdx, %rax # result += t
+        shrq %rdi       # x >>= 1
+        jne .L2         # if (x) goto loop
+        rep; ret
+    ```
+
+- Use `condition branch` to either continue looping or to exit loop
+
+
+#### General "Do-while" Translation
+- C code:
+    ```c
+    do 
+        Body
+    while (Test);
+    ```
+
+- Goto version:
+    ```c
+    loop:
+        Body
+        if (Test)
+            go to loop
+    ```

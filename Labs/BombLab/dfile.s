@@ -343,9 +343,9 @@ Disassembly of section .text:
   400ede:	90                   	nop
   400edf:	90                   	nop
 
-0000000000400ee0 <phase_1>:
+0000000000400ee0 <phase_1>:                                         # Border relations with Canada have never been better.
   400ee0:	48 83 ec 08          	sub    $0x8,%rsp
-  400ee4:	be 00 24 40 00       	mov    $0x402400,%esi
+  400ee4:	be 00 24 40 00       	mov    $0x402400,%esi               # The string "Border relations with Canada have never been better" is stored at 0x402400
   400ee9:	e8 4a 04 00 00       	callq  401338 <strings_not_equal>
   400eee:	85 c0                	test   %eax,%eax
   400ef0:	74 05                	je     400ef7 <phase_1+0x17>
@@ -353,14 +353,14 @@ Disassembly of section .text:
   400ef7:	48 83 c4 08          	add    $0x8,%rsp
   400efb:	c3                   	retq   
 
-0000000000400efc <phase_2>:
-  400efc:	55                   	push   %rbp
-  400efd:	53                   	push   %rbx
+0000000000400efc <phase_2>:                              # 1 2 4 8 16 32
+  400efc:	55                   	push   %rbp              # decrease stack pointer by 8
+  400efd:	53                   	push   %rbx              
   400efe:	48 83 ec 28          	sub    $0x28,%rsp
   400f02:	48 89 e6             	mov    %rsp,%rsi
   400f05:	e8 52 05 00 00       	callq  40145c <read_six_numbers>
-  400f0a:	83 3c 24 01          	cmpl   $0x1,(%rsp)
-  400f0e:	74 20                	je     400f30 <phase_2+0x34>
+  400f0a:	83 3c 24 01          	cmpl   $0x1,(%rsp)        # compare the content stored at the address of rsp is 1
+  400f0e:	74 20                	je     400f30 <phase_2+0x34> # if it is equal to 1 go to f30
   400f10:	e8 25 05 00 00       	callq  40143a <explode_bomb>
   400f15:	eb 19                	jmp    400f30 <phase_2+0x34>
   400f17:	8b 43 fc             	mov    -0x4(%rbx),%eax
@@ -380,21 +380,21 @@ Disassembly of section .text:
   400f41:	5d                   	pop    %rbp
   400f42:	c3                   	retq   
 
-0000000000400f43 <phase_3>:
+0000000000400f43 <phase_3>:                                        # phase 3 reads two arguments
   400f43:	48 83 ec 18          	sub    $0x18,%rsp
   400f47:	48 8d 4c 24 0c       	lea    0xc(%rsp),%rcx
   400f4c:	48 8d 54 24 08       	lea    0x8(%rsp),%rdx
   400f51:	be cf 25 40 00       	mov    $0x4025cf,%esi
   400f56:	b8 00 00 00 00       	mov    $0x0,%eax
   400f5b:	e8 90 fc ff ff       	callq  400bf0 <__isoc99_sscanf@plt>
-  400f60:	83 f8 01             	cmp    $0x1,%eax
+  400f60:	83 f8 01             	cmp    $0x1,%eax                    # make sure enter 2 integral arguments
   400f63:	7f 05                	jg     400f6a <phase_3+0x27>
   400f65:	e8 d0 04 00 00       	callq  40143a <explode_bomb>
-  400f6a:	83 7c 24 08 07       	cmpl   $0x7,0x8(%rsp)
-  400f6f:	77 3c                	ja     400fad <phase_3+0x6a>
-  400f71:	8b 44 24 08          	mov    0x8(%rsp),%eax
-  400f75:	ff 24 c5 70 24 40 00 	jmpq   *0x402470(,%rax,8)
-  400f7c:	b8 cf 00 00 00       	mov    $0xcf,%eax
+  400f6a:	83 7c 24 08 07       	cmpl   $0x7,0x8(%rsp)               # compare 7 with args1
+  400f6f:	77 3c                	ja     400fad <phase_3+0x6a>        # if arg1 < 0 or arg1 > 7, explode
+  400f71:	8b 44 24 08          	mov    0x8(%rsp),%eax               # %rax stores arg1
+  400f75:	ff 24 c5 70 24 40 00 	jmpq   *0x402470(,%rax,8)           # jump to 0x402470 + rax * 8
+  400f7c:	b8 cf 00 00 00       	mov    $0xcf,%eax                   # 
   400f81:	eb 3b                	jmp    400fbe <phase_3+0x7b>
   400f83:	b8 c3 02 00 00       	mov    $0x2c3,%eax
   400f88:	eb 34                	jmp    400fbe <phase_3+0x7b>
@@ -686,17 +686,17 @@ Disassembly of section .text:
   401316:	e8 05 f9 ff ff       	callq  400c20 <exit@plt>
 
 000000000040131b <string_length>:
-  40131b:	80 3f 00             	cmpb   $0x0,(%rdi)
-  40131e:	74 12                	je     401332 <string_length+0x17>
-  401320:	48 89 fa             	mov    %rdi,%rdx
+  40131b:	80 3f 00             	cmpb   $0x0,(%rdi)                  # compare arg1 with 0
+  40131e:	74 12                	je     401332 <string_length+0x17>  # jump to 401332 if (args1 == 0)
+  401320:	48 89 fa             	mov    %rdi,%rdx                    # 
   401323:	48 83 c2 01          	add    $0x1,%rdx
   401327:	89 d0                	mov    %edx,%eax
   401329:	29 f8                	sub    %edi,%eax
   40132b:	80 3a 00             	cmpb   $0x0,(%rdx)
   40132e:	75 f3                	jne    401323 <string_length+0x8>
   401330:	f3 c3                	repz retq 
-  401332:	b8 00 00 00 00       	mov    $0x0,%eax
-  401337:	c3                   	retq   
+  401332:	b8 00 00 00 00       	mov    $0x0,%eax                    # set returned value as 0
+  401337:	c3                   	retq                                # return
 
 0000000000401338 <strings_not_equal>:
   401338:	41 54                	push   %r12

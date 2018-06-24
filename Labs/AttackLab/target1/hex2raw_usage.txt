@@ -1,0 +1,4 @@
+If you want the hex number "0x004017c0", you should 
+	1: create a text file named "exploit.txt" and input "c0 17 40 00", i.e reverse order
+	2: type the command: ./hex2raw <exploit.txt> output.txt
+	3: Your desired hex representation will be in the text file named "output.txt"
